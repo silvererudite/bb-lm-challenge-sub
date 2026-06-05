@@ -130,6 +130,13 @@ class TrainConfig:
             + [i * 100_000_000 for i in range(1, 11)]
         )
     )  # word-count milestones, matches `chck_{N}M` revision names from collate_results.py
+    # WandB. Disabled iff project is None. The same project hosts every run;
+    # set `wandb_run_name` per-cell so the dashboard's grouping is meaningful.
+    wandb_project: str | None = "babylm-2026-multilingual"
+    wandb_entity: str | None = None
+    wandb_run_name: str | None = None  # default = RunConfig.name
+    wandb_tags: list[str] = field(default_factory=list)
+    wandb_mode: Literal["online", "offline", "disabled"] = "online"
 
 
 @dataclass

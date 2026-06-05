@@ -1,0 +1,88 @@
+{
+  "blimp_babylm_filtered": {
+    "blimp_babylm_filtered": 0.5898288100208768
+  },
+  "hellaswag_en_mubench": {
+    "hellaswag_en_mubench": 0.2669172932330827
+  },
+  "multiblimp_eng": {
+    "multiblimp_eng": 0.7454545454545455
+  },
+  "winogrande_en_mubench": {
+    "winogrande_en_mubench": 0.5070074196207749
+  },
+  "xstorycloze_en_mubench": {
+    "xstorycloze_en_mubench": 0.47987616099071206
+  },
+  "blimp_nl": {
+    "blimp_nl": 0.7113333333333334
+  },
+  "hellaswag_nl_mubench": {
+    "hellaswag_nl_mubench": 0.25961963732861565
+  },
+  "multiblimp_nld": {
+    "multiblimp_nld": 0.854997854997855
+  },
+  "winogrande_nl_mubench": {
+    "winogrande_nl_mubench": 0.5094806265457543
+  },
+  "xcomps_nl": {
+    "xcomps_nl": 0.512597438752784
+  },
+  "xstorycloze_nl_mubench": {
+    "xstorycloze_nl_mubench": 0.4760061919504644
+  },
+  "hellaswag_zh_mubench": {
+    "hellaswag_zh_mubench": 0.2588456435205661
+  },
+  "winogrande_zh_mubench": {
+    "winogrande_zh_mubench": 0.494641384995878
+  },
+  "xcomps_zh": {
+    "xcomps_zh": 0.5234548997772829
+  },
+  "xstorycloze_zh_mubench": {
+    "xstorycloze_zh_mubench": 0.4520123839009288
+  },
+  "zhoblimp": {
+    "zhoblimp": 0.6596892655367231
+  },
+  "arc": {
+    "en": 0.2455357164144516,
+    "nl": 0.2276785671710968,
+    "zh": 0.2321428507566452
+  },
+  "belebele": {
+    "en": 0.203125,
+    "nl": 0.2109375,
+    "zh": 0.2734375
+  },
+  "bmlama": {
+    "en": 0.1380208283662796,
+    "nl": 0.125,
+    "zh": 0.1432291716337204
+  },
+  "mnli": {
+    "en": 0.37557870149612427,
+    "nl": 0.3802083432674408,
+    "zh": 0.4166666567325592
+  },
+  "sib200": {
+    "en": 0.4791666567325592,
+    "nl": 0.4010416567325592,
+    "zh": 0.6302083134651184
+  },
+  "truthfulqa": {
+    "en": 0.171875,
+    "nl": 0.25,
+    "zh": 0.25
+  },
+  "xnli": {
+    "en": 0.41179436445236206,
+    "zh": 0.41229838132858276
+  },
+  "include": {
+    "nl": 0.296875,
+    "zh": 0.265625
+  }
+}

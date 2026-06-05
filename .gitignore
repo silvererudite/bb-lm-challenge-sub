@@ -21,3 +21,10 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# WandB local cache (cloud-mirrored; not source)
+wandb/
+
+# Screenshots / scratch images
+Screenshot*.png
+*.tmp.png

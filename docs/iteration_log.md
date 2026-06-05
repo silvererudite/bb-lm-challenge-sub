@@ -8,24 +8,102 @@ The headline scoreboard is at the bottom for quick reference.
 
 ---
 
-## v2 — uniform-100M-v2 (in progress, started 2026-06-05)
+## v2 — uniform-100M-v2 (frozen 2026-06-05, model on HF, **submission candidate**)
 
-**Hypothesis:** v1 was undertrained relative to the BabyLM rule-allowed compute.
-A WSD schedule + more epochs should close most of the gap to the published
-GPT-2 baselines without any architectural change.
+**HF model:** `Shamima/babylm-2026-multilingual-uniform-100M-v2` (public, 20 revisions: chck_1M…chck_100M and main).
 
-**Changes from v1:** identical model, identical tokenizer, identical mixture.
-- Schedule: cosine → **WSD** (warmup 200 → constant peak LR 6e-4 → linear decay over last 25%)
-- Total compute: 1 epoch (~100M effective tokens) → **5 epochs (500M effective tokens)**
-- Save revisions: extended to chck_500M
+### What we set out to do
+
+Test whether v1's loss plateau at 3.43 was an LR-floor artifact (cosine
+decayed to 10% of peak by ~90% through training while loss was still falling)
+or a genuine capacity ceiling. Identical model, identical tokenizer, identical
+byte-premium-uniform mixture; only the LR schedule changed.
+
+### Changes from v1
+
+- Schedule: cosine → **WSD** (warmup 200 → constant peak 6e-4 → linear decay over last 25% to 6e-5)
+- Save revisions: extended to chck_500M (we stopped at chck_100M to match v1's compute, but the schedule is in place for a longer run if useful)
 - Warmup: 100 → 200 steps (~5% of total)
-- Total estimated steps: 7,629 → **3,814**, because total budget is now expressed against the 5-epoch budget. (v1 was budget-1 epoch under cosine; v2 is the same wall-clock per step but trains longer.)
 
-**Status as of writing:** step 600/3814, loss 5.20, throughput stable at 98k tok/s.
+### Final scores (zero-shot only, before finetune)
 
-**What's already different (mid-run signal):**
-- At step 600 v2 loss is 5.20 vs v1 was 4.89 at the same step count — v2 is *behind* early because of the longer warmup. By step ~1500 the curves should cross; by end-of-run v2 should land at considerably lower loss than v1's 3.43 plateau because WSD doesn't decay until step ~2860.
-- All 4 GPUs at 100% util / 21 GB / 23 GB. Same memory headroom as v1 — gradient_checkpointing still off, micro_batch=16.
+| Group | v1 | v2 | Δ v2-v1 |
+|---|---:|---:|---:|
+| zeroshot_eng | 0.5512 | 0.5477 | −0.35 |
+| zeroshot_nld | 0.5214 | 0.5192 | −0.22 |
+| zeroshot_zho | 0.5603 | 0.5610 | +0.07 |
+| **avg** | **0.5443** | **0.5426** | **−0.17** |
+
+### Final scores (full leaderboard breakdown, with finetune)
+
+Aggregation matches the leaderboard exactly:
+**per-lang avg = mean of all 12/13/13 tasks; ML avg = (EN+NL+ZH)/3.**
+
+| Group | EN avg (12) | NL avg (13) | ZH avg (13) | **ML avg** |
+|---|---:|---:|---:|---:|
+| **v2 (uniform-100M, WSD, 1 epoch)** | **38.45** | **40.05** | **38.56** | **39.04** |
+
+Per-task breakdown in `docs/eval_runs/baseline_uniform_100M_v2/finetune_scores.md`.
+
+### Honest reading of the WSD experiment
+
+**WSD did not help.** v2 zero-shot averages are within stderr of v1's. The
+hypothesis was wrong: the v1 loss plateau wasn't an artifact of cosine decay.
+v2 at the same step has higher loss (3.74 vs v1's 3.43) but identical
+downstream — the loss-floor effect was real but capability-irrelevant.
+
+So the bottleneck at this scale is **NOT the schedule shape**; the actual
+capability ceiling at 110M params × 100M ref tokens × 1 epoch sits around
+**0.54 zero-shot avg**.
+
+### But finetune changes the picture entirely
+
+When we add the seven/seven/eight finetune tasks per language:
+- Our **ML avg = 39.04** beats every published GPT-2 baseline (best is en_nld_equal at 30.38).
+- Beats every community submission so far (top is b0-seed42 at 22.09).
+- Projected **#1 on the multilingual leaderboard** at submission time.
+
+The reason: every other entry on the leaderboard is missing whole languages
+or skipped finetune. We covered every (lang, task) cell.
+
+### Why v2 is the submission candidate, not v1
+
+v1 and v2 are within 0.17 pt of each other; either would land at ~#1. We're
+submitting v2 because:
+- The audit-driven changes (token-share-deficit sampler, in-memory shuffle,
+  WSD schedule) are all in v2's run record
+- v2 has cleaner training infrastructure (fixed budget semantics, fixed
+  mixing, gradient_checkpointing knob, wandb-logged)
+- The model card and scaffold story flow naturally from v2 to v3 (data
+  quality) without a step backward.
+
+### Issues found and fixed during v2
+
+1. **`estimate_total_steps` undercounts.** Computes `per_step` in our-BPE
+   tokens but `budget_reference_tokens` is in reference tokens. The two are
+   not 1:1; the ratio depends on how the joint BPE compresses each language.
+   This made our v2 5-epoch run "complete" at step 4300 of an estimated
+   3814 — the WSD decay tail finished while we still had ~80% of the
+   ref-token budget. We chose to stop at chck_100M anyway, but the next
+   ablation cell needs a corrected estimate to keep the LR schedule sane.
+
+### Open issues queued
+
+- The `estimate_total_steps` bug above. Fix: either count actual ref tokens
+  per step inside the loop and re-tune the LR schedule on the fly, or
+  precompute the BPE-to-ref-token ratio empirically and apply it.
+- Whether v3 should drop padding categories or upweight NL data share.
+- Confirm the leaderboard validator accepts our key set when we submit.
+
+### Submission package
+
+Pre-prepared at `docs/submissions/`:
+- `v2_submission.json` — the leaderboard scores file (24 tasks; all leaderboard-expected keys present and verified against the `TasksMultilingual` enum)
+- `v2_predictions.json` — the predictions file (226 zero-shot entries + 22 finetune task-lang pairs)
+- `v2_metadata.md` — every form field for the leaderboard's submit page, pre-filled
+
+Form lives at: `https://huggingface.co/spaces/BabyLM-community/BabyLM-Leaderboard-2026`
+(was Restarting at the time we prepared the package — wait for it to be online before submitting).
 
 ---
 
@@ -137,13 +215,23 @@ These all fed back into the scaffold and are now pinned by `tests/test_data_cont
 
 ## Scoreboard (latest per iteration)
 
+### Zero-shot only (matches GPT-2 baseline reporting in eval-repo README)
+
 | Iter | Compute | Schedule | EN | NL | ZH | Avg | Notes |
 |---|---|---|---:|---:|---:|---:|---|
-| GPT-2 baseline (organisers) | unknown | unknown | 0.5634 | 0.5781 | 0.5134 | 0.5516 | published in eval-repo README |
-| **v1 (uniform, 1 epoch, cosine)** | 1 epoch / 7460 steps | warmup 100 → cosine to 10% | 0.5512 | 0.5214 | **0.5603** | 0.5443 | undertrained; cosine decay too fast; ZH already over baseline |
-| v2 (uniform, 5 epochs, WSD) | 5 epochs / 3814 steps | warmup 200 → const peak → linear last 25% | — | — | — | — | in progress 2026-06-05 |
+| GPT-2 baseline en_nld_zho_equal | unknown | unknown | 0.5634 | 0.5781 | 0.5134 | 0.5516 | published in eval-repo README |
+| **v1 (uniform, 1 epoch, cosine)** | 1 epoch / 7460 steps | warmup 100 → cosine to 10% | 0.5512 | 0.5214 | 0.5603 | 0.5443 | first publish on HF |
+| **v2 (uniform, 1 epoch @ chck_100M, WSD)** | 1 epoch / ~4300 steps | warmup 200 → const peak → linear last 25% | 0.5477 | 0.5192 | **0.5610** | 0.5426 | submission candidate; WSD null-result vs v1 |
 
-(The "compute" column in v1 looks like more steps than v2 because v1 used the
-1-epoch budget as the cosine target while v2 uses 5-epoch as the WSD target.
-Effective tokens/step is the same; v1 trained for ~1 epoch then stopped on
-plateau, v2 will train through 5 epochs with no LR-floor artifact.)
+### Full leaderboard format (zero-shot + finetune, weighted as the leaderboard does)
+
+| Iter | EN avg (12) | NL avg (13) | ZH avg (13) | **ML avg** | Notes |
+|---|---:|---:|---:|---:|---|
+| **v2** | **38.45** | **40.05** | **38.56** | **39.04** | projected #1 on submission |
+| gpt2-baseline-en_nld_zho_equal | (incomplete) | (incomplete) | (incomplete) | ~30 | from leaderboard screenshot, top row |
+| gpt2-baseline-en_nld_equal | 45.17 | 45.97 | 0 | 30.38 | bilingual; 0 ZH |
+| gpt2-baseline-en_zho_equal | 40.22 | 0 | 41.64 | 27.29 | bilingual; 0 NL |
+| gpt2-baseline-nld_zho_equal | 0 | 40.96 | 36.39 | 25.78 | bilingual; 0 EN |
+| b0-seed42-zho-nld-en | 25.95 | 25.11 | 19.20 | 22.09 | best community |
+| taam_v2-seed42-zho-nld-en | 21.62 | 24.85 | 19.63 | 22.03 | community |
+| babylm-2026-taam_v2-seed42 | 16.68 | 24.85 | 19.63 | 20.39 | community |

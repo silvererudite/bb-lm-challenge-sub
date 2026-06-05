@@ -104,6 +104,32 @@ def train(
     if accelerator.is_main_process:
         print(f"[trainer] world_size={accelerator.num_processes} device={accelerator.device}")
 
+    # WandB on main process only; gracefully no-op if disabled or missing.
+    wb = None
+    if accelerator.is_main_process and cfg.train.wandb_project and cfg.train.wandb_mode != "disabled":
+        try:
+            import wandb as _wb
+            wb = _wb.init(
+                project=cfg.train.wandb_project,
+                entity=cfg.train.wandb_entity,
+                name=cfg.train.wandb_run_name or cfg.name,
+                tags=list(cfg.train.wandb_tags),
+                mode=cfg.train.wandb_mode,
+                config={
+                    "model": cfg.model.__dict__,
+                    "optim": cfg.optim.__dict__,
+                    "train": {k: v for k, v in cfg.train.__dict__.items() if k != "save_revisions"},
+                    "data": {k: v for k, v in cfg.data.__dict__.items() if k not in ("repos",)},
+                    "tokenizer": cfg.tokenizer.__dict__,
+                    "world_size": accelerator.num_processes,
+                    "out_dir": cfg.out_dir,
+                },
+            )
+            print(f"[trainer] wandb run: {wb.url}")
+        except Exception as e:
+            print(f"[trainer] wandb disabled: {e}")
+            wb = None
+
     tokenizer = _wrap_tokenizer_for_hf(cfg.tokenizer.tokenizer_dir)
     pad_id = tokenizer.pad_token_id
 
@@ -111,6 +137,8 @@ def train(
                         gradient_checkpointing=cfg.train.gradient_checkpointing)
     if accelerator.is_main_process:
         print(f"[trainer] model params: {num_params(model):,}")
+        if wb is not None:
+            wb.summary["model_params"] = num_params(model)
 
     optim = AdamW(
         model.parameters(),
@@ -181,14 +209,30 @@ def train(
                     * accelerator.num_processes
                     * cfg.train.log_every
                 ) / max(1e-6, now - last_log)
+                avg_loss = running_loss / max(1, running_steps)
                 print(
                     f"[step {step:>6}/{total_steps}] "
-                    f"loss={running_loss / max(1, running_steps):.4f}  "
+                    f"loss={avg_loss:.4f}  "
                     f"lr={lr:.2e}  "
                     f"ref_tok={budget.total_consumed:,}  "
                     f"frac={budget.frac_done:.3f}  "
                     f"tok/s={tps:,.0f}"
                 )
+                if wb is not None:
+                    wb.log({
+                        "train/loss": avg_loss,
+                        "train/lr": lr,
+                        "train/tokens_per_sec": tps,
+                        "train/wallclock_s": now - t0,
+                        "budget/ref_tokens_total": budget.total_consumed,
+                        "budget/frac_done": budget.frac_done,
+                        "budget/ref_tokens_eng": budget.consumed_reference_tokens.get("eng", 0),
+                        "budget/ref_tokens_nld": budget.consumed_reference_tokens.get("nld", 0),
+                        "budget/ref_tokens_zho": budget.consumed_reference_tokens.get("zho", 0),
+                        "budget/epochs_eng": budget.epochs_seen("eng"),
+                        "budget/epochs_nld": budget.epochs_seen("nld"),
+                        "budget/epochs_zho": budget.epochs_seen("zho"),
+                    }, step=step)
                 running_loss = 0.0
                 running_steps = 0
                 last_log = now
@@ -208,6 +252,11 @@ def train(
                     print(f"[checkpoint] saving {rev_name} at {budget.total_consumed:,} ref tokens")
                     unwrapped = accelerator.unwrap_model(model)
                     _save_checkpoint(unwrapped, tokenizer, out / rev_name)
+                    if wb is not None:
+                        wb.log({
+                            "checkpoint/revision_M": rev_m,
+                            "checkpoint/ref_tokens_at_save": budget.total_consumed,
+                        }, step=step)
                 next_revision_idx += 1
 
             if max_steps is not None and step >= max_steps:
@@ -229,5 +278,13 @@ def train(
         }
         with open(out / "summary.json", "w") as f:
             json.dump(summary, f, indent=2)
+        if wb is not None:
+            for k, v in summary.items():
+                if isinstance(v, (int, float)):
+                    wb.summary[f"final/{k}"] = v
+                elif isinstance(v, dict):
+                    for kk, vv in v.items():
+                        wb.summary[f"final/{k}/{kk}"] = vv
+            wb.finish()
         return summary
     return {}
