@@ -1,0 +1,260 @@
+{
+  "eng": {
+    "n_docs": 137710,
+    "total_raw_tokens": 98878321,
+    "total_chars": 538781757,
+    "doc_chars_mean": 3912,
+    "doc_chars_median": 396,
+    "doc_chars_p95": 16993,
+    "doc_chars_max": 6582988,
+    "category_token_share": {
+      "child-directed-speech": 0.2803,
+      "child-books": 0.2705,
+      "padding-opensubtitles": 0.1992,
+      "child-wiki": 0.1478,
+      "child-available-speech": 0.0921,
+      "padding-wikipedia": 0.0102
+    },
+    "category_doc_share": {
+      "child-wiki": 0.8835,
+      "child-directed-speech": 0.0716,
+      "padding-opensubtitles": 0.0278,
+      "child-books": 0.0105,
+      "child-available-speech": 0.0051,
+      "padding-wikipedia": 0.0014
+    },
+    "category_token_counts": {
+      "child-directed-speech": 27712538,
+      "child-books": 26748028,
+      "padding-opensubtitles": 19699367,
+      "child-wiki": 14609286,
+      "child-available-speech": 9102166,
+      "padding-wikipedia": 1006936
+    },
+    "data_source_top20_tokens": {
+      "CHILDES": 27712538,
+      "Project Gutenberg": 26353733,
+      "OpenSubtitles": 19699367,
+      "Simple Wikipedia": 13703004,
+      "BNC": 7760142,
+      "Switchboard": 1342024,
+      "Wikipedia": 1006936,
+      "vikidia": 906282,
+      "GlotStoryBook": 274470,
+      "Ririro": 119825
+    },
+    "data_source_top20_token_share": {
+      "CHILDES": 0.2803,
+      "Project Gutenberg": 0.2665,
+      "OpenSubtitles": 0.1992,
+      "Simple Wikipedia": 0.1386,
+      "BNC": 0.0785,
+      "Switchboard": 0.0136,
+      "Wikipedia": 0.0102,
+      "vikidia": 0.0092,
+      "GlotStoryBook": 0.0028,
+      "Ririro": 0.0012
+    },
+    "age_estimate_top10_doc_share": {
+      "n/a": 1.0
+    },
+    "scripts_token_share": {
+      "Latn": 1.0
+    },
+    "first300char_dup_rate": 0.0004,
+    "first300char_unique_hashes": 137653
+  },
+  "nld": {
+    "n_docs": 304611,
+    "total_raw_tokens": 109885564,
+    "total_chars": 568507224,
+    "doc_chars_mean": 1866,
+    "doc_chars_median": 289,
+    "doc_chars_p95": 5942,
+    "doc_chars_max": 2049911,
+    "category_token_share": {
+      "padding-opensubtitles": 0.6282,
+      "educational": 0.1742,
+      "child-wiki": 0.088,
+      "child-books": 0.0417,
+      "child-directed-speech": 0.0301,
+      "child-news": 0.0289,
+      "subtitles": 0.0088
+    },
+    "category_doc_share": {
+      "educational": 0.445,
+      "child-books": 0.2166,
+      "child-wiki": 0.1582,
+      "child-news": 0.0806,
+      "subtitles": 0.0621,
+      "padding-opensubtitles": 0.0311,
+      "child-directed-speech": 0.0065
+    },
+    "category_token_counts": {
+      "padding-opensubtitles": 69035414,
+      "educational": 19146045,
+      "child-wiki": 9673449,
+      "child-books": 4576823,
+      "child-directed-speech": 3304756,
+      "child-news": 3177743,
+      "subtitles": 971334
+    },
+    "data_source_top20_tokens": {
+      "OpenSubtitles": 69035414,
+      "BasiLex": 11083809,
+      "wikikids": 9673449,
+      "wikiwijs": 8307803,
+      "https://www.examenblad.nl/": 6098808,
+      "jeugdjournaal.nl": 1376755,
+      "scholieren.com": 784510,
+      "Ririro": 112538,
+      "klascement": 105192,
+      "Gillis/15607": 12485,
+      "DeHouwer/15056": 11243,
+      "Groningen/15541": 10688,
+      "Gillis/15608": 10668,
+      "Groningen/15470": 10622,
+      "Gillis/15604": 10615,
+      "DeHouwer/15061": 10583,
+      "DeHouwer/15057": 10138,
+      "Gillis/15611": 10018,
+      "Groningen/15536": 9333,
+      "VanKampen/15319": 9182
+    },
+    "data_source_top20_token_share": {
+      "OpenSubtitles": 0.6282,
+      "BasiLex": 0.1009,
+      "wikikids": 0.088,
+      "wikiwijs": 0.0756,
+      "https://www.examenblad.nl/": 0.0555,
+      "jeugdjournaal.nl": 0.0125,
+      "scholieren.com": 0.0071,
+      "Ririro": 0.001,
+      "klascement": 0.001,
+      "Gillis/15607": 0.0001,
+      "DeHouwer/15056": 0.0001,
+      "Groningen/15541": 0.0001,
+      "Gillis/15608": 0.0001,
+      "Groningen/15470": 0.0001,
+      "Gillis/15604": 0.0001,
+      "DeHouwer/15061": 0.0001,
+      "DeHouwer/15057": 0.0001,
+      "Gillis/15611": 0.0001,
+      "Groningen/15536": 0.0001,
+      "VanKampen/15319": 0.0001
+    },
+    "age_estimate_top10_doc_share": {
+      "n/a": 0.5943,
+      "10-12": 0.0646,
+      "8": 0.0561,
+      "9": 0.0489,
+      "7-9": 0.045,
+      "13-15": 0.0339,
+      "9-12": 0.0329,
+      "12-16": 0.0191,
+      "10": 0.018,
+      "7-8": 0.01
+    },
+    "scripts_token_share": {
+      "Latn": 1.0
+    },
+    "first300char_dup_rate": 0.0065,
+    "first300char_unique_hashes": 302624
+  },
+  "zho": {
+    "n_docs": 203891,
+    "total_raw_tokens": 137835046,
+    "total_chars": 196232055,
+    "doc_chars_mean": 962,
+    "doc_chars_median": 309,
+    "doc_chars_p95": 4825,
+    "doc_chars_max": 80765,
+    "category_token_share": {
+      "subtitles": 0.6626,
+      "child-books": 0.1159,
+      "educational": 0.0977,
+      "child-directed-speech": 0.0699,
+      "child-available-speech": 0.0537,
+      "child-wiki": 0.0002
+    },
+    "category_doc_share": {
+      "educational": 0.3675,
+      "child-directed-speech": 0.2103,
+      "subtitles": 0.1991,
+      "child-books": 0.1235,
+      "child-available-speech": 0.0993,
+      "child-wiki": 0.0003
+    },
+    "category_token_counts": {
+      "subtitles": 91328001,
+      "child-books": 15976688,
+      "educational": 13465351,
+      "child-directed-speech": 9636590,
+      "child-available-speech": 7403441,
+      "child-wiki": 24975
+    },
+    "data_source_top20_tokens": {
+      "WenetSpeech": 91328001,
+      "quangushi": 10536912,
+      "ck12": 7390506,
+      "NaturalConv": 5519416,
+      "CMRC": 4945105,
+      "CompositionCorpus": 2261037,
+      "CTS Conversational Telephone Speech": 1884025,
+      "CSQ": 1438915,
+      "GAOKAO": 1384039,
+      "FCGEC": 562737,
+      "cft-zh": 459964,
+      "wikibook": 428117,
+      "ChildMandarin": 310246,
+      "Beijing/19005": 36741,
+      "Beijing/19008": 36319,
+      "Beijing/19031": 36055,
+      "GlotStoryBook": 34707,
+      "Beijing/19029": 31716,
+      "Beijing/19004": 31373,
+      "Beijing/19032": 31318
+    },
+    "data_source_top20_token_share": {
+      "WenetSpeech": 0.6626,
+      "quangushi": 0.0764,
+      "ck12": 0.0536,
+      "NaturalConv": 0.04,
+      "CMRC": 0.0359,
+      "CompositionCorpus": 0.0164,
+      "CTS Conversational Telephone Speech": 0.0137,
+      "CSQ": 0.0104,
+      "GAOKAO": 0.01,
+      "FCGEC": 0.0041,
+      "cft-zh": 0.0033,
+      "wikibook": 0.0031,
+      "ChildMandarin": 0.0023,
+      "Beijing/19005": 0.0003,
+      "Beijing/19008": 0.0003,
+      "Beijing/19031": 0.0003,
+      "GlotStoryBook": 0.0003,
+      "Beijing/19029": 0.0002,
+      "Beijing/19004": 0.0002,
+      "Beijing/19032": 0.0002
+    },
+    "age_estimate_top10_doc_share": {
+      "n/a": 0.6445,
+      "5": 0.1155,
+      "6-18": 0.0856,
+      "6-12": 0.059,
+      "4": 0.0522,
+      "3": 0.0236,
+      "5;0": 0.0024,
+      "6;0": 0.002,
+      "15-18": 0.0013,
+      "4;0": 0.0012
+    },
+    "scripts_token_share": {
+      "Hans": 0.9321,
+      "Latn": 0.0677,
+      "Hani": 0.0003
+    },
+    "first300char_dup_rate": 0.0081,
+    "first300char_unique_hashes": 202242
+  }
+}

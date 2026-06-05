@@ -1,0 +1,138 @@
+{
+  "eng": {
+    "docs_sampled": 8000,
+    "stream_seconds": 6.1,
+    "chars": 247300717,
+    "raw_token_field_sum": 46084478,
+    "empirical_whitespace_tokens": 46084478,
+    "raw_to_ws_ratio": 1.0,
+    "doc_chars_mean": 30912,
+    "doc_chars_median": 7093,
+    "doc_chars_p95": 180861,
+    "doc_chars_max": 6582988,
+    "ws_per_doc_mean": 5760,
+    "category_share_docs": {
+      "child-directed-speech": 0.733,
+      "child-books": 0.18,
+      "child-available-speech": 0.087
+    },
+    "category_share_tokens": {
+      "child-books": 0.58,
+      "child-directed-speech": 0.222,
+      "child-available-speech": 0.198
+    },
+    "data_source_top10_docs": {
+      "CHILDES": 5860,
+      "GlotStoryBook": 787,
+      "BNC": 698,
+      "Project Gutenberg": 563,
+      "Ririro": 91,
+      "Switchboard": 1
+    },
+    "data_source_top10_tokens": {
+      "Project Gutenberg": 26353733,
+      "CHILDES": 10234284,
+      "BNC": 7760142,
+      "Switchboard": 1342024,
+      "GlotStoryBook": 274470,
+      "Ririro": 119825
+    },
+    "age_estimate_top": {
+      "n/a": 8000
+    },
+    "scripts_seen": {
+      "Latn": 8000
+    },
+    "near_dup_signal": {
+      "unique_first_200char_hashes": 7981,
+      "duplication_rate": 0.002
+    },
+    "leakage_hits_count": 0,
+    "leakage_hits_sample": []
+  },
+  "nld": {
+    "docs_sampled": 8000,
+    "stream_seconds": 2.0,
+    "chars": 3642083,
+    "raw_token_field_sum": 655705,
+    "empirical_whitespace_tokens": 655705,
+    "raw_to_ws_ratio": 1.0,
+    "doc_chars_mean": 455,
+    "doc_chars_median": 363,
+    "doc_chars_p95": 765,
+    "doc_chars_max": 32288,
+    "ws_per_doc_mean": 81,
+    "category_share_docs": {
+      "child-books": 1.0
+    },
+    "category_share_tokens": {
+      "child-books": 1.0
+    },
+    "data_source_top10_docs": {
+      "BasiLex": 7880,
+      "Ririro": 97,
+      "GlotStoryBook": 23
+    },
+    "data_source_top10_tokens": {
+      "BasiLex": 541510,
+      "Ririro": 112538,
+      "GlotStoryBook": 1657
+    },
+    "age_estimate_top": {
+      "10-12": 2339,
+      "7-9": 1567,
+      "13-15": 1221,
+      "10": 408,
+      "7-8": 315,
+      "7": 263,
+      "6-7": 235,
+      "9": 224
+    },
+    "scripts_seen": {
+      "Latn": 8000
+    },
+    "near_dup_signal": {
+      "unique_first_200char_hashes": 7999,
+      "duplication_rate": 0.0
+    },
+    "leakage_hits_count": 0,
+    "leakage_hits_sample": []
+  },
+  "zho": {
+    "docs_sampled": 8000,
+    "stream_seconds": 2.2,
+    "chars": 14446814,
+    "raw_token_field_sum": 10271697,
+    "empirical_whitespace_tokens": 1307641,
+    "raw_to_ws_ratio": 7.855135316191523,
+    "doc_chars_mean": 1805,
+    "doc_chars_median": 771,
+    "doc_chars_p95": 6659,
+    "doc_chars_max": 25306,
+    "ws_per_doc_mean": 163,
+    "category_share_docs": {
+      "subtitles": 1.0
+    },
+    "category_share_tokens": {
+      "subtitles": 1.0
+    },
+    "data_source_top10_docs": {
+      "WenetSpeech": 8000
+    },
+    "data_source_top10_tokens": {
+      "WenetSpeech": 10271697
+    },
+    "age_estimate_top": {
+      "n/a": 8000
+    },
+    "scripts_seen": {
+      "Hans": 8000
+    },
+    "near_dup_signal": {
+      "unique_first_200char_hashes": 7998,
+      "duplication_rate": 0.0
+    },
+    "leakage_hits_count": 0,
+    "leakage_hits_sample": []
+  }
+}

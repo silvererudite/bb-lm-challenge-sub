@@ -1,0 +1,96 @@
+{
+  "eng": {
+    "docs_sampled": 20000,
+    "elapsed_s": 5.4,
+    "raw_tokens_in_sample": 2671134,
+    "chars_in_sample": 15842885,
+    "category_share_tokens": {
+      "child-wiki": 1.0
+    },
+    "category_share_docs": {
+      "child-wiki": 1.0
+    },
+    "data_source_share_tokens": {
+      "Simple Wikipedia": 1.0
+    },
+    "age_estimate_share_docs": {
+      "n/a": 1.0
+    },
+    "doc_chars_mean": 792,
+    "doc_chars_median": 363,
+    "doc_chars_p95": 2843
+  },
+  "nld": {
+    "docs_sampled": 20000,
+    "elapsed_s": 5.3,
+    "raw_tokens_in_sample": 717975,
+    "chars_in_sample": 4117325,
+    "category_share_tokens": {
+      "educational": 1.0
+    },
+    "category_share_docs": {
+      "educational": 1.0
+    },
+    "data_source_share_tokens": {
+      "BasiLex": 1.0
+    },
+    "age_estimate_share_docs": {
+      "n/a": 0.9524,
+      "6": 0.0061,
+      "11-12": 0.0058,
+      "7-9": 0.0056,
+      "8-9": 0.0047,
+      "8-10": 0.004,
+      "10-12": 0.0039,
+      "10-11": 0.0037,
+      "9-11": 0.0032,
+      "8": 0.0031,
+      "9-10": 0.0029,
+      "7-8": 0.0019,
+      "6-8": 0.0018,
+      "4": 0.0006,
+      "6-7": 0.0004
+    },
+    "doc_chars_mean": 205,
+    "doc_chars_median": 152,
+    "doc_chars_p95": 522
+  },
+  "zho": {
+    "docs_sampled": 20000,
+    "elapsed_s": 5.7,
+    "raw_tokens_in_sample": 2147813,
+    "chars_in_sample": 3179311,
+    "category_share_tokens": {
+      "educational": 0.9278,
+      "child-directed-speech": 0.0645,
+      "child-wiki": 0.0077
+    },
+    "category_share_docs": {
+      "child-directed-speech": 0.6438,
+      "educational": 0.3541,
+      "child-wiki": 0.0021
+    },
+    "data_source_share_tokens": {
+      "CompositionCorpus": 0.5857,
+      "CSQ": 0.213,
+      "wikibook": 0.1286,
+      "ChildMandarin": 0.0645,
+      "wikijunior": 0.0077,
+      "FCGEC": 0.0006
+    },
+    "age_estimate_share_docs": {
+      "5": 0.3997,
+      "6-12": 0.1801,
+      "4": 0.1684,
+      "n/a": 0.1612,
+      "3": 0.0756,
+      "15-18": 0.0083,
+      "12-15": 0.0029,
+      "0-12": 0.0021,
+      "6-18": 0.0017
+    },
+    "doc_chars_mean": 158,
+    "doc_chars_median": 19,
+    "doc_chars_p95": 725
+  }
+}

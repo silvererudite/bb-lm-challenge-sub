@@ -1,0 +1,44 @@
+{
+  "eng": {
+    "probes": 595,
+    "hits_total": 3,
+    "hits_per_set": {
+      "sib200_eng": 3
+    },
+    "examples": [
+      {
+        "set": "sib200_eng",
+        "probe": "The Serengeti region contains the Serengeti National Park, the Ngorongoro Conser",
+        "doc_src": "Simple Wikipedia",
+        "doc_cat": "child-wiki",
+        "context": "st hominid fossils are found.\nThe Serengeti region contains the Serengeti National Park, the Ngorongoro Conservation Area and Maswa Game Reserve in Tanzania and"
+      },
+      {
+        "set": "sib200_eng",
+        "probe": "It has brought us the train, the car, and many other transportation devices.",
+        "doc_src": "vikidia",
+        "doc_cat": "child-wiki",
+        "context": "er and faster transportation. It has brought us the train, the car, and many other transportation devices.\n\nAside from the above-mention"
+      },
+      {
+        "set": "sib200_eng",
+        "probe": "The blade on a modern ice skate has a double edge with a concave hollow between ",
+        "doc_src": "vikidia",
+        "doc_cat": "child-wiki",
+        "context": " the ice with little effort.\n\nThe blade on a modern ice skate has a double edge with a concave hollow between them. The two edges allow for a better grasp of th"
+      }
+    ]
+  },
+  "nld": {
+    "probes": 399,
+    "hits_total": 0,
+    "hits_per_set": {},
+    "examples": []
+  },
+  "zho": {
+    "probes": 0,
+    "hits_total": 0,
+    "hits_per_set": {},
+    "examples": []
+  }
+}

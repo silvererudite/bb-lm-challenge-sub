@@ -1,0 +1,44 @@
+{
+  "child-available-speech": [
+    {
+      "src": "Switchboard",
+      "age": "n/a",
+      "len": 6582988,
+      "head": "A:\tOkay. ⏎ A:\tSo, What kind of experience do you, do you have, then with child care? ⏎ B:\tI guess, I think, uh, I wonder if that worked. ⏎ A:\tDoes it say something? ⏎ B:\tI think it usually does. ⏎ B:\tYou might try, uh, ⏎ B:\tI don't know, ⏎ B:\thold it down a little longer, ⏎ B:\tand see if it, uh,"
+    },
+    {
+      "src": "BNC",
+      "age": "n/a",
+      "len": 21459,
+      "head": "Well it's just that, you know, a pound, or a hundred pounds today, is not the same as a hundred pounds in a year's time, or two, two years' time. ⏎ Right. ⏎ So that would be opportunity cost? ⏎ That's right, yes, that's right, so, in actual fact, this area here, right, is going to be t"
+    }
+  ],
+  "child-books": [
+    {
+      "src": "Project Gutenberg",
+      "age": "n/a",
+      "len": 498353,
+      "head": "!TENTION: A STORY OF BOY-LIFE DURING THE PENINSULAR WAR ⏎ Produced by Nick Hodson of London, England ⏎ !Tention, a Story of Boy-Life during the Peninsular War, by George Manville Fenn. ⏎ _ ⏎ A young private, Penton Gray, known as Pen, is injured during an engagement in the Peninsular War"
+    },
+    {
+      "src": "Project Gutenberg",
+      "age": "n/a",
+      "len": 218762,
+      "head": "\"ALL'S NOT GOLD THAT GLITTERS\" ⏎ [Illustration: ⏎ \"ALL'S NOT GOLD _That_ Glitters\" ⏎ D. APPLETON & CO. New York.] ⏎ \"All's not Gold that Glitters;\" OR THE YOUNG CALIFORNIAN. ⏎ BY COUSIN ALICE, AUTHOR OF \"NO SUCH WORD AS FAIL;\" \"CONTENTMENT BETTER THAN WEALTH,\" ETC. ETC. ⏎ NEW-YORK: D. APPLET"
+    }
+  ],
+  "child-directed-speech": [
+    {
+      "src": "CHILDES",
+      "age": "n/a",
+      "len": 1586,
+      "head": "*CHI:\tno. ⏎ *MOT:\tand sit down. ⏎ *CHI:\tthere a napkin. ⏎ *MOT:\tthey are napkins yes. ⏎ *MOT:\tturn around and finish your lunch. ⏎ *COL:\tI think you'd better finish your lunch and then we'll go. ⏎ *CHI:\ttake a nap. ⏎ *MOT:\tright. ⏎ *CHI:\tMom where my new blanket? ⏎ *MOT:\tyour new clean blanket's u"
+    },
+    {
+      "src": "CHILDES",
+      "age": "n/a",
+      "len": 33671,
+      "head": "*CHI:\tmore grape juice. ⏎ *MOT:\tmore? ⏎ *CHI:\tno. ⏎ *MOT:\tdidn't think so. ⏎ *CHI:\tno Eve play bouillon cube. ⏎ *MOT:\tyou must put the blocks in the box first before you can play with the bouillon cubes... ⏎ *MOT:\tput the blocks away first. ⏎ *CHI:\ta block first. ⏎ *COL:\twhat's this? ⏎ [pointing a"
+    }
+  ]
+}
