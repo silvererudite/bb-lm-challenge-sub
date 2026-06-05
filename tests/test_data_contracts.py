@@ -59,29 +59,34 @@ def test_curriculum_piecewise_constant():
 
 def test_budget_caps_total_and_epochs():
     avail = {"eng": 100, "nld": 100, "zho": 100}
+    # corpus budget 200, max_epochs 2 -> total effective budget 400.
     b = MixtureBudget(
         budget_reference_tokens=200,
         max_epochs=2,
         available_reference_tokens=avail,
         consumed_reference_tokens={k: 0 for k in avail},
     )
+    assert b.total_token_budget == 400
     assert b.can_continue()
     b.add("eng", 100)
-    assert b.can_continue()  # 100 of 200, 1 epoch on eng
-    b.add("eng", 100)
-    # 200/200: total cap hit
+    assert b.can_continue()           # 100 of 400 total
+    b.add("nld", 100)
+    assert b.can_continue()           # 200 of 400 total
+    b.add("zho", 200)
+    # 400/400 — total effective cap hit (and zho has done 2 epochs)
     assert not b.can_continue()
 
 
 def test_budget_per_language_epoch_cap():
     avail = {"eng": 100, "nld": 100, "zho": 100}
+    # corpus 10000, max_epochs 2 -> 20000 effective budget; per-lang cap still 200.
     b = MixtureBudget(
-        budget_reference_tokens=10_000,  # large enough to ignore total cap
+        budget_reference_tokens=10_000,
         max_epochs=2,
         available_reference_tokens=avail,
         consumed_reference_tokens={k: 0 for k in avail},
     )
-    b.add("eng", 250)  # eng has gone 2.5 epochs
+    b.add("eng", 250)  # eng has gone 2.5 epochs of its 100-token corpus
     assert not b.can_continue()
 
 

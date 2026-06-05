@@ -18,7 +18,7 @@ data:
   budget_reference_tokens: 100000000   # 100M ref tokens, the BabyLM cap
   max_epochs: 10
   token_field: num-tokens
-  streaming: true
+  streaming: false                     # Hub layout is category-clustered; need full in-memory shuffle (see data_card.md)
   shuffle_buffer: 10000
   seed: 12
 
@@ -47,13 +47,13 @@ optim:
   betas: [0.9, 0.95]
   weight_decay: 0.1
   grad_clip: 1.0
-  warmup_steps: 1000
+  warmup_steps: 100                    # ~13% of est total steps at 4xA10G, eff batch 131k tok/step
   lr_schedule: cosine
   min_lr_ratio: 0.1
 
 train:
-  micro_batch_size: 32                # per device
-  grad_accum_steps: 1
+  micro_batch_size: 16                # per device; 32 OOMs on 23GB, 16 fits
+  grad_accum_steps: 2                 # restore 32-eq per-device batch via accumulation
   seq_len: 1024
   bf16: true
   compile: false

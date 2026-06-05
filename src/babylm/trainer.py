@@ -73,9 +73,10 @@ def _save_checkpoint(model: LlamaForCausalLM, tokenizer, path: Path) -> None:
 
 
 def estimate_total_steps(cfg: RunConfig, world_size: int) -> int:
-    """Rough estimate: budget reference-tokens / (per-step tokens)."""
+    """Rough estimate: total effective token budget / (per-step tokens)."""
     per_step = cfg.train.micro_batch_size * cfg.train.grad_accum_steps * cfg.train.seq_len * world_size
-    return max(1, cfg.data.budget_reference_tokens // per_step)
+    total_budget = cfg.data.budget_reference_tokens * cfg.data.max_epochs
+    return max(1, total_budget // per_step)
 
 
 def train(
@@ -95,7 +96,8 @@ def train(
     tokenizer = _wrap_tokenizer_for_hf(cfg.tokenizer.tokenizer_dir)
     pad_id = tokenizer.pad_token_id
 
-    model = build_model(cfg.model, vocab_size=tokenizer.vocab_size, pad_token_id=pad_id)
+    model = build_model(cfg.model, vocab_size=tokenizer.vocab_size, pad_token_id=pad_id,
+                        gradient_checkpointing=cfg.train.gradient_checkpointing)
     if accelerator.is_main_process:
         print(f"[trainer] model params: {num_params(model):,}")
 

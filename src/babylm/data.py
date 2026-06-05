@@ -9,6 +9,7 @@ changes between cells is the YAML.
 """
 from __future__ import annotations
 
+import os
 import random
 from dataclasses import dataclass
 from typing import Iterator
@@ -61,8 +62,13 @@ class MixtureBudget:
         return sum(self.consumed_reference_tokens.values())
 
     @property
+    def total_token_budget(self) -> int:
+        """Effective token budget = corpus size × max_epochs (BabyLM rule)."""
+        return self.budget_reference_tokens * self.max_epochs
+
+    @property
     def frac_done(self) -> float:
-        return self.total_consumed / max(1, self.budget_reference_tokens)
+        return self.total_consumed / max(1, self.total_token_budget)
 
     def epochs_seen(self, lang: str) -> float:
         return self.consumed_reference_tokens[lang] / max(
@@ -70,8 +76,10 @@ class MixtureBudget:
         )
 
     def can_continue(self) -> bool:
-        if self.total_consumed >= self.budget_reference_tokens:
+        # Total compute cap: ≤ 10 epochs over the corpus (BabyLM rule).
+        if self.total_consumed >= self.total_token_budget:
             return False
+        # Per-language epoch cap: also bound at max_epochs of that lang.
         for lang in self.available_reference_tokens:
             if self.epochs_seen(lang) > self.max_epochs:
                 return False
@@ -105,14 +113,18 @@ class LanguageStream:
         self._iter = self._open()
 
     def _open(self) -> Iterator[dict]:
-        ds = load_dataset(self.repo, split="train", streaming=self.streaming)
+        # Hub corpora are NOT shuffled at-rest; see docs/data_card.md. In-memory
+        # shuffle (streaming=False) is required for unbiased sampling on the
+        # 100M-scale trilingual run. Streaming mode is only honest if shuffle
+        # buffer >> corpus, which is impractical at this scale.
+        ds = load_dataset(self.repo, split="train", streaming=self.streaming, token=os.environ.get("HF_TOKEN"))
+        if self.category_whitelist is not None:
+            wl = set(self.category_whitelist)
+            ds = ds.filter(lambda r: r.get("category") in wl)
         if self.streaming:
             ds = ds.shuffle(buffer_size=self.shuffle_buffer, seed=self.seed + self._epoch)
         else:
             ds = ds.shuffle(seed=self.seed + self._epoch)
-        if self.category_whitelist is not None:
-            wl = set(self.category_whitelist)
-            ds = ds.filter(lambda r: r.get("category") in wl)
         return iter(ds)
 
     def next_doc(self) -> dict:
@@ -157,12 +169,31 @@ def doc_iterator(
         for lang in cfg.repos
     }
     while budget.can_continue():
+        # Mixture weights are TOKEN shares, not document shares. Documents in
+        # different languages have different mean ref-token sizes (EN ~720,
+        # NL ~360, ZH ~680 per doc), so uniform doc-sampling produces a biased
+        # token-share. Each step we pick the language with the largest
+        # token-share deficit vs the target weights — this drives consumption
+        # toward the configured mixture in expectation, regardless of doc-size
+        # heterogeneity. Tie-broken stochastically to avoid lockstep.
         weights = schedule_weights(cfg, budget.frac_done)
-        # weights might restrict to a subset (e.g. EN-only curriculum stage).
         keys = list(weights.keys())
-        probs = np.array([weights[k] for k in keys])
-        probs = probs / probs.sum()
-        lang = rng.choices(keys, weights=probs.tolist(), k=1)[0]
+        # Current shares of consumed tokens (across the active subset).
+        sub_total = max(1, sum(budget.consumed_reference_tokens[k] for k in keys))
+        deficits = []
+        for k in keys:
+            target = weights[k]
+            current = budget.consumed_reference_tokens[k] / sub_total
+            deficits.append(target - current)
+        # Pick the largest deficit; if all roughly equal, fall back to weighted RNG
+        # so early-step ties resolve smoothly.
+        d_max = max(deficits)
+        contenders = [k for k, d in zip(keys, deficits) if d > d_max - 1e-6]
+        if len(contenders) == 1:
+            lang = contenders[0]
+        else:
+            sub_w = [weights[k] for k in contenders]
+            lang = rng.choices(contenders, weights=sub_w, k=1)[0]
         doc = streams[lang].next_doc()
         # Reference tokens consumed by this document. The dataset's token field
         # is already in the per-language reference unit (whitespace for EN/NL,

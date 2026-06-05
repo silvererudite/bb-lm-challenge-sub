@@ -118,6 +118,7 @@ class TrainConfig:
     seq_len: int = 1024
     bf16: bool = True
     compile: bool = False  # torch.compile — disable until the loop is stable
+    gradient_checkpointing: bool = False  # ~2x memory at ~1.4x compute; needed only for batch>=32 on A10G
     log_every: int = 25
     save_revisions: list[int] = field(
         default_factory=lambda: (

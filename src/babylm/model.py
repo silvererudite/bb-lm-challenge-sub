@@ -15,7 +15,8 @@ from transformers import LlamaConfig, LlamaForCausalLM
 from .config import ModelConfig
 
 
-def build_model(model_cfg: ModelConfig, vocab_size: int, pad_token_id: int = 0) -> LlamaForCausalLM:
+def build_model(model_cfg: ModelConfig, vocab_size: int, pad_token_id: int = 0,
+                gradient_checkpointing: bool = True) -> LlamaForCausalLM:
     cfg = LlamaConfig(
         vocab_size=vocab_size,
         hidden_size=model_cfg.d_model,
@@ -32,7 +33,10 @@ def build_model(model_cfg: ModelConfig, vocab_size: int, pad_token_id: int = 0) 
         use_cache=False,
         attention_bias=False,
     )
-    return LlamaForCausalLM(cfg)
+    m = LlamaForCausalLM(cfg)
+    if gradient_checkpointing:
+        m.gradient_checkpointing_enable()
+    return m
 
 
 def num_params(model) -> int:
