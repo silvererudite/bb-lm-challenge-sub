@@ -1,0 +1,173 @@
+{
+  "eng": {
+    "n_docs_sampled": 3000,
+    "total_chars": 201627487,
+    "total_num_tokens_field": 37505708,
+    "doc_len_mean": 67209,
+    "doc_len_median": 8752,
+    "doc_len_p95": 346414,
+    "doc_len_max": 6582988,
+    "categories_in_sample": [
+      [
+        "child-books",
+        1441
+      ],
+      [
+        "child-directed-speech",
+        860
+      ],
+      [
+        "child-available-speech",
+        699
+      ]
+    ],
+    "data_sources_in_sample": [
+      [
+        "CHILDES",
+        860
+      ],
+      [
+        "GlotStoryBook",
+        787
+      ],
+      [
+        "BNC",
+        698
+      ],
+      [
+        "Project Gutenberg",
+        563
+      ],
+      [
+        "Ririro",
+        91
+      ],
+      [
+        "Switchboard",
+        1
+      ]
+    ],
+    "age_estimate_in_sample": [
+      [
+        "n/a",
+        3000
+      ]
+    ],
+    "scripts_in_sample": [
+      [
+        "Latn",
+        3000
+      ]
+    ]
+  },
+  "nld": {
+    "n_docs_sampled": 3000,
+    "total_chars": 1727694,
+    "total_num_tokens_field": 311851,
+    "doc_len_mean": 575,
+    "doc_len_median": 364,
+    "doc_len_p95": 861,
+    "doc_len_max": 32288,
+    "categories_in_sample": [
+      [
+        "child-books",
+        3000
+      ]
+    ],
+    "data_sources_in_sample": [
+      [
+        "BasiLex",
+        2880
+      ],
+      [
+        "Ririro",
+        97
+      ],
+      [
+        "GlotStoryBook",
+        23
+      ]
+    ],
+    "age_estimate_in_sample": [
+      [
+        "10-12",
+        847
+      ],
+      [
+        "7-9",
+        551
+      ],
+      [
+        "13-15",
+        446
+      ],
+      [
+        "10",
+        146
+      ],
+      [
+        "n/a",
+        120
+      ],
+      [
+        "7",
+        108
+      ],
+      [
+        "7-8",
+        105
+      ],
+      [
+        "6-7",
+        99
+      ],
+      [
+        "9",
+        87
+      ],
+      [
+        "8",
+        72
+      ]
+    ],
+    "scripts_in_sample": [
+      [
+        "Latn",
+        3000
+      ]
+    ]
+  },
+  "zho": {
+    "n_docs_sampled": 3000,
+    "total_chars": 2145366,
+    "total_num_tokens_field": 1428992,
+    "doc_len_mean": 715,
+    "doc_len_median": 297,
+    "doc_len_p95": 2137,
+    "doc_len_max": 5086,
+    "categories_in_sample": [
+      [
+        "subtitles",
+        3000
+      ]
+    ],
+    "data_sources_in_sample": [
+      [
+        "WenetSpeech",
+        3000
+      ]
+    ],
+    "age_estimate_in_sample": [
+      [
+        "n/a",
+        3000
+      ]
+    ],
+    "scripts_in_sample": [
+      [
+        "Hans",
+        3000
+      ]
+    ]
+  }
+}

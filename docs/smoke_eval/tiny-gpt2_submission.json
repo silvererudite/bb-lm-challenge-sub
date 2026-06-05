@@ -1,0 +1,17 @@
+{
+  "blimp_babylm_filtered": {
+    "blimp_babylm_filtered": 0.5485074626865671
+  },
+  "hellaswag_en_mubench": {
+    "hellaswag_en_mubench": 0.25
+  },
+  "multiblimp_eng": {
+    "multiblimp_eng": 0.5
+  },
+  "winogrande_en_mubench": {
+    "winogrande_en_mubench": 0.75
+  },
+  "xstorycloze_en_mubench": {
+    "xstorycloze_en_mubench": 0.75
+  }
+}

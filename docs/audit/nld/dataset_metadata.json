@@ -1,0 +1,9 @@
+{
+  "dataset_name": "babylm-nld",
+  "language_code": "nld",
+  "creation_date": "2025-08-21T14:25:35.548853",
+  "num_documents": 304611,
+  "config": {
+    "language_code": "nld"
+  }
+}

@@ -1,0 +1,23 @@
+# NVMe-backed working dirs (symlinks at the project root point at /mnt/sagemaker-nvme)
+cache
+checkpoints
+data
+external
+logs
+models
+
+# Local Claude scratch
+.claude/
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
