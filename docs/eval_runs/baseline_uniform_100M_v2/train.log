@@ -1,0 +1,110 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[train] available reference tokens per lang: {'eng': 98878321, 'nld': 104493093, 'zho': 147265013}
+[train] budget reference tokens: 100,000,000
+[train] available reference tokens per lang: {'eng': 98878321, 'nld': 104493093, 'zho': 147265013}
+[train] budget reference tokens: 100,000,000
+[train] available reference tokens per lang: {'eng': 98878321, 'nld': 104493093, 'zho': 147265013}
+[train] budget reference tokens: 100,000,000
+[train] available reference tokens per lang: {'eng': 98878321, 'nld': 104493093, 'zho': 147265013}
+[train] budget reference tokens: 100,000,000
+[trainer] world_size=4 device=cuda:0
+[trainer] model params: 110,119,680
+[checkpoint] saving chck_1M at 1,013,917 ref tokens
+[checkpoint] saving chck_2M at 2,011,177 ref tokens
+[step    100/3814] loss=7.9587  lr=2.97e-04  ref_tok=2,371,137  frac=0.005  tok/s=95,540
+[checkpoint] saving chck_3M at 3,013,181 ref tokens
+[checkpoint] saving chck_4M at 4,003,501 ref tokens
+[step    200/3814] loss=6.1954  lr=5.97e-04  ref_tok=4,533,993  frac=0.009  tok/s=97,864
+[checkpoint] saving chck_5M at 5,032,880 ref tokens
+[checkpoint] saving chck_6M at 6,011,562 ref tokens
+[step    300/3814] loss=5.9143  lr=6.00e-04  ref_tok=6,739,564  frac=0.013  tok/s=98,016
+[checkpoint] saving chck_7M at 7,016,623 ref tokens
+[checkpoint] saving chck_8M at 8,001,299 ref tokens
+[checkpoint] saving chck_9M at 9,014,007 ref tokens
+[step    400/3814] loss=5.5748  lr=6.00e-04  ref_tok=9,031,961  frac=0.018  tok/s=97,786
+[checkpoint] saving chck_10M at 10,018,979 ref tokens
+[step    500/3814] loss=5.2818  lr=6.00e-04  ref_tok=11,370,753  frac=0.023  tok/s=98,049
+[step    600/3814] loss=5.2025  lr=6.00e-04  ref_tok=13,684,690  frac=0.027  tok/s=98,871
+[step    700/3814] loss=4.9949  lr=6.00e-04  ref_tok=15,981,519  frac=0.032  tok/s=98,539
+[step    800/3814] loss=4.9308  lr=6.00e-04  ref_tok=18,304,879  frac=0.037  tok/s=98,748
+[checkpoint] saving chck_20M at 20,034,923 ref tokens
+[step    900/3814] loss=5.1485  lr=6.00e-04  ref_tok=20,565,005  frac=0.041  tok/s=98,654
+[step   1000/3814] loss=4.8398  lr=6.00e-04  ref_tok=22,871,862  frac=0.046  tok/s=98,385
+[step   1100/3814] loss=4.6948  lr=6.00e-04  ref_tok=25,145,564  frac=0.050  tok/s=99,123
+[step   1200/3814] loss=4.6186  lr=6.00e-04  ref_tok=27,433,789  frac=0.055  tok/s=98,984
+[step   1300/3814] loss=4.3414  lr=6.00e-04  ref_tok=29,664,104  frac=0.059  tok/s=99,004
+[checkpoint] saving chck_30M at 30,000,773 ref tokens
+[step   1400/3814] loss=4.7728  lr=6.00e-04  ref_tok=31,941,121  frac=0.064  tok/s=97,890
+[step   1500/3814] loss=4.4138  lr=6.00e-04  ref_tok=34,233,727  frac=0.068  tok/s=98,592
+[step   1600/3814] loss=4.6311  lr=6.00e-04  ref_tok=36,567,564  frac=0.073  tok/s=98,757
+[step   1700/3814] loss=4.4782  lr=6.00e-04  ref_tok=38,881,017  frac=0.078  tok/s=98,795
+[checkpoint] saving chck_40M at 40,009,141 ref tokens
+[step   1800/3814] loss=4.4325  lr=6.00e-04  ref_tok=41,131,505  frac=0.082  tok/s=98,420
+[step   1900/3814] loss=4.3300  lr=6.00e-04  ref_tok=43,410,892  frac=0.087  tok/s=98,658
+[step   2000/3814] loss=4.5309  lr=6.00e-04  ref_tok=45,798,911  frac=0.092  tok/s=98,733
+[step   2100/3814] loss=4.3902  lr=6.00e-04  ref_tok=48,102,081  frac=0.096  tok/s=98,845
+[checkpoint] saving chck_50M at 50,017,700 ref tokens
+[step   2200/3814] loss=4.1622  lr=6.00e-04  ref_tok=50,449,254  frac=0.101  tok/s=98,345
+[step   2300/3814] loss=4.3268  lr=6.00e-04  ref_tok=52,734,123  frac=0.105  tok/s=98,690
+[step   2400/3814] loss=4.2272  lr=6.00e-04  ref_tok=55,047,819  frac=0.110  tok/s=98,988
+[step   2500/3814] loss=4.0855  lr=6.00e-04  ref_tok=57,326,428  frac=0.115  tok/s=99,113
+[step   2600/3814] loss=4.1420  lr=6.00e-04  ref_tok=59,612,378  frac=0.119  tok/s=98,600
+[checkpoint] saving chck_60M at 60,010,944 ref tokens
+[step   2700/3814] loss=4.1746  lr=6.00e-04  ref_tok=61,952,733  frac=0.124  tok/s=98,060
+[step   2800/3814] loss=4.2419  lr=6.00e-04  ref_tok=64,274,452  frac=0.129  tok/s=98,556
+[step   2900/3814] loss=3.8147  lr=5.78e-04  ref_tok=66,480,949  frac=0.133  tok/s=98,991
+[step   3000/3814] loss=4.0843  lr=5.22e-04  ref_tok=68,737,316  frac=0.137  tok/s=98,692
+[checkpoint] saving chck_70M at 70,014,133 ref tokens
+[step   3100/3814] loss=3.8711  lr=4.65e-04  ref_tok=70,957,207  frac=0.142  tok/s=98,215
+[step   3200/3814] loss=3.8933  lr=4.08e-04  ref_tok=73,244,652  frac=0.146  tok/s=98,920
+[step   3300/3814] loss=3.7141  lr=3.52e-04  ref_tok=75,472,958  frac=0.151  tok/s=98,889
+[step   3400/3814] loss=3.9053  lr=2.95e-04  ref_tok=77,784,321  frac=0.156  tok/s=98,970
+[checkpoint] saving chck_80M at 80,028,674 ref tokens
+[step   3500/3814] loss=3.8740  lr=2.38e-04  ref_tok=80,127,450  frac=0.160  tok/s=98,472
+[step   3600/3814] loss=3.7079  lr=1.82e-04  ref_tok=82,407,063  frac=0.165  tok/s=98,776
+[step   3700/3814] loss=3.7998  lr=1.25e-04  ref_tok=84,765,503  frac=0.170  tok/s=99,038
+[step   3800/3814] loss=3.7840  lr=6.85e-05  ref_tok=87,078,549  frac=0.174  tok/s=98,844
+[step   3900/3814] loss=3.7295  lr=6.00e-05  ref_tok=89,402,393  frac=0.179  tok/s=98,859
+[checkpoint] saving chck_90M at 90,006,851 ref tokens
+[step   4000/3814] loss=3.6041  lr=6.00e-05  ref_tok=91,634,260  frac=0.183  tok/s=98,242
+[step   4100/3814] loss=3.7805  lr=6.00e-05  ref_tok=93,945,836  frac=0.188  tok/s=98,825
+[step   4200/3814] loss=3.7453  lr=6.00e-05  ref_tok=96,273,746  frac=0.193  tok/s=98,895
+[step   4300/3814] loss=3.7370  lr=6.00e-05  ref_tok=98,580,548  frac=0.197  tok/s=98,608
+[checkpoint] saving chck_100M at 100,016,896 ref tokens
+W0605 13:25:19.984000 85428 torch/distributed/elastic/agent/server/api.py:723] Received 15 death signal, shutting down workers
+W0605 13:25:19.985000 85428 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 85557 closing signal SIGTERM
+W0605 13:25:19.985000 85428 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 85558 closing signal SIGTERM
+W0605 13:25:19.986000 85428 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 85559 closing signal SIGTERM
+W0605 13:25:19.986000 85428 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 85560 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/bin/accelerate", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1396, in launch_command
+    multi_gpu_launcher(args)
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1023, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 715, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/elastic/agent/server/api.py", line 879, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/mnt/sagemaker-nvme/babylm/external/babylm-eval/.venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 85428 got signal: 15

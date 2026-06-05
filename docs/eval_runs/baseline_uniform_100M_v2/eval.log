@@ -1,0 +1,33 @@
+=== zeroshot_eng ===
+| - multiblimp_eng                                                            |      1|none  |     0|acc     |↑  |0.7455|±  |0.0157|
+| - winogrande_en_mubench                                                     |      1|none  |     0|acc     |↑  |0.5070|±  |0.0144|
+| - xstorycloze_en_mubench                                                    |      1|none  |     0|acc     |↑  |0.4799|±  |0.0139|
+|                                                                             |       |none  |     0|acc_norm|↑  |0.5449|±  |0.0139|
+
+|         Groups         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5477|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5898|±  |0.0018|
+
+=== zeroshot_nld ===
+| - winogrande_nl_mubench                |      1|none  |     0|acc     |↑  |0.5095|±  |0.0144|
+| - xcomps_nl                            |      1|none  |     0|acc     |↑  |0.5126|±  |0.0042|
+| - xstorycloze_nl_mubench               |      1|none  |     0|acc     |↑  |0.4760|±  |0.0139|
+|                                        |       |none  |     0|acc_norm|↑  |0.5387|±  |0.0139|
+
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5192|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.7113|±  |0.0045|
+
+=== zeroshot_zho ===
+|  - zhoblimp_verb_phrase_left_negation            |      1|none  |     0|acc     |↑  |0.8300|±  |0.0217|
+|  - zhoblimp_ya_insertion                         |      1|none  |     0|acc     |↑  |0.9033|±  |0.0171|
+|  - zhoblimp_you_quantifier_adj                   |      1|none  |     0|acc     |↑  |0.9833|±  |0.0074|
+|  - zhoblimp_you_yige                             |      1|none  |     0|acc     |↑  |0.9133|±  |0.0163|
+
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5610|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6597|±  |0.0018|
+
