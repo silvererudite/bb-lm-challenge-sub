@@ -1,0 +1,63 @@
+=== zeroshot_eng ===
+|  - blimp_babylm_filtered_wh_island                                          |      1|none  |     0|acc     |↑  |0.3083|±  |0.0149|
+|  - blimp_babylm_filtered_wh_questions_object_gap                            |      1|none  |     0|acc     |↑  |0.5786|±  |0.0169|
+|  - blimp_babylm_filtered_wh_questions_subject_gap                           |      1|none  |     0|acc     |↑  |0.8998|±  |0.0100|
+|  - blimp_babylm_filtered_wh_questions_subject_gap_long_distance             |      1|none  |     0|acc     |↑  |0.9650|±  |0.0063|
+|  - blimp_babylm_filtered_wh_vs_that_no_gap                                  |      1|none  |     0|acc     |↑  |0.9617|±  |0.0065|
+|  - blimp_babylm_filtered_wh_vs_that_no_gap_long_distance                    |      1|none  |     0|acc     |↑  |0.9863|±  |0.0039|
+|  - blimp_babylm_filtered_wh_vs_that_with_gap                                |      1|none  |     0|acc     |↑  |0.1458|±  |0.0116|
+|  - blimp_babylm_filtered_wh_vs_that_with_gap_long_distance                  |      1|none  |     0|acc     |↑  |0.0374|±  |0.0063|
+| - hellaswag_en_mubench                                                      |      1|none  |     0|acc     |↑  |0.2651|±  |0.0046|
+|                                                                             |       |none  |     0|acc_norm|↑  |0.2569|±  |0.0046|
+| - multiblimp_eng                                                            |      1|none  |     0|acc     |↑  |0.7532|±  |0.0155|
+| - winogrande_en_mubench                                                     |      1|none  |     0|acc     |↑  |0.5045|±  |0.0144|
+| - xstorycloze_en_mubench                                                    |      1|none  |     0|acc     |↑  |0.4760|±  |0.0139|
+|                                                                             |       |none  |     0|acc_norm|↑  |0.5410|±  |0.0139|
+
+|         Groups         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5512|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5944|±  |0.0017|
+
+=== zeroshot_nld ===
+|  - blimp_nl_quantifiers                |      1|none  |     0|acc     |↑  |0.7550|±  |0.0305|
+|  - blimp_nl_r_words                    |      1|none  |     0|acc     |↑  |0.8850|±  |0.0226|
+|  - blimp_nl_relativization             |      1|none  |     0|acc     |↑  |0.5633|±  |0.0287|
+|  - blimp_nl_topicalization             |      1|none  |     0|acc     |↑  |0.4600|±  |0.0250|
+|  - blimp_nl_verb_second                |      1|none  |     0|acc     |↑  |0.7800|±  |0.0294|
+|  - blimp_nl_wh_movement                |      1|none  |     0|acc     |↑  |0.7108|±  |0.0131|
+|  - blimp_nl_wh_movement_restrictions   |      1|none  |     0|acc     |↑  |0.6367|±  |0.0197|
+| - hellaswag_nl_mubench                 |      1|none  |     0|acc     |↑  |0.2595|±  |0.0046|
+|                                        |       |none  |     0|acc_norm|↑  |0.2507|±  |0.0046|
+| - multiblimp_nld                       |      1|none  |     0|acc     |↑  |0.8537|±  |0.0073|
+| - winogrande_nl_mubench                |      1|none  |     0|acc     |↑  |0.4971|±  |0.0144|
+| - xcomps_nl                            |      1|none  |     0|acc     |↑  |0.5081|±  |0.0042|
+| - xstorycloze_nl_mubench               |      1|none  |     0|acc     |↑  |0.4853|±  |0.0139|
+|                                        |       |none  |     0|acc_norm|↑  |0.5457|±  |0.0139|
+
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5214|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.7280|±  |0.0044|
+
+=== zeroshot_zho ===
+|  - zhoblimp_right_yijing_b                       |      1|none  |     0|acc     |↑  |0.6000|±  |0.0283|
+|  - zhoblimp_singular_PN_but_plural_pron          |      1|none  |     0|acc     |↑  |0.5767|±  |0.0286|
+|  - zhoblimp_superlative_quantifiers_1            |      1|none  |     0|acc     |↑  |0.8100|±  |0.0227|
+|  - zhoblimp_superlative_quantifiers_2            |      1|none  |     0|acc     |↑  |0.4400|±  |0.0287|
+|  - zhoblimp_topicalization_OSV                   |      1|none  |     0|acc     |↑  |0.8233|±  |0.0221|
+|  - zhoblimp_topicalization_OSV_mei               |      1|none  |     0|acc     |↑  |0.8100|±  |0.0227|
+|  - zhoblimp_topicalization_SOV                   |      1|none  |     0|acc     |↑  |0.9567|±  |0.0118|
+|  - zhoblimp_topicalization_SOV_mei               |      1|none  |     0|acc     |↑  |0.9833|±  |0.0074|
+|  - zhoblimp_verb_negation_particle               |      1|none  |     0|acc     |↑  |0.8300|±  |0.0217|
+|  - zhoblimp_verb_phrase_left_adverbial           |      1|none  |     0|acc     |↑  |0.8633|±  |0.0199|
+|  - zhoblimp_verb_phrase_left_negation            |      1|none  |     0|acc     |↑  |0.7433|±  |0.0253|
+|  - zhoblimp_ya_insertion                         |      1|none  |     0|acc     |↑  |0.7567|±  |0.0248|
+|  - zhoblimp_you_quantifier_adj                   |      1|none  |     0|acc     |↑  |0.9300|±  |0.0148|
+|  - zhoblimp_you_yige                             |      1|none  |     0|acc     |↑  |0.9167|±  |0.0160|
+
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5603|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6595|±  |0.0018|
+

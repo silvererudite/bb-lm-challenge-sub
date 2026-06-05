@@ -36,7 +36,7 @@ from .model import build_model, num_params
 
 
 def _cosine_lr(step: int, cfg: RunConfig, total_steps: int) -> float:
-    """Linear warmup, then cosine decay to `min_lr_ratio * lr`."""
+    """LR schedule with linear warmup. Schedule = {cosine, linear, constant, wsd}."""
     warmup = cfg.optim.warmup_steps
     base = cfg.optim.lr
     floor = base * cfg.optim.min_lr_ratio
@@ -47,6 +47,17 @@ def _cosine_lr(step: int, cfg: RunConfig, total_steps: int) -> float:
     if cfg.optim.lr_schedule == "linear":
         frac = (step - warmup) / max(1, total_steps - warmup)
         return base + (floor - base) * min(1.0, frac)
+    if cfg.optim.lr_schedule == "wsd":
+        # Warmup-Stable-Decay: hold at peak, then linear decay over the last
+        # `wsd_decay_frac` of total steps. Loses less of the budget to a too-
+        # aggressive cosine when the loss is still falling at end-of-schedule.
+        decay_steps = int(total_steps * cfg.optim.wsd_decay_frac)
+        decay_start = total_steps - decay_steps
+        if step < decay_start:
+            return base
+        d_frac = (step - decay_start) / max(1, decay_steps)
+        d_frac = max(0.0, min(1.0, d_frac))
+        return base + (floor - base) * d_frac
     # cosine
     frac = (step - warmup) / max(1, total_steps - warmup)
     frac = max(0.0, min(1.0, frac))

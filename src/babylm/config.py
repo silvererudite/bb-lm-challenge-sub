@@ -107,8 +107,11 @@ class OptimConfig:
     weight_decay: float = 0.1
     grad_clip: float = 1.0
     warmup_steps: int = 1000
-    lr_schedule: Literal["cosine", "linear", "constant"] = "cosine"
+    lr_schedule: Literal["cosine", "linear", "constant", "wsd"] = "cosine"
     min_lr_ratio: float = 0.1
+    # WSD-only: fraction of total steps spent decaying at the end. The rest
+    # (after warmup) holds at the peak LR. Default 0.25 = 25% decay tail.
+    wsd_decay_frac: float = 0.25
 
 
 @dataclass

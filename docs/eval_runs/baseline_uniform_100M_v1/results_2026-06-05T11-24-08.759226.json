@@ -1,0 +1,1343 @@
+{
+  "results": {
+    "zeroshot_nld": {
+      "acc,none": 0.5213702749140894,
+      "acc_stderr,none": 0.002371202056796086,
+      "alias": "zeroshot_nld"
+    },
+    "blimp_nl": {
+      "acc,none": 0.728,
+      "acc_stderr,none": 0.004378618321223582,
+      "alias": " - blimp_nl"
+    },
+    "blimp_nl_adpositional_phrases": {
+      "alias": "  - blimp_nl_adpositional_phrases",
+      "acc,none": 0.97,
+      "acc_stderr,none": 0.012092607484694706
+    },
+    "blimp_nl_adverbial_modification": {
+      "alias": "  - blimp_nl_adverbial_modification",
+      "acc,none": 0.855,
+      "acc_stderr,none": 0.024959766620478316
+    },
+    "blimp_nl_anaphor_agreement": {
+      "alias": "  - blimp_nl_anaphor_agreement",
+      "acc,none": 0.77,
+      "acc_stderr,none": 0.029832025555495197
+    },
+    "blimp_nl_argument_structure": {
+      "alias": "  - blimp_nl_argument_structure",
+      "acc,none": 0.6875,
+      "acc_stderr,none": 0.016397890138711492
+    },
+    "blimp_nl_auxiliaries": {
+      "alias": "  - blimp_nl_auxiliaries",
+      "acc,none": 0.934,
+      "acc_stderr,none": 0.011114633153652916
+    },
+    "blimp_nl_binding_principle_a": {
+      "alias": "  - blimp_nl_binding_principle_a",
+      "acc,none": 0.99,
+      "acc_stderr,none": 0.007053278933842965
+    },
+    "blimp_nl_complementive": {
+      "alias": "  - blimp_nl_complementive",
+      "acc,none": 0.76,
+      "acc_stderr,none": 0.0191188666537598
+    },
+    "blimp_nl_crossing_dependencies": {
+      "alias": "  - blimp_nl_crossing_dependencies",
+      "acc,none": 0.88,
+      "acc_stderr,none": 0.032659863237109045
+    },
+    "blimp_nl_determiners": {
+      "alias": "  - blimp_nl_determiners",
+      "acc,none": 0.585,
+      "acc_stderr,none": 0.0246669545468536
+    },
+    "blimp_nl_extraposition": {
+      "alias": "  - blimp_nl_extraposition",
+      "acc,none": 0.8933333333333333,
+      "acc_stderr,none": 0.017851944882371792
+    },
+    "blimp_nl_finite_argument_clause": {
+      "alias": "  - blimp_nl_finite_argument_clause",
+      "acc,none": 0.8316666666666667,
+      "acc_stderr,none": 0.015287845959907504
+    },
+    "blimp_nl_infinitival_argument_clause": {
+      "alias": "  - blimp_nl_infinitival_argument_clause",
+      "acc,none": 0.8088888888888889,
+      "acc_stderr,none": 0.013113165964132322
+    },
+    "blimp_nl_nominalization": {
+      "alias": "  - blimp_nl_nominalization",
+      "acc,none": 0.755,
+      "acc_stderr,none": 0.03048807329211419
+    },
+    "blimp_nl_parasitic_gaps": {
+      "alias": "  - blimp_nl_parasitic_gaps",
+      "acc,none": 0.225,
+      "acc_stderr,none": 0.020905264293664648
+    },
+    "blimp_nl_passive": {
+      "alias": "  - blimp_nl_passive",
+      "acc,none": 0.77,
+      "acc_stderr,none": 0.021067976863543565
+    },
+    "blimp_nl_quantifiers": {
+      "alias": "  - blimp_nl_quantifiers",
+      "acc,none": 0.755,
+      "acc_stderr,none": 0.03048807329211419
+    },
+    "blimp_nl_r_words": {
+      "alias": "  - blimp_nl_r_words",
+      "acc,none": 0.885,
+      "acc_stderr,none": 0.02261486592496228
+    },
+    "blimp_nl_relativization": {
+      "alias": "  - blimp_nl_relativization",
+      "acc,none": 0.5633333333333334,
+      "acc_stderr,none": 0.028682840061780172
+    },
+    "blimp_nl_topicalization": {
+      "alias": "  - blimp_nl_topicalization",
+      "acc,none": 0.46,
+      "acc_stderr,none": 0.02495107995613504
+    },
+    "blimp_nl_verb_second": {
+      "alias": "  - blimp_nl_verb_second",
+      "acc,none": 0.78,
+      "acc_stderr,none": 0.02936514188266327
+    },
+    "blimp_nl_wh_movement": {
+      "alias": "  - blimp_nl_wh_movement",
+      "acc,none": 0.7108333333333333,
+      "acc_stderr,none": 0.013093278794389861
+    },
+    "blimp_nl_wh_movement_restrictions": {
+      "alias": "  - blimp_nl_wh_movement_restrictions",
+      "acc,none": 0.6366666666666667,
+      "acc_stderr,none": 0.019651480134827492
+    },
+    "hellaswag_nl_mubench": {
+      "alias": " - hellaswag_nl_mubench",
+      "acc,none": 0.25950906678460856,
+      "acc_stderr,none": 0.004609776559111659,
+      "acc_norm,none": 0.25066342326404245,
+      "acc_norm_stderr,none": 0.00455751056185978
+    },
+    "multiblimp_nld": {
+      "alias": " - multiblimp_nld",
+      "acc,none": 0.8537108537108538,
+      "acc_stderr,none": 0.007321220610699542
+    },
+    "winogrande_nl_mubench": {
+      "alias": " - winogrande_nl_mubench",
+      "acc,none": 0.4971145919208574,
+      "acc_stderr,none": 0.014361885592513826
+    },
+    "xcomps_nl": {
+      "alias": " - xcomps_nl",
+      "acc,none": 0.5081430957683741,
+      "acc_stderr,none": 0.0041708959394089196
+    },
+    "xstorycloze_nl_mubench": {
+      "alias": " - xstorycloze_nl_mubench",
+      "acc,none": 0.4852941176470588,
+      "acc_stderr,none": 0.01390973827086335,
+      "acc_norm,none": 0.5456656346749226,
+      "acc_norm_stderr,none": 0.013857598502572878
+    }
+  },
+  "groups": {
+    "zeroshot_nld": {
+      "acc,none": 0.5213702749140894,
+      "acc_stderr,none": 0.002371202056796086,
+      "alias": "zeroshot_nld"
+    },
+    "blimp_nl": {
+      "acc,none": 0.728,
+      "acc_stderr,none": 0.004378618321223582,
+      "alias": " - blimp_nl"
+    }
+  },
+  "group_subtasks": {
+    "blimp_nl": [
+      "blimp_nl_anaphor_agreement",
+      "blimp_nl_binding_principle_a",
+      "blimp_nl_argument_structure",
+      "blimp_nl_complementive",
+      "blimp_nl_passive",
+      "blimp_nl_infinitival_argument_clause",
+      "blimp_nl_finite_argument_clause",
+      "blimp_nl_auxiliaries",
+      "blimp_nl_adverbial_modification",
+      "blimp_nl_verb_second",
+      "blimp_nl_wh_movement",
+      "blimp_nl_wh_movement_restrictions",
+      "blimp_nl_relativization",
+      "blimp_nl_topicalization",
+      "blimp_nl_parasitic_gaps",
+      "blimp_nl_r_words",
+      "blimp_nl_nominalization",
+      "blimp_nl_determiners",
+      "blimp_nl_quantifiers",
+      "blimp_nl_adpositional_phrases",
+      "blimp_nl_crossing_dependencies",
+      "blimp_nl_extraposition"
+    ],
+    "zeroshot_nld": [
+      "multiblimp_nld",
+      "winogrande_nl_mubench",
+      "hellaswag_nl_mubench",
+      "xcomps_nl",
+      "blimp_nl",
+      "xstorycloze_nl_mubench"
+    ]
+  },
+  "configs": {
+    "blimp_nl_adpositional_phrases": {
+      "task": "blimp_nl_adpositional_phrases",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "adpositional_phrases",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_adverbial_modification": {
+      "task": "blimp_nl_adverbial_modification",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "adverbial_modification",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_anaphor_agreement": {
+      "task": "blimp_nl_anaphor_agreement",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "anaphor_agreement",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_argument_structure": {
+      "task": "blimp_nl_argument_structure",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "argument_structure",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_auxiliaries": {
+      "task": "blimp_nl_auxiliaries",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "auxiliaries",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_binding_principle_a": {
+      "task": "blimp_nl_binding_principle_a",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "binding_principle_a",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_complementive": {
+      "task": "blimp_nl_complementive",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "complementive",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_crossing_dependencies": {
+      "task": "blimp_nl_crossing_dependencies",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "crossing_dependencies",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_determiners": {
+      "task": "blimp_nl_determiners",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "determiners",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_extraposition": {
+      "task": "blimp_nl_extraposition",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "extraposition",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_finite_argument_clause": {
+      "task": "blimp_nl_finite_argument_clause",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "finite_argument_clause",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_infinitival_argument_clause": {
+      "task": "blimp_nl_infinitival_argument_clause",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "infinitival_argument_clause",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_nominalization": {
+      "task": "blimp_nl_nominalization",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "nominalization",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_parasitic_gaps": {
+      "task": "blimp_nl_parasitic_gaps",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "parasitic_gaps",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_passive": {
+      "task": "blimp_nl_passive",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "passive",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_quantifiers": {
+      "task": "blimp_nl_quantifiers",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "quantifiers",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_r_words": {
+      "task": "blimp_nl_r_words",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "r_words",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_relativization": {
+      "task": "blimp_nl_relativization",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "relativization",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_topicalization": {
+      "task": "blimp_nl_topicalization",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "topicalization",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_verb_second": {
+      "task": "blimp_nl_verb_second",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "verb_second",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_wh_movement": {
+      "task": "blimp_nl_wh_movement",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "wh_movement",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_nl_wh_movement_restrictions": {
+      "task": "blimp_nl_wh_movement_restrictions",
+      "dataset_path": "juletxara/blimp-nl",
+      "dataset_name": "wh_movement_restrictions",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "hellaswag_nl_mubench": {
+      "task": "hellaswag_nl_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "HellaswagDataset_lighteval_nl",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "multiblimp_nld": {
+      "task": "multiblimp_nld",
+      "dataset_path": "jumelet/multiblimp",
+      "dataset_name": "nld",
+      "validation_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sen, wrong_sen]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "winogrande_nl_mubench": {
+      "task": "winogrande_nl_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "WinoGrandeDataset_lighteval_nl",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "xcomps_nl": {
+      "task": "xcomps_nl",
+      "dataset_path": "fpadovani/xcomps-dataset",
+      "test_split": "comps_nl",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[acceptable_sent, unacceptable_sent]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "xstorycloze_nl_mubench": {
+      "task": "xstorycloze_nl_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "StoryClozeDataset_lighteval_nl",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    }
+  },
+  "versions": {
+    "blimp_nl": 1.0,
+    "blimp_nl_adpositional_phrases": 1.0,
+    "blimp_nl_adverbial_modification": 1.0,
+    "blimp_nl_anaphor_agreement": 1.0,
+    "blimp_nl_argument_structure": 1.0,
+    "blimp_nl_auxiliaries": 1.0,
+    "blimp_nl_binding_principle_a": 1.0,
+    "blimp_nl_complementive": 1.0,
+    "blimp_nl_crossing_dependencies": 1.0,
+    "blimp_nl_determiners": 1.0,
+    "blimp_nl_extraposition": 1.0,
+    "blimp_nl_finite_argument_clause": 1.0,
+    "blimp_nl_infinitival_argument_clause": 1.0,
+    "blimp_nl_nominalization": 1.0,
+    "blimp_nl_parasitic_gaps": 1.0,
+    "blimp_nl_passive": 1.0,
+    "blimp_nl_quantifiers": 1.0,
+    "blimp_nl_r_words": 1.0,
+    "blimp_nl_relativization": 1.0,
+    "blimp_nl_topicalization": 1.0,
+    "blimp_nl_verb_second": 1.0,
+    "blimp_nl_wh_movement": 1.0,
+    "blimp_nl_wh_movement_restrictions": 1.0,
+    "hellaswag_nl_mubench": 1.0,
+    "multiblimp_nld": 1.0,
+    "winogrande_nl_mubench": 1.0,
+    "xcomps_nl": 1.0,
+    "xstorycloze_nl_mubench": 1.0,
+    "zeroshot_nld": 1.0
+  },
+  "n-shot": {
+    "blimp_nl_adpositional_phrases": 0,
+    "blimp_nl_adverbial_modification": 0,
+    "blimp_nl_anaphor_agreement": 0,
+    "blimp_nl_argument_structure": 0,
+    "blimp_nl_auxiliaries": 0,
+    "blimp_nl_binding_principle_a": 0,
+    "blimp_nl_complementive": 0,
+    "blimp_nl_crossing_dependencies": 0,
+    "blimp_nl_determiners": 0,
+    "blimp_nl_extraposition": 0,
+    "blimp_nl_finite_argument_clause": 0,
+    "blimp_nl_infinitival_argument_clause": 0,
+    "blimp_nl_nominalization": 0,
+    "blimp_nl_parasitic_gaps": 0,
+    "blimp_nl_passive": 0,
+    "blimp_nl_quantifiers": 0,
+    "blimp_nl_r_words": 0,
+    "blimp_nl_relativization": 0,
+    "blimp_nl_topicalization": 0,
+    "blimp_nl_verb_second": 0,
+    "blimp_nl_wh_movement": 0,
+    "blimp_nl_wh_movement_restrictions": 0,
+    "hellaswag_nl_mubench": 0,
+    "multiblimp_nld": 0,
+    "winogrande_nl_mubench": 0,
+    "xcomps_nl": 0,
+    "xstorycloze_nl_mubench": 0
+  },
+  "higher_is_better": {
+    "blimp_nl": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "blimp_nl_adpositional_phrases": {
+      "acc": true
+    },
+    "blimp_nl_adverbial_modification": {
+      "acc": true
+    },
+    "blimp_nl_anaphor_agreement": {
+      "acc": true
+    },
+    "blimp_nl_argument_structure": {
+      "acc": true
+    },
+    "blimp_nl_auxiliaries": {
+      "acc": true
+    },
+    "blimp_nl_binding_principle_a": {
+      "acc": true
+    },
+    "blimp_nl_complementive": {
+      "acc": true
+    },
+    "blimp_nl_crossing_dependencies": {
+      "acc": true
+    },
+    "blimp_nl_determiners": {
+      "acc": true
+    },
+    "blimp_nl_extraposition": {
+      "acc": true
+    },
+    "blimp_nl_finite_argument_clause": {
+      "acc": true
+    },
+    "blimp_nl_infinitival_argument_clause": {
+      "acc": true
+    },
+    "blimp_nl_nominalization": {
+      "acc": true
+    },
+    "blimp_nl_parasitic_gaps": {
+      "acc": true
+    },
+    "blimp_nl_passive": {
+      "acc": true
+    },
+    "blimp_nl_quantifiers": {
+      "acc": true
+    },
+    "blimp_nl_r_words": {
+      "acc": true
+    },
+    "blimp_nl_relativization": {
+      "acc": true
+    },
+    "blimp_nl_topicalization": {
+      "acc": true
+    },
+    "blimp_nl_verb_second": {
+      "acc": true
+    },
+    "blimp_nl_wh_movement": {
+      "acc": true
+    },
+    "blimp_nl_wh_movement_restrictions": {
+      "acc": true
+    },
+    "hellaswag_nl_mubench": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "multiblimp_nld": {
+      "acc": true
+    },
+    "winogrande_nl_mubench": {
+      "acc": true
+    },
+    "xcomps_nl": {
+      "acc": true
+    },
+    "xstorycloze_nl_mubench": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "zeroshot_nld": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "multiblimp_nld": {
+      "original": 2331,
+      "effective": 2331
+    },
+    "winogrande_nl_mubench": {
+      "original": 1213,
+      "effective": 1213
+    },
+    "hellaswag_nl_mubench": {
+      "original": 9044,
+      "effective": 9044
+    },
+    "xcomps_nl": {
+      "original": 14368,
+      "effective": 14368
+    },
+    "blimp_nl_anaphor_agreement": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_binding_principle_a": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_argument_structure": {
+      "original": 800,
+      "effective": 800
+    },
+    "blimp_nl_complementive": {
+      "original": 500,
+      "effective": 500
+    },
+    "blimp_nl_passive": {
+      "original": 400,
+      "effective": 400
+    },
+    "blimp_nl_infinitival_argument_clause": {
+      "original": 900,
+      "effective": 900
+    },
+    "blimp_nl_finite_argument_clause": {
+      "original": 600,
+      "effective": 600
+    },
+    "blimp_nl_auxiliaries": {
+      "original": 500,
+      "effective": 500
+    },
+    "blimp_nl_adverbial_modification": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_verb_second": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_wh_movement": {
+      "original": 1200,
+      "effective": 1200
+    },
+    "blimp_nl_wh_movement_restrictions": {
+      "original": 600,
+      "effective": 600
+    },
+    "blimp_nl_relativization": {
+      "original": 300,
+      "effective": 300
+    },
+    "blimp_nl_topicalization": {
+      "original": 400,
+      "effective": 400
+    },
+    "blimp_nl_parasitic_gaps": {
+      "original": 400,
+      "effective": 400
+    },
+    "blimp_nl_r_words": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_nominalization": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_determiners": {
+      "original": 400,
+      "effective": 400
+    },
+    "blimp_nl_quantifiers": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_adpositional_phrases": {
+      "original": 200,
+      "effective": 200
+    },
+    "blimp_nl_crossing_dependencies": {
+      "original": 100,
+      "effective": 100
+    },
+    "blimp_nl_extraposition": {
+      "original": 300,
+      "effective": 300
+    },
+    "xstorycloze_nl_mubench": {
+      "original": 1292,
+      "effective": 1292
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=Shamima/babylm-2026-multilingual-uniform-100M,trust_remote_code=True",
+    "model_num_parameters": 110119680,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "f0ec75d0a1bcd80ec957f7295b117f34d5f8b340",
+    "batch_size": "auto:4",
+    "batch_sizes": [
+      64,
+      64,
+      64,
+      64,
+      64
+    ],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "3bf5142",
+  "date": 1780658458.5351899,
+  "pretty_env_info": "PyTorch version: 2.8.0+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.4 LTS (x86_64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.39\n\nPython version: 3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0] (64-bit runtime)\nPython platform: Linux-6.12.88-119.157.amzn2023.x86_64-x86_64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 12.9.86\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A10G\nGPU 1: NVIDIA A10G\nGPU 2: NVIDIA A10G\nGPU 3: NVIDIA A10G\n\nNvidia driver version: 595.71.05\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  48\nOn-line CPU(s) list:                     0-47\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7R32\nCPU family:                              23\nModel:                                   49\nThread(s) per core:                      2\nCore(s) per socket:                      24\nSocket(s):                               1\nStepping:                                0\nBogoMIPS:                                5600.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr rdpru wbnoinvd arat npt nrip_save rdpid\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               768 KiB (24 instances)\nL1i cache:                               768 KiB (24 instances)\nL2 cache:                                12 MiB (24 instances)\nL3 cache:                                96 MiB (6 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-47\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==2.4.6\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.3\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.8.0\n[pip3] triton==3.4.0\n[conda] cuda-cudart                                  12.9.79          h5888daf_0                      conda-forge\n[conda] cuda-cudart_linux-64                         12.9.79          h3f2d84a_0                      conda-forge\n[conda] cuda-cupti                                   12.9.79          h676940d_1                      conda-forge\n[conda] cuda-nvrtc                                   12.9.86          hecca717_1                      conda-forge\n[conda] cuda-nvtx                                    12.9.79          hecca717_1                      conda-forge\n[conda] cudnn                                        9.10.2.21        hbcb9cd8_0                      conda-forge\n[conda] libblas                                      3.11.0           6_h5875eb1_mkl                  conda-forge\n[conda] libcblas                                     3.11.0           6_hfef963f_mkl                  conda-forge\n[conda] libcublas                                    12.9.1.4         h676940d_1                      conda-forge\n[conda] libcudnn                                     9.10.2.21        hf7e9902_0                      conda-forge\n[conda] libcudnn-dev                                 9.10.2.21        h58dd1b1_0                      conda-forge\n[conda] libcufft                                     11.4.1.4         hecca717_1                      conda-forge\n[conda] libcurand                                    10.3.10.19       h676940d_1                      conda-forge\n[conda] libcusolver                                  11.7.5.82        h676940d_2                      conda-forge\n[conda] libcusparse                                  12.5.10.65       hecca717_2                      conda-forge\n[conda] liblapack                                    3.11.0           6_h5e43f62_mkl                  conda-forge\n[conda] libmagma                                     2.9.0            ha7672b3_6                      conda-forge\n[conda] libnvjitlink                                 12.9.86          hecca717_2                      conda-forge\n[conda] libtorch                                     2.8.0            cuda129_mkl_hf53477d_302        conda-forge\n[conda] mkl                                          2025.3.1         h0e700b2_12                     conda-forge\n[conda] nccl                                         2.30.4.1         h4d09622_0                      conda-forge\n[conda] numpy                                        1.26.4           py312heda63a1_0                 conda-forge\n[conda] onemkl-license                               2025.3.1         hf2ce2f3_12                     conda-forge\n[conda] optree                                       0.19.1           py312hd9148b4_0                 conda-forge\n[conda] pytorch                                      2.8.0            cuda129_mkl_py312_had1c889_302  conda-forge\n[conda] pytorch-lightning                            2.6.1            pyhcf101f3_0                    conda-forge\n[conda] pytorch-metric-learning                      2.8.1            pyh101cb37_1                    conda-forge\n[conda] torchmetrics                                 1.7.4            pyhd8ed1ab_0                    conda-forge\n[conda] torchvision                                  0.24.0           cuda129_py312_h9f56bbf_2        conda-forge\n[conda] torchvision-extra-decoders                   0.0.2            py312hd347cc9_4                 conda-forge\n[conda] triton                                       3.4.0            cuda129py312h811769c_1          conda-forge\n[conda] tritonclient                                 2.41.1           pyhff2d567_0                    conda-forge",
+  "transformers_version": "4.49.0",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": "3bf5142773d5bf4d2e7952a3e2d5270520252fb3",
+  "tokenizer_pad_token": [
+    "<pad>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "<eos>",
+    "2"
+  ],
+  "tokenizer_bos_token": [
+    "<bos>",
+    "1"
+  ],
+  "eot_token_id": 2,
+  "max_length": 1024,
+  "task_hashes": {
+    "multiblimp_nld": "2b0b4f1869f208684ad5f63a256fc394894efab17b09415290e5fa7229a8a3e2",
+    "winogrande_nl_mubench": "97917254271e9f84c8c09f9dc6ea22cefe525a1014a422fb393a6175324e9781",
+    "hellaswag_nl_mubench": "dd40e7802d27e72d73f7f28303c3e5aa0036b9c521abfad3652d77461a2762d6",
+    "xcomps_nl": "9cbb46d7d2a21064f59b86f49af997288d031a651dd9c6ef1ded9b34cbdca64e",
+    "blimp_nl_anaphor_agreement": "6c4c8769df8c14fda382165d2365e24bb933e90cd4d5b35a2a951197fe90179c",
+    "blimp_nl_binding_principle_a": "40e8ae45d0da0ca8a529ff7b4d02f616ddb58e3eb212888dceb0a2c2fab6fb16",
+    "blimp_nl_argument_structure": "86af40a9d6eb2560f3312a0be468cbdc226e583e9be1a96c57e396b8e4af14aa",
+    "blimp_nl_complementive": "f498563c845a5fdddd06d531ef4962fcc41ccdf0e138f188ab662663c0f4fc1e",
+    "blimp_nl_passive": "b7d199d3573f2d0d5e9988b755e329da9e676bb5897977639aa7a98aaedae11e",
+    "blimp_nl_infinitival_argument_clause": "cb426b5741d032530ede8707a9906286f63be3ab7ee7875dd95fafa78550dedf",
+    "blimp_nl_finite_argument_clause": "cab37bb8e022e519ae47407c43b0e7710e3014836377658582be098826321b74",
+    "blimp_nl_auxiliaries": "b4d1dce5c7cd040758bf572a381564f1c7d9de7ac643012ca4467963610b5007",
+    "blimp_nl_adverbial_modification": "28ad716d460eb3a48f31e20bbf376e3d0359e106fce89996b0248b13c9092c06",
+    "blimp_nl_verb_second": "b829f6ba64750bac6c5d474f4e12fffe88d29a733d7680d2bcf506e229df4e81",
+    "blimp_nl_wh_movement": "9353472a072b16db4cf9fbc627888604cbfdbd7d728b1ce4d53002bdd5d8c722",
+    "blimp_nl_wh_movement_restrictions": "a8c3040e72edef07bc97c36ec317bda6399a3e98860850ea12bca4474c6935c1",
+    "blimp_nl_relativization": "6d565fa68a00723c6886122c611e321e497c91c744548afeaea62a37025305f2",
+    "blimp_nl_topicalization": "78056bd9a66518618b95e02d66fcfd6b1413e2a3bd261ac09e2b9c7e3662a66d",
+    "blimp_nl_parasitic_gaps": "8596b858d628ffe3d194f5b0ab08816a9796e3b87ddf71bdb28d5c072f4c918e",
+    "blimp_nl_r_words": "8737e234c4dfd06d1634719afeec1b9c8051babc95027af2ccb1fb220c46302d",
+    "blimp_nl_nominalization": "b1f3ace342cab973407f4cf6eaffd22e26b92c021095b007fb23d1d3a2fc020d",
+    "blimp_nl_determiners": "1c2497f986dbea9bce13740fe431d7aa1f04839a03499b75410fbc6ce83f30f0",
+    "blimp_nl_quantifiers": "4041512f6feeb227ebb23de60b5c8d26058c37cb37a06bdc8b3d48b391ca9ec8",
+    "blimp_nl_adpositional_phrases": "9a382cf8683f6011445b595aae97d1c9133a00c0d309ef1c776fac9ab4aac0bb",
+    "blimp_nl_crossing_dependencies": "e5d518941ea27168cb5002f84a54b964b9f1f0dd39d724c4dcb7c71d397d1a28",
+    "blimp_nl_extraposition": "95e108a5fb1ab4bf401059a0e1f55e50600490fbe05724d01e2276885e70576d",
+    "xstorycloze_nl_mubench": "ed152616b523fc01950ef6c7f015f293f750123199600c289c580f17bad640be"
+  },
+  "model_source": "hf",
+  "model_name": "Shamima/babylm-2026-multilingual-uniform-100M",
+  "model_name_sanitized": "Shamima__babylm-2026-multilingual-uniform-100M",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 51256.449049458,
+  "end_time": 51450.635240456,
+  "total_evaluation_time_seconds": "194.1861909979998"
+}

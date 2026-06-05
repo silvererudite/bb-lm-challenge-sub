@@ -1,0 +1,3324 @@
+{
+  "results": {
+    "zeroshot_eng": {
+      "acc,none": 0.551236944898468,
+      "acc_stderr,none": 0.0016071174257819652,
+      "alias": "zeroshot_eng"
+    },
+    "blimp_babylm_filtered": {
+      "acc,none": 0.5944217118997912,
+      "acc_stderr,none": 0.0017460690434201401,
+      "alias": " - blimp_babylm_filtered"
+    },
+    "blimp_babylm_filtered_adjunct_island": {
+      "alias": "  - blimp_babylm_filtered_adjunct_island",
+      "acc,none": 0.6681034482758621,
+      "acc_stderr,none": 0.015466190661886382
+    },
+    "blimp_babylm_filtered_anaphor_gender_agreement": {
+      "alias": "  - blimp_babylm_filtered_anaphor_gender_agreement",
+      "acc,none": 0.518022657054583,
+      "acc_stderr,none": 0.016043599868319297
+    },
+    "blimp_babylm_filtered_anaphor_number_agreement": {
+      "alias": "  - blimp_babylm_filtered_anaphor_number_agreement",
+      "acc,none": 0.6788399570354458,
+      "acc_stderr,none": 0.015310979606944095
+    },
+    "blimp_babylm_filtered_animate_subject_passive": {
+      "alias": "  - blimp_babylm_filtered_animate_subject_passive",
+      "acc,none": 0.6212290502793296,
+      "acc_stderr,none": 0.01622353351036503
+    },
+    "blimp_babylm_filtered_animate_subject_trans": {
+      "alias": "  - blimp_babylm_filtered_animate_subject_trans",
+      "acc,none": 0.7583965330444203,
+      "acc_stderr,none": 0.014097246377733347
+    },
+    "blimp_babylm_filtered_causative": {
+      "alias": "  - blimp_babylm_filtered_causative",
+      "acc,none": 0.5061124694376528,
+      "acc_stderr,none": 0.017491478523884076
+    },
+    "blimp_babylm_filtered_complex_NP_island": {
+      "alias": "  - blimp_babylm_filtered_complex_NP_island",
+      "acc,none": 0.5236406619385343,
+      "acc_stderr,none": 0.017181286059389317
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": {
+      "alias": "  - blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch",
+      "acc,none": 0.27704194260485654,
+      "acc_stderr,none": 0.014876645817027644
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": {
+      "alias": "  - blimp_babylm_filtered_coordinate_structure_constraint_object_extraction",
+      "acc,none": 0.7808219178082192,
+      "acc_stderr,none": 0.013436012226676272
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_1": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_1",
+      "acc,none": 0.8643702906350915,
+      "acc_stderr,none": 0.011239664375899542
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_2": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_2",
+      "acc,none": 0.8711063372717508,
+      "acc_stderr,none": 0.010987778471485311
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_irregular_1",
+      "acc,none": 0.6901615271659325,
+      "acc_stderr,none": 0.01773326027495493
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_irregular_2",
+      "acc,none": 0.8609756097560975,
+      "acc_stderr,none": 0.012089239262068877
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_with_adj_2",
+      "acc,none": 0.8140276301806588,
+      "acc_stderr,none": 0.012690532888024911
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1",
+      "acc,none": 0.7883008356545961,
+      "acc_stderr,none": 0.0152561864425903
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2",
+      "acc,none": 0.763095238095238,
+      "acc_stderr,none": 0.014678959981557915
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": {
+      "alias": "  - blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1",
+      "acc,none": 0.7738478027867095,
+      "acc_stderr,none": 0.013703144156487906
+    },
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": {
+      "alias": "  - blimp_babylm_filtered_distractor_agreement_relational_noun",
+      "acc,none": 0.3883248730964467,
+      "acc_stderr,none": 0.01737283315060102
+    },
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": {
+      "alias": "  - blimp_babylm_filtered_distractor_agreement_relative_clause",
+      "acc,none": 0.36969001148105624,
+      "acc_stderr,none": 0.01636576560336025
+    },
+    "blimp_babylm_filtered_drop_argument": {
+      "alias": "  - blimp_babylm_filtered_drop_argument",
+      "acc,none": 0.7293478260869565,
+      "acc_stderr,none": 0.014655996431962469
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_1": {
+      "alias": "  - blimp_babylm_filtered_ellipsis_n_bar_1",
+      "acc,none": 0.49501246882793015,
+      "acc_stderr,none": 0.017665752380158144
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_2": {
+      "alias": "  - blimp_babylm_filtered_ellipsis_n_bar_2",
+      "acc,none": 0.6811594202898551,
+      "acc_stderr,none": 0.016205350320457716
+    },
+    "blimp_babylm_filtered_existential_there_object_raising": {
+      "alias": "  - blimp_babylm_filtered_existential_there_object_raising",
+      "acc,none": 0.6921182266009852,
+      "acc_stderr,none": 0.016209577895363595
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_1": {
+      "alias": "  - blimp_babylm_filtered_existential_there_quantifiers_1",
+      "acc,none": 0.9118279569892473,
+      "acc_stderr,none": 0.009302807766371683
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_2": {
+      "alias": "  - blimp_babylm_filtered_existential_there_quantifiers_2",
+      "acc,none": 0.5631174533479693,
+      "acc_stderr,none": 0.016442246146218004
+    },
+    "blimp_babylm_filtered_existential_there_subject_raising": {
+      "alias": "  - blimp_babylm_filtered_existential_there_subject_raising",
+      "acc,none": 0.672077922077922,
+      "acc_stderr,none": 0.015452341323096868
+    },
+    "blimp_babylm_filtered_expletive_it_object_raising": {
+      "alias": "  - blimp_babylm_filtered_expletive_it_object_raising",
+      "acc,none": 0.6798418972332015,
+      "acc_stderr,none": 0.01694539157157293
+    },
+    "blimp_babylm_filtered_inchoative": {
+      "alias": "  - blimp_babylm_filtered_inchoative",
+      "acc,none": 0.4654970760233918,
+      "acc_stderr,none": 0.017068862739475204
+    },
+    "blimp_babylm_filtered_intransitive": {
+      "alias": "  - blimp_babylm_filtered_intransitive",
+      "acc,none": 0.6244239631336406,
+      "acc_stderr,none": 0.016446715100552834
+    },
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": {
+      "alias": "  - blimp_babylm_filtered_irregular_past_participle_adjectives",
+      "acc,none": 0.7845993756503642,
+      "acc_stderr,none": 0.01326819487296214
+    },
+    "blimp_babylm_filtered_irregular_past_participle_verbs": {
+      "alias": "  - blimp_babylm_filtered_irregular_past_participle_verbs",
+      "acc,none": 0.7059447983014862,
+      "acc_stderr,none": 0.014852685758214362
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": {
+      "alias": "  - blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1",
+      "acc,none": 0.5733830845771144,
+      "acc_stderr,none": 0.01745354706008967
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": {
+      "alias": "  - blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2",
+      "acc,none": 0.5930493273542601,
+      "acc_stderr,none": 0.01645801455784438
+    },
+    "blimp_babylm_filtered_left_branch_island_echo_question": {
+      "alias": "  - blimp_babylm_filtered_left_branch_island_echo_question",
+      "acc,none": 0.5607180570221753,
+      "acc_stderr,none": 0.016136092643009203
+    },
+    "blimp_babylm_filtered_left_branch_island_simple_question": {
+      "alias": "  - blimp_babylm_filtered_left_branch_island_simple_question",
+      "acc,none": 0.2754994742376446,
+      "acc_stderr,none": 0.014494990565978883
+    },
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": {
+      "alias": "  - blimp_babylm_filtered_matrix_question_npi_licensor_present",
+      "acc,none": 0.02906350914962325,
+      "acc_stderr,none": 0.005514364234927274
+    },
+    "blimp_babylm_filtered_npi_present_1": {
+      "alias": "  - blimp_babylm_filtered_npi_present_1",
+      "acc,none": 0.28492849284928495,
+      "acc_stderr,none": 0.014979584006825187
+    },
+    "blimp_babylm_filtered_npi_present_2": {
+      "alias": "  - blimp_babylm_filtered_npi_present_2",
+      "acc,none": 0.32713347921225383,
+      "acc_stderr,none": 0.015527143529612913
+    },
+    "blimp_babylm_filtered_only_npi_licensor_present": {
+      "alias": "  - blimp_babylm_filtered_only_npi_licensor_present",
+      "acc,none": 0.5260770975056689,
+      "acc_stderr,none": 0.016822502124722694
+    },
+    "blimp_babylm_filtered_only_npi_scope": {
+      "alias": "  - blimp_babylm_filtered_only_npi_scope",
+      "acc,none": 0.4838709677419355,
+      "acc_stderr,none": 0.017283861928284513
+    },
+    "blimp_babylm_filtered_passive_1": {
+      "alias": "  - blimp_babylm_filtered_passive_1",
+      "acc,none": 0.6964285714285714,
+      "acc_stderr,none": 0.01587405047047321
+    },
+    "blimp_babylm_filtered_passive_2": {
+      "alias": "  - blimp_babylm_filtered_passive_2",
+      "acc,none": 0.6777408637873754,
+      "acc_stderr,none": 0.01556077368772718
+    },
+    "blimp_babylm_filtered_principle_A_c_command": {
+      "alias": "  - blimp_babylm_filtered_principle_A_c_command",
+      "acc,none": 0.5190274841437632,
+      "acc_stderr,none": 0.01625321961909121
+    },
+    "blimp_babylm_filtered_principle_A_case_1": {
+      "alias": "  - blimp_babylm_filtered_principle_A_case_1",
+      "acc,none": 1.0,
+      "acc_stderr,none": 0.0
+    },
+    "blimp_babylm_filtered_principle_A_case_2": {
+      "alias": "  - blimp_babylm_filtered_principle_A_case_2",
+      "acc,none": 0.6251366120218579,
+      "acc_stderr,none": 0.016012195445619597
+    },
+    "blimp_babylm_filtered_principle_A_domain_1": {
+      "alias": "  - blimp_babylm_filtered_principle_A_domain_1",
+      "acc,none": 0.9835886214442013,
+      "acc_stderr,none": 0.0042047859355953746
+    },
+    "blimp_babylm_filtered_principle_A_domain_2": {
+      "alias": "  - blimp_babylm_filtered_principle_A_domain_2",
+      "acc,none": 0.6229508196721312,
+      "acc_stderr,none": 0.016030710950882873
+    },
+    "blimp_babylm_filtered_principle_A_domain_3": {
+      "alias": "  - blimp_babylm_filtered_principle_A_domain_3",
+      "acc,none": 0.5313496280552603,
+      "acc_stderr,none": 0.016276114885524898
+    },
+    "blimp_babylm_filtered_principle_A_reconstruction": {
+      "alias": "  - blimp_babylm_filtered_principle_A_reconstruction",
+      "acc,none": 0.2295760082730093,
+      "acc_stderr,none": 0.013531301978309375
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": {
+      "alias": "  - blimp_babylm_filtered_regular_plural_subject_verb_agreement_1",
+      "acc,none": 0.6426966292134831,
+      "acc_stderr,none": 0.016072028255667267
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": {
+      "alias": "  - blimp_babylm_filtered_regular_plural_subject_verb_agreement_2",
+      "acc,none": 0.6582010582010582,
+      "acc_stderr,none": 0.015437559619869274
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": {
+      "alias": "  - blimp_babylm_filtered_sentential_negation_npi_licensor_present",
+      "acc,none": 0.9967355821545157,
+      "acc_stderr,none": 0.0018826583386422394
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_scope": {
+      "alias": "  - blimp_babylm_filtered_sentential_negation_npi_scope",
+      "acc,none": 0.1997703788748565,
+      "acc_stderr,none": 0.01355542791563301
+    },
+    "blimp_babylm_filtered_sentential_subject_island": {
+      "alias": "  - blimp_babylm_filtered_sentential_subject_island",
+      "acc,none": 0.3309053069719043,
+      "acc_stderr,none": 0.015186582098110147
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_1": {
+      "alias": "  - blimp_babylm_filtered_superlative_quantifiers_1",
+      "acc,none": 0.2849846782431052,
+      "acc_stderr,none": 0.014434408851965659
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_2": {
+      "alias": "  - blimp_babylm_filtered_superlative_quantifiers_2",
+      "acc,none": 0.3012170385395537,
+      "acc_stderr,none": 0.01461816317643249
+    },
+    "blimp_babylm_filtered_tough_vs_raising_1": {
+      "alias": "  - blimp_babylm_filtered_tough_vs_raising_1",
+      "acc,none": 0.20780590717299577,
+      "acc_stderr,none": 0.01318468488991131
+    },
+    "blimp_babylm_filtered_tough_vs_raising_2": {
+      "alias": "  - blimp_babylm_filtered_tough_vs_raising_2",
+      "acc,none": 0.8152173913043478,
+      "acc_stderr,none": 0.012802934078642648
+    },
+    "blimp_babylm_filtered_transitive": {
+      "alias": "  - blimp_babylm_filtered_transitive",
+      "acc,none": 0.6394009216589862,
+      "acc_stderr,none": 0.016307575069901332
+    },
+    "blimp_babylm_filtered_wh_island": {
+      "alias": "  - blimp_babylm_filtered_wh_island",
+      "acc,none": 0.30833333333333335,
+      "acc_stderr,none": 0.014912462294607855
+    },
+    "blimp_babylm_filtered_wh_questions_object_gap": {
+      "alias": "  - blimp_babylm_filtered_wh_questions_object_gap",
+      "acc,none": 0.5785797438882422,
+      "acc_stderr,none": 0.01685759717683074
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap": {
+      "alias": "  - blimp_babylm_filtered_wh_questions_subject_gap",
+      "acc,none": 0.8997772828507795,
+      "acc_stderr,none": 0.01002661586831992
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": {
+      "alias": "  - blimp_babylm_filtered_wh_questions_subject_gap_long_distance",
+      "acc,none": 0.9649941656942824,
+      "acc_stderr,none": 0.006281967393614617
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap": {
+      "alias": "  - blimp_babylm_filtered_wh_vs_that_no_gap",
+      "acc,none": 0.9616724738675958,
+      "acc_stderr,none": 0.0065466596198272605
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": {
+      "alias": "  - blimp_babylm_filtered_wh_vs_that_no_gap_long_distance",
+      "acc,none": 0.9862857142857143,
+      "acc_stderr,none": 0.0039339809408610454
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap": {
+      "alias": "  - blimp_babylm_filtered_wh_vs_that_with_gap",
+      "acc,none": 0.1458106637649619,
+      "acc_stderr,none": 0.011647973544260014
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": {
+      "alias": "  - blimp_babylm_filtered_wh_vs_that_with_gap_long_distance",
+      "acc,none": 0.03736263736263736,
+      "acc_stderr,none": 0.0062902539289434916
+    },
+    "hellaswag_en_mubench": {
+      "alias": " - hellaswag_en_mubench",
+      "acc,none": 0.2651481645289695,
+      "acc_stderr,none": 0.00464181618792593,
+      "acc_norm,none": 0.25685537372843875,
+      "acc_norm_stderr,none": 0.0045943569461540995
+    },
+    "multiblimp_eng": {
+      "alias": " - multiblimp_eng",
+      "acc,none": 0.7532467532467533,
+      "acc_stderr,none": 0.015546652890117448
+    },
+    "winogrande_en_mubench": {
+      "alias": " - winogrande_en_mubench",
+      "acc,none": 0.5045342126957956,
+      "acc_stderr,none": 0.014361534184114047
+    },
+    "xstorycloze_en_mubench": {
+      "alias": " - xstorycloze_en_mubench",
+      "acc,none": 0.4760061919504644,
+      "acc_stderr,none": 0.013899726581891517,
+      "acc_norm,none": 0.5410216718266254,
+      "acc_norm_stderr,none": 0.013868845169537314
+    }
+  },
+  "groups": {
+    "zeroshot_eng": {
+      "acc,none": 0.551236944898468,
+      "acc_stderr,none": 0.0016071174257819652,
+      "alias": "zeroshot_eng"
+    },
+    "blimp_babylm_filtered": {
+      "acc,none": 0.5944217118997912,
+      "acc_stderr,none": 0.0017460690434201401,
+      "alias": " - blimp_babylm_filtered"
+    }
+  },
+  "group_subtasks": {
+    "blimp_babylm_filtered": [
+      "blimp_babylm_filtered_adjunct_island",
+      "blimp_babylm_filtered_anaphor_gender_agreement",
+      "blimp_babylm_filtered_anaphor_number_agreement",
+      "blimp_babylm_filtered_animate_subject_passive",
+      "blimp_babylm_filtered_animate_subject_trans",
+      "blimp_babylm_filtered_causative",
+      "blimp_babylm_filtered_complex_NP_island",
+      "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch",
+      "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction",
+      "blimp_babylm_filtered_determiner_noun_agreement_1",
+      "blimp_babylm_filtered_determiner_noun_agreement_2",
+      "blimp_babylm_filtered_determiner_noun_agreement_irregular_1",
+      "blimp_babylm_filtered_determiner_noun_agreement_irregular_2",
+      "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1",
+      "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2",
+      "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1",
+      "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2",
+      "blimp_babylm_filtered_distractor_agreement_relational_noun",
+      "blimp_babylm_filtered_distractor_agreement_relative_clause",
+      "blimp_babylm_filtered_drop_argument",
+      "blimp_babylm_filtered_ellipsis_n_bar_1",
+      "blimp_babylm_filtered_ellipsis_n_bar_2",
+      "blimp_babylm_filtered_existential_there_object_raising",
+      "blimp_babylm_filtered_existential_there_quantifiers_1",
+      "blimp_babylm_filtered_existential_there_quantifiers_2",
+      "blimp_babylm_filtered_existential_there_subject_raising",
+      "blimp_babylm_filtered_expletive_it_object_raising",
+      "blimp_babylm_filtered_inchoative",
+      "blimp_babylm_filtered_intransitive",
+      "blimp_babylm_filtered_irregular_past_participle_adjectives",
+      "blimp_babylm_filtered_irregular_past_participle_verbs",
+      "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1",
+      "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2",
+      "blimp_babylm_filtered_left_branch_island_echo_question",
+      "blimp_babylm_filtered_left_branch_island_simple_question",
+      "blimp_babylm_filtered_matrix_question_npi_licensor_present",
+      "blimp_babylm_filtered_npi_present_1",
+      "blimp_babylm_filtered_npi_present_2",
+      "blimp_babylm_filtered_only_npi_licensor_present",
+      "blimp_babylm_filtered_only_npi_scope",
+      "blimp_babylm_filtered_passive_1",
+      "blimp_babylm_filtered_passive_2",
+      "blimp_babylm_filtered_principle_A_case_1",
+      "blimp_babylm_filtered_principle_A_case_2",
+      "blimp_babylm_filtered_principle_A_c_command",
+      "blimp_babylm_filtered_principle_A_domain_1",
+      "blimp_babylm_filtered_principle_A_domain_2",
+      "blimp_babylm_filtered_principle_A_domain_3",
+      "blimp_babylm_filtered_principle_A_reconstruction",
+      "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1",
+      "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2",
+      "blimp_babylm_filtered_sentential_negation_npi_licensor_present",
+      "blimp_babylm_filtered_sentential_negation_npi_scope",
+      "blimp_babylm_filtered_sentential_subject_island",
+      "blimp_babylm_filtered_superlative_quantifiers_1",
+      "blimp_babylm_filtered_superlative_quantifiers_2",
+      "blimp_babylm_filtered_tough_vs_raising_1",
+      "blimp_babylm_filtered_tough_vs_raising_2",
+      "blimp_babylm_filtered_transitive",
+      "blimp_babylm_filtered_wh_island",
+      "blimp_babylm_filtered_wh_questions_object_gap",
+      "blimp_babylm_filtered_wh_questions_subject_gap",
+      "blimp_babylm_filtered_wh_questions_subject_gap_long_distance",
+      "blimp_babylm_filtered_wh_vs_that_no_gap",
+      "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance",
+      "blimp_babylm_filtered_wh_vs_that_with_gap",
+      "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance"
+    ],
+    "zeroshot_eng": [
+      "blimp_babylm_filtered",
+      "multiblimp_eng",
+      "winogrande_en_mubench",
+      "xstorycloze_en_mubench",
+      "hellaswag_en_mubench"
+    ]
+  },
+  "configs": {
+    "blimp_babylm_filtered_adjunct_island": {
+      "task": "blimp_babylm_filtered_adjunct_island",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "adjunct_island",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_anaphor_gender_agreement": {
+      "task": "blimp_babylm_filtered_anaphor_gender_agreement",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "anaphor_gender_agreement",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_anaphor_number_agreement": {
+      "task": "blimp_babylm_filtered_anaphor_number_agreement",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "anaphor_number_agreement",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_animate_subject_passive": {
+      "task": "blimp_babylm_filtered_animate_subject_passive",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "animate_subject_passive",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_animate_subject_trans": {
+      "task": "blimp_babylm_filtered_animate_subject_trans",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "animate_subject_trans",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_causative": {
+      "task": "blimp_babylm_filtered_causative",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "causative",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_complex_NP_island": {
+      "task": "blimp_babylm_filtered_complex_NP_island",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "complex_NP_island",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": {
+      "task": "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "coordinate_structure_constraint_complex_left_branch",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": {
+      "task": "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "coordinate_structure_constraint_object_extraction",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_1": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_2": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_irregular_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_irregular_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_irregular_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_irregular_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_with_adj_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_with_adj_irregular_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_with_adj_irregular_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": {
+      "task": "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "determiner_noun_agreement_with_adjective_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": {
+      "task": "blimp_babylm_filtered_distractor_agreement_relational_noun",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "distractor_agreement_relational_noun",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": {
+      "task": "blimp_babylm_filtered_distractor_agreement_relative_clause",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "distractor_agreement_relative_clause",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_drop_argument": {
+      "task": "blimp_babylm_filtered_drop_argument",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "drop_argument",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_1": {
+      "task": "blimp_babylm_filtered_ellipsis_n_bar_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "ellipsis_n_bar_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_2": {
+      "task": "blimp_babylm_filtered_ellipsis_n_bar_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "ellipsis_n_bar_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_existential_there_object_raising": {
+      "task": "blimp_babylm_filtered_existential_there_object_raising",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "existential_there_object_raising",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_1": {
+      "task": "blimp_babylm_filtered_existential_there_quantifiers_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "existential_there_quantifiers_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_2": {
+      "task": "blimp_babylm_filtered_existential_there_quantifiers_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "existential_there_quantifiers_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_existential_there_subject_raising": {
+      "task": "blimp_babylm_filtered_existential_there_subject_raising",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "existential_there_subject_raising",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_expletive_it_object_raising": {
+      "task": "blimp_babylm_filtered_expletive_it_object_raising",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "expletive_it_object_raising",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_inchoative": {
+      "task": "blimp_babylm_filtered_inchoative",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "inchoative",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_intransitive": {
+      "task": "blimp_babylm_filtered_intransitive",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "intransitive",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": {
+      "task": "blimp_babylm_filtered_irregular_past_participle_adjectives",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "irregular_past_participle_adjectives",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_irregular_past_participle_verbs": {
+      "task": "blimp_babylm_filtered_irregular_past_participle_verbs",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "irregular_past_participle_verbs",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": {
+      "task": "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "irregular_plural_subject_verb_agreement_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": {
+      "task": "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "irregular_plural_subject_verb_agreement_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_left_branch_island_echo_question": {
+      "task": "blimp_babylm_filtered_left_branch_island_echo_question",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "left_branch_island_echo_question",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_left_branch_island_simple_question": {
+      "task": "blimp_babylm_filtered_left_branch_island_simple_question",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "left_branch_island_simple_question",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": {
+      "task": "blimp_babylm_filtered_matrix_question_npi_licensor_present",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "matrix_question_npi_licensor_present",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_npi_present_1": {
+      "task": "blimp_babylm_filtered_npi_present_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "npi_present_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_npi_present_2": {
+      "task": "blimp_babylm_filtered_npi_present_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "npi_present_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_only_npi_licensor_present": {
+      "task": "blimp_babylm_filtered_only_npi_licensor_present",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "only_npi_licensor_present",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_only_npi_scope": {
+      "task": "blimp_babylm_filtered_only_npi_scope",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "only_npi_scope",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_passive_1": {
+      "task": "blimp_babylm_filtered_passive_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "passive_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_passive_2": {
+      "task": "blimp_babylm_filtered_passive_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "passive_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_c_command": {
+      "task": "blimp_babylm_filtered_principle_A_c_command",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_c_command",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_case_1": {
+      "task": "blimp_babylm_filtered_principle_A_case_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_case_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_case_2": {
+      "task": "blimp_babylm_filtered_principle_A_case_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_case_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_domain_1": {
+      "task": "blimp_babylm_filtered_principle_A_domain_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_domain_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_domain_2": {
+      "task": "blimp_babylm_filtered_principle_A_domain_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_domain_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_domain_3": {
+      "task": "blimp_babylm_filtered_principle_A_domain_3",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_domain_3",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_principle_A_reconstruction": {
+      "task": "blimp_babylm_filtered_principle_A_reconstruction",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "principle_A_reconstruction",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": {
+      "task": "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "regular_plural_subject_verb_agreement_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": {
+      "task": "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "regular_plural_subject_verb_agreement_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": {
+      "task": "blimp_babylm_filtered_sentential_negation_npi_licensor_present",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "sentential_negation_npi_licensor_present",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_scope": {
+      "task": "blimp_babylm_filtered_sentential_negation_npi_scope",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "sentential_negation_npi_scope",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_sentential_subject_island": {
+      "task": "blimp_babylm_filtered_sentential_subject_island",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "sentential_subject_island",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_1": {
+      "task": "blimp_babylm_filtered_superlative_quantifiers_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "superlative_quantifiers_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_2": {
+      "task": "blimp_babylm_filtered_superlative_quantifiers_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "superlative_quantifiers_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_tough_vs_raising_1": {
+      "task": "blimp_babylm_filtered_tough_vs_raising_1",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "tough_vs_raising_1",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_tough_vs_raising_2": {
+      "task": "blimp_babylm_filtered_tough_vs_raising_2",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "tough_vs_raising_2",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_transitive": {
+      "task": "blimp_babylm_filtered_transitive",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "transitive",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_island": {
+      "task": "blimp_babylm_filtered_wh_island",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_island",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_questions_object_gap": {
+      "task": "blimp_babylm_filtered_wh_questions_object_gap",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_questions_object_gap",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap": {
+      "task": "blimp_babylm_filtered_wh_questions_subject_gap",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_questions_subject_gap",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": {
+      "task": "blimp_babylm_filtered_wh_questions_subject_gap_long_distance",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_questions_subject_gap_long_distance",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap": {
+      "task": "blimp_babylm_filtered_wh_vs_that_no_gap",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_vs_that_no_gap",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": {
+      "task": "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_vs_that_no_gap_long_distance",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap": {
+      "task": "blimp_babylm_filtered_wh_vs_that_with_gap",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_vs_that_with_gap",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": {
+      "task": "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance",
+      "dataset_path": "BabyLM-community/BabyLM-BLIMP-Filtered",
+      "dataset_name": "wh_vs_that_with_gap_long_distance",
+      "test_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sentence_good, sentence_bad]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "hellaswag_en_mubench": {
+      "task": "hellaswag_en_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "HellaswagDataset_lighteval_en",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "multiblimp_eng": {
+      "task": "multiblimp_eng",
+      "dataset_path": "jumelet/multiblimp",
+      "dataset_name": "eng",
+      "validation_split": "train",
+      "doc_to_text": "",
+      "doc_to_target": 0,
+      "unsafe_code": false,
+      "doc_to_choice": "{{[sen, wrong_sen]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "winogrande_en_mubench": {
+      "task": "winogrande_en_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "WinoGrandeDataset_lighteval_en",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    },
+    "xstorycloze_en_mubench": {
+      "task": "xstorycloze_en_mubench",
+      "dataset_path": "aialt/MuBench",
+      "dataset_name": "StoryClozeDataset_lighteval_en",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "prompt",
+      "doc_to_target": "label",
+      "unsafe_code": false,
+      "doc_to_choice": "choices",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Shamima/babylm-2026-multilingual-uniform-100M",
+        "trust_remote_code": true
+      }
+    }
+  },
+  "versions": {
+    "blimp_babylm_filtered": 1.0,
+    "blimp_babylm_filtered_adjunct_island": 1.0,
+    "blimp_babylm_filtered_anaphor_gender_agreement": 1.0,
+    "blimp_babylm_filtered_anaphor_number_agreement": 1.0,
+    "blimp_babylm_filtered_animate_subject_passive": 1.0,
+    "blimp_babylm_filtered_animate_subject_trans": 1.0,
+    "blimp_babylm_filtered_causative": 1.0,
+    "blimp_babylm_filtered_complex_NP_island": 1.0,
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": 1.0,
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_1": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_2": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": 1.0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": 1.0,
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": 1.0,
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": 1.0,
+    "blimp_babylm_filtered_drop_argument": 1.0,
+    "blimp_babylm_filtered_ellipsis_n_bar_1": 1.0,
+    "blimp_babylm_filtered_ellipsis_n_bar_2": 1.0,
+    "blimp_babylm_filtered_existential_there_object_raising": 1.0,
+    "blimp_babylm_filtered_existential_there_quantifiers_1": 1.0,
+    "blimp_babylm_filtered_existential_there_quantifiers_2": 1.0,
+    "blimp_babylm_filtered_existential_there_subject_raising": 1.0,
+    "blimp_babylm_filtered_expletive_it_object_raising": 1.0,
+    "blimp_babylm_filtered_inchoative": 1.0,
+    "blimp_babylm_filtered_intransitive": 1.0,
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": 1.0,
+    "blimp_babylm_filtered_irregular_past_participle_verbs": 1.0,
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": 1.0,
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": 1.0,
+    "blimp_babylm_filtered_left_branch_island_echo_question": 1.0,
+    "blimp_babylm_filtered_left_branch_island_simple_question": 1.0,
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": 1.0,
+    "blimp_babylm_filtered_npi_present_1": 1.0,
+    "blimp_babylm_filtered_npi_present_2": 1.0,
+    "blimp_babylm_filtered_only_npi_licensor_present": 1.0,
+    "blimp_babylm_filtered_only_npi_scope": 1.0,
+    "blimp_babylm_filtered_passive_1": 1.0,
+    "blimp_babylm_filtered_passive_2": 1.0,
+    "blimp_babylm_filtered_principle_A_c_command": 1.0,
+    "blimp_babylm_filtered_principle_A_case_1": 1.0,
+    "blimp_babylm_filtered_principle_A_case_2": 1.0,
+    "blimp_babylm_filtered_principle_A_domain_1": 1.0,
+    "blimp_babylm_filtered_principle_A_domain_2": 1.0,
+    "blimp_babylm_filtered_principle_A_domain_3": 1.0,
+    "blimp_babylm_filtered_principle_A_reconstruction": 1.0,
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": 1.0,
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": 1.0,
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": 1.0,
+    "blimp_babylm_filtered_sentential_negation_npi_scope": 1.0,
+    "blimp_babylm_filtered_sentential_subject_island": 1.0,
+    "blimp_babylm_filtered_superlative_quantifiers_1": 1.0,
+    "blimp_babylm_filtered_superlative_quantifiers_2": 1.0,
+    "blimp_babylm_filtered_tough_vs_raising_1": 1.0,
+    "blimp_babylm_filtered_tough_vs_raising_2": 1.0,
+    "blimp_babylm_filtered_transitive": 1.0,
+    "blimp_babylm_filtered_wh_island": 1.0,
+    "blimp_babylm_filtered_wh_questions_object_gap": 1.0,
+    "blimp_babylm_filtered_wh_questions_subject_gap": 1.0,
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": 1.0,
+    "blimp_babylm_filtered_wh_vs_that_no_gap": 1.0,
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": 1.0,
+    "blimp_babylm_filtered_wh_vs_that_with_gap": 1.0,
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": 1.0,
+    "hellaswag_en_mubench": 1.0,
+    "multiblimp_eng": 1.0,
+    "winogrande_en_mubench": 1.0,
+    "xstorycloze_en_mubench": 1.0,
+    "zeroshot_eng": 1.0
+  },
+  "n-shot": {
+    "blimp_babylm_filtered_adjunct_island": 0,
+    "blimp_babylm_filtered_anaphor_gender_agreement": 0,
+    "blimp_babylm_filtered_anaphor_number_agreement": 0,
+    "blimp_babylm_filtered_animate_subject_passive": 0,
+    "blimp_babylm_filtered_animate_subject_trans": 0,
+    "blimp_babylm_filtered_causative": 0,
+    "blimp_babylm_filtered_complex_NP_island": 0,
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": 0,
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_1": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_2": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": 0,
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": 0,
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": 0,
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": 0,
+    "blimp_babylm_filtered_drop_argument": 0,
+    "blimp_babylm_filtered_ellipsis_n_bar_1": 0,
+    "blimp_babylm_filtered_ellipsis_n_bar_2": 0,
+    "blimp_babylm_filtered_existential_there_object_raising": 0,
+    "blimp_babylm_filtered_existential_there_quantifiers_1": 0,
+    "blimp_babylm_filtered_existential_there_quantifiers_2": 0,
+    "blimp_babylm_filtered_existential_there_subject_raising": 0,
+    "blimp_babylm_filtered_expletive_it_object_raising": 0,
+    "blimp_babylm_filtered_inchoative": 0,
+    "blimp_babylm_filtered_intransitive": 0,
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": 0,
+    "blimp_babylm_filtered_irregular_past_participle_verbs": 0,
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": 0,
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": 0,
+    "blimp_babylm_filtered_left_branch_island_echo_question": 0,
+    "blimp_babylm_filtered_left_branch_island_simple_question": 0,
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": 0,
+    "blimp_babylm_filtered_npi_present_1": 0,
+    "blimp_babylm_filtered_npi_present_2": 0,
+    "blimp_babylm_filtered_only_npi_licensor_present": 0,
+    "blimp_babylm_filtered_only_npi_scope": 0,
+    "blimp_babylm_filtered_passive_1": 0,
+    "blimp_babylm_filtered_passive_2": 0,
+    "blimp_babylm_filtered_principle_A_c_command": 0,
+    "blimp_babylm_filtered_principle_A_case_1": 0,
+    "blimp_babylm_filtered_principle_A_case_2": 0,
+    "blimp_babylm_filtered_principle_A_domain_1": 0,
+    "blimp_babylm_filtered_principle_A_domain_2": 0,
+    "blimp_babylm_filtered_principle_A_domain_3": 0,
+    "blimp_babylm_filtered_principle_A_reconstruction": 0,
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": 0,
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": 0,
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": 0,
+    "blimp_babylm_filtered_sentential_negation_npi_scope": 0,
+    "blimp_babylm_filtered_sentential_subject_island": 0,
+    "blimp_babylm_filtered_superlative_quantifiers_1": 0,
+    "blimp_babylm_filtered_superlative_quantifiers_2": 0,
+    "blimp_babylm_filtered_tough_vs_raising_1": 0,
+    "blimp_babylm_filtered_tough_vs_raising_2": 0,
+    "blimp_babylm_filtered_transitive": 0,
+    "blimp_babylm_filtered_wh_island": 0,
+    "blimp_babylm_filtered_wh_questions_object_gap": 0,
+    "blimp_babylm_filtered_wh_questions_subject_gap": 0,
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": 0,
+    "blimp_babylm_filtered_wh_vs_that_no_gap": 0,
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": 0,
+    "blimp_babylm_filtered_wh_vs_that_with_gap": 0,
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": 0,
+    "hellaswag_en_mubench": 0,
+    "multiblimp_eng": 0,
+    "winogrande_en_mubench": 0,
+    "xstorycloze_en_mubench": 0
+  },
+  "higher_is_better": {
+    "blimp_babylm_filtered": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "blimp_babylm_filtered_adjunct_island": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_anaphor_gender_agreement": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_anaphor_number_agreement": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_animate_subject_passive": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_animate_subject_trans": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_causative": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_complex_NP_island": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_drop_argument": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_existential_there_object_raising": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_existential_there_subject_raising": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_expletive_it_object_raising": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_inchoative": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_intransitive": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_irregular_past_participle_verbs": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_left_branch_island_echo_question": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_left_branch_island_simple_question": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_npi_present_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_npi_present_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_only_npi_licensor_present": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_only_npi_scope": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_passive_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_passive_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_c_command": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_case_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_case_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_domain_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_domain_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_domain_3": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_principle_A_reconstruction": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_scope": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_sentential_subject_island": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_tough_vs_raising_1": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_tough_vs_raising_2": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_transitive": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_island": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_questions_object_gap": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap": {
+      "acc": true
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": {
+      "acc": true
+    },
+    "hellaswag_en_mubench": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "multiblimp_eng": {
+      "acc": true
+    },
+    "winogrande_en_mubench": {
+      "acc": true
+    },
+    "xstorycloze_en_mubench": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "zeroshot_eng": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "blimp_babylm_filtered_adjunct_island": {
+      "original": 928,
+      "effective": 928
+    },
+    "blimp_babylm_filtered_anaphor_gender_agreement": {
+      "original": 971,
+      "effective": 971
+    },
+    "blimp_babylm_filtered_anaphor_number_agreement": {
+      "original": 931,
+      "effective": 931
+    },
+    "blimp_babylm_filtered_animate_subject_passive": {
+      "original": 895,
+      "effective": 895
+    },
+    "blimp_babylm_filtered_animate_subject_trans": {
+      "original": 923,
+      "effective": 923
+    },
+    "blimp_babylm_filtered_causative": {
+      "original": 818,
+      "effective": 818
+    },
+    "blimp_babylm_filtered_complex_NP_island": {
+      "original": 846,
+      "effective": 846
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": {
+      "original": 906,
+      "effective": 906
+    },
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": {
+      "original": 949,
+      "effective": 949
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_1": {
+      "original": 929,
+      "effective": 929
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_2": {
+      "original": 931,
+      "effective": 931
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": {
+      "original": 681,
+      "effective": 681
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": {
+      "original": 820,
+      "effective": 820
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": {
+      "original": 933,
+      "effective": 933
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": {
+      "original": 941,
+      "effective": 941
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": {
+      "original": 718,
+      "effective": 718
+    },
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": {
+      "original": 840,
+      "effective": 840
+    },
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": {
+      "original": 788,
+      "effective": 788
+    },
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": {
+      "original": 871,
+      "effective": 871
+    },
+    "blimp_babylm_filtered_drop_argument": {
+      "original": 920,
+      "effective": 920
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_1": {
+      "original": 802,
+      "effective": 802
+    },
+    "blimp_babylm_filtered_ellipsis_n_bar_2": {
+      "original": 828,
+      "effective": 828
+    },
+    "blimp_babylm_filtered_existential_there_object_raising": {
+      "original": 812,
+      "effective": 812
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_1": {
+      "original": 930,
+      "effective": 930
+    },
+    "blimp_babylm_filtered_existential_there_quantifiers_2": {
+      "original": 911,
+      "effective": 911
+    },
+    "blimp_babylm_filtered_existential_there_subject_raising": {
+      "original": 924,
+      "effective": 924
+    },
+    "blimp_babylm_filtered_expletive_it_object_raising": {
+      "original": 759,
+      "effective": 759
+    },
+    "blimp_babylm_filtered_inchoative": {
+      "original": 855,
+      "effective": 855
+    },
+    "blimp_babylm_filtered_intransitive": {
+      "original": 868,
+      "effective": 868
+    },
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": {
+      "original": 961,
+      "effective": 961
+    },
+    "blimp_babylm_filtered_irregular_past_participle_verbs": {
+      "original": 942,
+      "effective": 942
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": {
+      "original": 804,
+      "effective": 804
+    },
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": {
+      "original": 892,
+      "effective": 892
+    },
+    "blimp_babylm_filtered_left_branch_island_echo_question": {
+      "original": 947,
+      "effective": 947
+    },
+    "blimp_babylm_filtered_left_branch_island_simple_question": {
+      "original": 951,
+      "effective": 951
+    },
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": {
+      "original": 929,
+      "effective": 929
+    },
+    "blimp_babylm_filtered_npi_present_1": {
+      "original": 909,
+      "effective": 909
+    },
+    "blimp_babylm_filtered_npi_present_2": {
+      "original": 914,
+      "effective": 914
+    },
+    "blimp_babylm_filtered_only_npi_licensor_present": {
+      "original": 882,
+      "effective": 882
+    },
+    "blimp_babylm_filtered_only_npi_scope": {
+      "original": 837,
+      "effective": 837
+    },
+    "blimp_babylm_filtered_passive_1": {
+      "original": 840,
+      "effective": 840
+    },
+    "blimp_babylm_filtered_passive_2": {
+      "original": 903,
+      "effective": 903
+    },
+    "blimp_babylm_filtered_principle_A_case_1": {
+      "original": 912,
+      "effective": 912
+    },
+    "blimp_babylm_filtered_principle_A_case_2": {
+      "original": 915,
+      "effective": 915
+    },
+    "blimp_babylm_filtered_principle_A_c_command": {
+      "original": 946,
+      "effective": 946
+    },
+    "blimp_babylm_filtered_principle_A_domain_1": {
+      "original": 914,
+      "effective": 914
+    },
+    "blimp_babylm_filtered_principle_A_domain_2": {
+      "original": 915,
+      "effective": 915
+    },
+    "blimp_babylm_filtered_principle_A_domain_3": {
+      "original": 941,
+      "effective": 941
+    },
+    "blimp_babylm_filtered_principle_A_reconstruction": {
+      "original": 967,
+      "effective": 967
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": {
+      "original": 890,
+      "effective": 890
+    },
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": {
+      "original": 945,
+      "effective": 945
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": {
+      "original": 919,
+      "effective": 919
+    },
+    "blimp_babylm_filtered_sentential_negation_npi_scope": {
+      "original": 871,
+      "effective": 871
+    },
+    "blimp_babylm_filtered_sentential_subject_island": {
+      "original": 961,
+      "effective": 961
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_1": {
+      "original": 979,
+      "effective": 979
+    },
+    "blimp_babylm_filtered_superlative_quantifiers_2": {
+      "original": 986,
+      "effective": 986
+    },
+    "blimp_babylm_filtered_tough_vs_raising_1": {
+      "original": 948,
+      "effective": 948
+    },
+    "blimp_babylm_filtered_tough_vs_raising_2": {
+      "original": 920,
+      "effective": 920
+    },
+    "blimp_babylm_filtered_transitive": {
+      "original": 868,
+      "effective": 868
+    },
+    "blimp_babylm_filtered_wh_island": {
+      "original": 960,
+      "effective": 960
+    },
+    "blimp_babylm_filtered_wh_questions_object_gap": {
+      "original": 859,
+      "effective": 859
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap": {
+      "original": 898,
+      "effective": 898
+    },
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": {
+      "original": 857,
+      "effective": 857
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap": {
+      "original": 861,
+      "effective": 861
+    },
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": {
+      "original": 875,
+      "effective": 875
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap": {
+      "original": 919,
+      "effective": 919
+    },
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": {
+      "original": 910,
+      "effective": 910
+    },
+    "multiblimp_eng": {
+      "original": 770,
+      "effective": 770
+    },
+    "winogrande_en_mubench": {
+      "original": 1213,
+      "effective": 1213
+    },
+    "xstorycloze_en_mubench": {
+      "original": 1292,
+      "effective": 1292
+    },
+    "hellaswag_en_mubench": {
+      "original": 9044,
+      "effective": 9044
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=Shamima/babylm-2026-multilingual-uniform-100M,trust_remote_code=True",
+    "model_num_parameters": 110119680,
+    "model_dtype": "torch.float32",
+    "model_revision": "main",
+    "model_sha": "f0ec75d0a1bcd80ec957f7295b117f34d5f8b340",
+    "batch_size": "auto:4",
+    "batch_sizes": [
+      64,
+      64,
+      64,
+      64,
+      64
+    ],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "3bf5142",
+  "date": 1780658155.0794709,
+  "pretty_env_info": "PyTorch version: 2.8.0+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.4 LTS (x86_64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.39\n\nPython version: 3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0] (64-bit runtime)\nPython platform: Linux-6.12.88-119.157.amzn2023.x86_64-x86_64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 12.9.86\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A10G\nGPU 1: NVIDIA A10G\nGPU 2: NVIDIA A10G\nGPU 3: NVIDIA A10G\n\nNvidia driver version: 595.71.05\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  48\nOn-line CPU(s) list:                     0-47\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7R32\nCPU family:                              23\nModel:                                   49\nThread(s) per core:                      2\nCore(s) per socket:                      24\nSocket(s):                               1\nStepping:                                0\nBogoMIPS:                                5600.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch topoext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr rdpru wbnoinvd arat npt nrip_save rdpid\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               768 KiB (24 instances)\nL1i cache:                               768 KiB (24 instances)\nL2 cache:                                12 MiB (24 instances)\nL3 cache:                                96 MiB (6 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-47\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==2.4.6\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.3\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.8.0\n[pip3] triton==3.4.0\n[conda] cuda-cudart                                  12.9.79          h5888daf_0                      conda-forge\n[conda] cuda-cudart_linux-64                         12.9.79          h3f2d84a_0                      conda-forge\n[conda] cuda-cupti                                   12.9.79          h676940d_1                      conda-forge\n[conda] cuda-nvrtc                                   12.9.86          hecca717_1                      conda-forge\n[conda] cuda-nvtx                                    12.9.79          hecca717_1                      conda-forge\n[conda] cudnn                                        9.10.2.21        hbcb9cd8_0                      conda-forge\n[conda] libblas                                      3.11.0           6_h5875eb1_mkl                  conda-forge\n[conda] libcblas                                     3.11.0           6_hfef963f_mkl                  conda-forge\n[conda] libcublas                                    12.9.1.4         h676940d_1                      conda-forge\n[conda] libcudnn                                     9.10.2.21        hf7e9902_0                      conda-forge\n[conda] libcudnn-dev                                 9.10.2.21        h58dd1b1_0                      conda-forge\n[conda] libcufft                                     11.4.1.4         hecca717_1                      conda-forge\n[conda] libcurand                                    10.3.10.19       h676940d_1                      conda-forge\n[conda] libcusolver                                  11.7.5.82        h676940d_2                      conda-forge\n[conda] libcusparse                                  12.5.10.65       hecca717_2                      conda-forge\n[conda] liblapack                                    3.11.0           6_h5e43f62_mkl                  conda-forge\n[conda] libmagma                                     2.9.0            ha7672b3_6                      conda-forge\n[conda] libnvjitlink                                 12.9.86          hecca717_2                      conda-forge\n[conda] libtorch                                     2.8.0            cuda129_mkl_hf53477d_302        conda-forge\n[conda] mkl                                          2025.3.1         h0e700b2_12                     conda-forge\n[conda] nccl                                         2.30.4.1         h4d09622_0                      conda-forge\n[conda] numpy                                        1.26.4           py312heda63a1_0                 conda-forge\n[conda] onemkl-license                               2025.3.1         hf2ce2f3_12                     conda-forge\n[conda] optree                                       0.19.1           py312hd9148b4_0                 conda-forge\n[conda] pytorch                                      2.8.0            cuda129_mkl_py312_had1c889_302  conda-forge\n[conda] pytorch-lightning                            2.6.1            pyhcf101f3_0                    conda-forge\n[conda] pytorch-metric-learning                      2.8.1            pyh101cb37_1                    conda-forge\n[conda] torchmetrics                                 1.7.4            pyhd8ed1ab_0                    conda-forge\n[conda] torchvision                                  0.24.0           cuda129_py312_h9f56bbf_2        conda-forge\n[conda] torchvision-extra-decoders                   0.0.2            py312hd347cc9_4                 conda-forge\n[conda] triton                                       3.4.0            cuda129py312h811769c_1          conda-forge\n[conda] tritonclient                                 2.41.1           pyhff2d567_0                    conda-forge",
+  "transformers_version": "4.49.0",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": "3bf5142773d5bf4d2e7952a3e2d5270520252fb3",
+  "tokenizer_pad_token": [
+    "<pad>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "<eos>",
+    "2"
+  ],
+  "tokenizer_bos_token": [
+    "<bos>",
+    "1"
+  ],
+  "eot_token_id": 2,
+  "max_length": 1024,
+  "task_hashes": {
+    "blimp_babylm_filtered_adjunct_island": "7f6e866b132d19ecdef427e7f1525ce7037a7d53bd92b0ea9ac175de8cd8a308",
+    "blimp_babylm_filtered_anaphor_gender_agreement": "515f3af96d176131ded03586a4c4dcc8d369942a6aab59733dd19420032f579f",
+    "blimp_babylm_filtered_anaphor_number_agreement": "e3c2c8fc479d536acfc133d2aeea2352b22bd184ee52c67892681654fb38cb0c",
+    "blimp_babylm_filtered_animate_subject_passive": "2eed903274df52507567c35d6ded9f37306ef57030f15765df26128e6dc98b08",
+    "blimp_babylm_filtered_animate_subject_trans": "a13c9bc8f55ebeccc00c5800dc594f9f8ce3d98b1af637c6b69b35491aa80502",
+    "blimp_babylm_filtered_causative": "76bb483f8c36170ad2648290ea92e0921f8b31381eb7c1585bec8df2c3e70988",
+    "blimp_babylm_filtered_complex_NP_island": "f761322c8eec4820ea1a4753a9d6eb307ae0fca95d7458ff9c9ac3b1b0ca5065",
+    "blimp_babylm_filtered_coordinate_structure_constraint_complex_left_branch": "c0bbcf3fd9196be8e9a57fb5ae2471ed8564585accff7e879f8957d4d7a96490",
+    "blimp_babylm_filtered_coordinate_structure_constraint_object_extraction": "9f9d60a7d7c74a3d65299b56c3caa4860e057efbcd715d0f1f208a24c4b82b84",
+    "blimp_babylm_filtered_determiner_noun_agreement_1": "fcfaffa1bb60855e1a47467ae793bdd07cc97895654c0a7dafb6edfac0b33842",
+    "blimp_babylm_filtered_determiner_noun_agreement_2": "31933ff0461a0a88f5a8bccdcfcee7f628911cea8ad64eaac7f405b7000cd102",
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_1": "efd391f49df96374f0aad42c372ee49b6b6fe577ac0c1efb23376cb33de0e9c3",
+    "blimp_babylm_filtered_determiner_noun_agreement_irregular_2": "555e72ca4f38c2ad30f42ed747d7144d862235f852a9adaea10a478f1a3af9b5",
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adjective_1": "ce768c28f495551ce648e4bdc759cb07d6e502042ba7a32cf67bea211be591d3",
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_2": "dce985316f4e5cede4cef6192021cd56155b5302add10fd0ac0782f6258c540d",
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_1": "fb9e9c761adb64a3427675ff8c9fb677c18043d327a3f83b5d2b10bbd60de671",
+    "blimp_babylm_filtered_determiner_noun_agreement_with_adj_irregular_2": "2d329b3763d94c63761aed0d6f4a2cdf7c2a099d490a2b64b029ec67642ce468",
+    "blimp_babylm_filtered_distractor_agreement_relational_noun": "9fb94a3dafb4723f8d8892ea23d7cc872b8a06b5bf47fd09e24b51aeae277d6a",
+    "blimp_babylm_filtered_distractor_agreement_relative_clause": "200d5ce9723c93dfe26c4e92f8f53164816628da2d2b81a49b96e236283e04ca",
+    "blimp_babylm_filtered_drop_argument": "b28aaa96d6bec31cb8a23aa7602925557c6db33aa20867f0785f9f0b06c87250",
+    "blimp_babylm_filtered_ellipsis_n_bar_1": "9a156a58246b6574c217f211d590ca4f3b306569e588cd708de44b6e625a054a",
+    "blimp_babylm_filtered_ellipsis_n_bar_2": "2eb45045840cafb633c92956410f4be9c48bcd50587fbe4de418d7dff37718bf",
+    "blimp_babylm_filtered_existential_there_object_raising": "d7b77238d5e7405be2df5bc9005a1dbdd47dac3c2e45bd6d1525d179e4d4bd47",
+    "blimp_babylm_filtered_existential_there_quantifiers_1": "ef4b6a6a6a51736968f17fd724c3864d076f2ee0b6987d498ec99bb22ac08530",
+    "blimp_babylm_filtered_existential_there_quantifiers_2": "668fa23b2f46ca2ae9a5f4179fd99c9a3eddbfff6e9d74f26ddd20eaf8e50be2",
+    "blimp_babylm_filtered_existential_there_subject_raising": "96560474825c10b009fed39e34128c8e25edb04dee43d2d9f6503be8dc8dd5fa",
+    "blimp_babylm_filtered_expletive_it_object_raising": "8f4c2068b59f99419822c05b7a4a5d725a7a33e9e960d54c852830259f474c95",
+    "blimp_babylm_filtered_inchoative": "0cbd72c329c49552152265dd66c74c0ccc084cb75be8d9381a0d621a3d1bfb12",
+    "blimp_babylm_filtered_intransitive": "221d769628f96ceb6eaf4dd9dddc2a8fd84f5dbb232dc5ab6e74d4c7b665c6ae",
+    "blimp_babylm_filtered_irregular_past_participle_adjectives": "75f7df664832eefd1f03d1c104dee1d20a9db83a519a8aa9ab7afd6e83d32920",
+    "blimp_babylm_filtered_irregular_past_participle_verbs": "36d83fadf298950b88933d3ddccc22d7115862ffde8f30abacf823df6d0977d7",
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_1": "e7ea16cdc826739f3d1e4e6b987b17c7badc6894276e86a3ecbcadaf1c9c13ba",
+    "blimp_babylm_filtered_irregular_plural_subject_verb_agreement_2": "ca00538e4ed9c05d5f2494cd110e65f4809c0a80b7f2678e025b7e7a34b42c22",
+    "blimp_babylm_filtered_left_branch_island_echo_question": "39a3d654d43bbf967aef6cfe54e14ba5cdd5adfc5affed580386c746d2c2e5ca",
+    "blimp_babylm_filtered_left_branch_island_simple_question": "7446574c1d129624910d1b675a0758fbf7d9c021d713aa8fbe6fed12b9c07d0b",
+    "blimp_babylm_filtered_matrix_question_npi_licensor_present": "4e073cdb82ecdae7cb6ddb052893f2ea01f45cac3d6682dcd7212141abbc24fc",
+    "blimp_babylm_filtered_npi_present_1": "c1104e92edd4decdaf43c4773abecc2eda1cae927b23f23a58a7ba7f84d0cc2d",
+    "blimp_babylm_filtered_npi_present_2": "8c3024bc0f95ecc67327995c6a0e9e37cac947724cc4272d929ef9148341174d",
+    "blimp_babylm_filtered_only_npi_licensor_present": "c4e2e044debf711f93ccd4bccdef705bd32339e5163542a340eeb9f0199b8648",
+    "blimp_babylm_filtered_only_npi_scope": "bc319e6d88f6d3a9576374ee2a7c53e28c597802bc9b44fd5f4a9e4cc93310ba",
+    "blimp_babylm_filtered_passive_1": "f47c934fc500f010b592d983fcb4ee4065d9d5aeb679f5a408304d6876704424",
+    "blimp_babylm_filtered_passive_2": "f1911ca8004cdce3efbcb7c8d6d8ae58705eb57a37b2a5e8c10c5339658ff70d",
+    "blimp_babylm_filtered_principle_A_case_1": "f344eb881117087a14741e6aebc7e5f5dd1cc9902fa0e205f7b7edae1e699de4",
+    "blimp_babylm_filtered_principle_A_case_2": "7f8e616969f518b4d9deeb92ae288aff11d03219619a85f646c62656cdb95acb",
+    "blimp_babylm_filtered_principle_A_c_command": "e6d0eda8050e6c871fda0339e5d09a60706566e4d9c5c26821cc1bf9075fb9fe",
+    "blimp_babylm_filtered_principle_A_domain_1": "de51f09f3f0cce874dd9dbe51ec47f2db5ad7e4b2f86afa02e836b97100241e5",
+    "blimp_babylm_filtered_principle_A_domain_2": "59e4a6ca0e670ff6209c8fd99175a4e4986bae63aa239d1cc3624c3fdcc40b9e",
+    "blimp_babylm_filtered_principle_A_domain_3": "8ff73a08de84ce2799449463aebf96d1f98b87247f7eb4a5e695281f3f0bc43e",
+    "blimp_babylm_filtered_principle_A_reconstruction": "b503ff33b781144a4f9aeebc75680fe498759e255f52e5f1b645f03c9d03947b",
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_1": "252b33b0e4e5f4b4b409b00501c4e1703ac3170b5fbb0f319d643f5c0bdbbaa5",
+    "blimp_babylm_filtered_regular_plural_subject_verb_agreement_2": "6299238c350f0eec4a7776a54ced03885ad1514d06fa4ac43e216f23a4f087c9",
+    "blimp_babylm_filtered_sentential_negation_npi_licensor_present": "d02ff1f204d4d0a6a7a8332be1cf0f591f969beb287ad4a7e4f3439d1ebe9a72",
+    "blimp_babylm_filtered_sentential_negation_npi_scope": "da0b54c845b41114793c4438e04360fae979fd9bf79c8a6ad23ec7b616288466",
+    "blimp_babylm_filtered_sentential_subject_island": "f508b107b5c7d3c0b837d0676d3b478027529f442485af1e5714e4929354e83f",
+    "blimp_babylm_filtered_superlative_quantifiers_1": "75d9d729ab33bc7782448f05e94d7662a4057d85d29961683042de43ea6ead6f",
+    "blimp_babylm_filtered_superlative_quantifiers_2": "03b169cebf7b70674fa30a8fece5f794bd1dbc105034f5aa08747ffea6c4c8dc",
+    "blimp_babylm_filtered_tough_vs_raising_1": "ca7d67a12e8f21a25a037e6eec126ae384bfd9d6e68b73c854c4121f82ef3bcf",
+    "blimp_babylm_filtered_tough_vs_raising_2": "b2e40ae04b70fe20e8d532288f1ebcea247032b61b2b4b9dff59943caf1bc10d",
+    "blimp_babylm_filtered_transitive": "262f62f7c1c269942163263e3402d6c0297e6def6a16620ace06efa6cb1e848e",
+    "blimp_babylm_filtered_wh_island": "629c446ec18e9fac26b427f20a713a3ffdfd97d5bb16f267d6a348854978b192",
+    "blimp_babylm_filtered_wh_questions_object_gap": "60e89fa3cb87cab09be8d84d16abfdcbe1080ee5ceaf8415d65283479c43eb57",
+    "blimp_babylm_filtered_wh_questions_subject_gap": "dcf4ceb1a5be0510479931b8f907ad9878b0371df2200865fbc832b0f49260c8",
+    "blimp_babylm_filtered_wh_questions_subject_gap_long_distance": "78a29177134e0c6cd681d139eb3a458a28d2f85145a9173adc218957f543d4f3",
+    "blimp_babylm_filtered_wh_vs_that_no_gap": "986323096a145c30d134723bc4c8a72d518c760496038a416236479ec6bf51e0",
+    "blimp_babylm_filtered_wh_vs_that_no_gap_long_distance": "d0602a9f65712cf3d1aaa68f21e36988f321b8a9e0eab6a16e3af6f9fe2ef316",
+    "blimp_babylm_filtered_wh_vs_that_with_gap": "0edbbabfd1babd369a1a0112fdcb971d211c7414437eada89aef8a082b0469d9",
+    "blimp_babylm_filtered_wh_vs_that_with_gap_long_distance": "587d6c3fa39bcc0f19585a5c098a4f96c41d01ac1508e7526a50b193558c9c2d",
+    "multiblimp_eng": "6f0ba31ab76c7f56e3d9052de2f1dfa39bf3ec7c204f5ef2982a2133ad82f225",
+    "winogrande_en_mubench": "da2ce662bf90bba4c0198ca9a165d7e8451f52d0c878d095f0087641e0055d75",
+    "xstorycloze_en_mubench": "1576239ce32b57c61f80b0f7e230810845042539f303158d69795d6b4936ad90",
+    "hellaswag_en_mubench": "9ce07011c01e15da17013ee8a24679d69e4abf13801596394f9cafc38465b16d"
+  },
+  "model_source": "hf",
+  "model_name": "Shamima/babylm-2026-multilingual-uniform-100M",
+  "model_name_sanitized": "Shamima__babylm-2026-multilingual-uniform-100M",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 50953.13096776,
+  "end_time": 51246.028624667,
+  "total_evaluation_time_seconds": "292.89765690700006"
+}
