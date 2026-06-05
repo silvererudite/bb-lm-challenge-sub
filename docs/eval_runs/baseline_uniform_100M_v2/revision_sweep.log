@@ -1,0 +1,230 @@
+[sweep] revisions on hub: chck_1M chck_2M chck_3M chck_4M chck_5M chck_6M chck_7M chck_8M chck_9M chck_10M chck_20M chck_30M chck_40M chck_50M chck_60M chck_70M chck_80M chck_90M chck_100M
+[sweep] chck_1M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4861|±  |0.0017|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5184|±  |0.0018|
+
+[sweep] chck_1M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4421|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5232|±  |0.0049|
+
+[sweep] chck_1M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4974|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5502|±  |0.0018|
+
+[sweep] chck_2M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4942|±  |0.0017|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5281|±  |0.0018|
+
+[sweep] chck_2M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4476|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5027|±  |0.0050|
+
+[sweep] chck_2M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5219|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5922|±  |0.0016|
+
+[sweep] chck_3M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4915|±  |0.0017|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5252|±  |0.0018|
+
+[sweep] chck_3M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4388|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.4683|±  |0.0050|
+
+[sweep] chck_3M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5035|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5637|±  |0.0016|
+
+[sweep] chck_4M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4767|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5074|±  |0.0018|
+
+[sweep] chck_4M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4482|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5133|±  |0.0049|
+
+[sweep] chck_4M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4909|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5417|±  |0.0017|
+
+[sweep] chck_5M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4906|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5243|±  |0.0018|
+
+[sweep] chck_5M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4532|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5208|±  |0.0050|
+
+[sweep] chck_5M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4880|±  |0.0017|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5381|±  |0.0019|
+
+[sweep] chck_6M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4927|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5263|±  |0.0018|
+
+[sweep] chck_6M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4468|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5111|±  |0.0051|
+
+[sweep] chck_6M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5033|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5617|±  |0.0017|
+
+[sweep] chck_7M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4908|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5238|±  |0.0018|
+
+[sweep] chck_7M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4516|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5177|±  |0.0050|
+
+[sweep] chck_7M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5045|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5634|±  |0.0017|
+
+[sweep] chck_8M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5017|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5372|±  |0.0018|
+
+[sweep] chck_8M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4551|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5333|±  |0.0050|
+
+[sweep] chck_8M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4773|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5196|±  |0.0017|
+
+[sweep] chck_9M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4971|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5315|±  |0.0018|
+
+[sweep] chck_9M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4547|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5271|±  |0.0050|
+
+[sweep] chck_9M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4959|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5500|±  |0.0017|
+
+[sweep] chck_10M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5050|±  |0.0017|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5411|±  |0.0018|
+
+[sweep] chck_10M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4536|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.5274|±  |0.0050|
+
+[sweep] chck_10M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.4696|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5072|±  |0.0018|
+
+[sweep] chck_20M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4741|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5037|±  |0.0018|
+
+[sweep] chck_20M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4806|±  |0.0025|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6218|±  |0.0049|
+
+[sweep] chck_20M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5242|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6009|±  |0.0017|
+
+[sweep] chck_30M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.4910|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5233|±  |0.0018|
+
+[sweep] chck_30M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4875|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6380|±  |0.0048|
+
+[sweep] chck_30M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5146|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.5850|±  |0.0018|
+
+[sweep] chck_40M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5033|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5380|±  |0.0018|
+
+[sweep] chck_40M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4848|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6197|±  |0.0049|
+
+[sweep] chck_40M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5366|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6233|±  |0.0018|
+
+[sweep] chck_50M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5225|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5609|±  |0.0018|
+
+[sweep] chck_50M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4947|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6451|±  |0.0048|
+
+[sweep] chck_50M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5433|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6332|±  |0.0018|
+
+[sweep] chck_60M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5325|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5724|±  |0.0018|
+
+[sweep] chck_60M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.4976|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6488|±  |0.0048|
+
+[sweep] chck_60M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5345|±  |0.0017|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6187|±  |0.0019|
+
+[sweep] chck_70M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5243|±  |0.0017|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5625|±  |0.0018|
+
+[sweep] chck_70M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5046|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6812|±  |0.0046|
+
+[sweep] chck_70M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5531|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6480|±  |0.0017|
+
+[sweep] chck_80M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5362|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5764|±  |0.0018|
+
+[sweep] chck_80M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5109|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.6988|±  |0.0046|
+
+[sweep] chck_80M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5539|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6471|±  |0.0018|
+
+[sweep] chck_90M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5467|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5885|±  |0.0018|
+
+[sweep] chck_90M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5181|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.7136|±  |0.0045|
+
+[sweep] chck_90M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5614|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6612|±  |0.0018|
+
+[sweep] chck_100M / zeroshot_eng
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5477|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.5898|±  |0.0018|
+
+[sweep] chck_100M / zeroshot_nld
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5192|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.7113|±  |0.0045|
+
+[sweep] chck_100M / zeroshot_zho
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5610|±  |0.0016|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6597|±  |0.0018|
+
+[sweep] DONE
