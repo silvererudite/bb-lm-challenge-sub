@@ -279,7 +279,8 @@ These all fed back into the scaffold and are now pinned by `tests/test_data_cont
 
 | Iter | EN avg (12) | NL avg (13) | ZH avg (13) | **ML avg** | Notes |
 |---|---:|---:|---:|---:|---|
-| **v2** | **38.45** | **40.05** | **38.56** | **39.04** | projected #1 on submission |
+| **v3 (quality-filter, 5 epochs, WSD)** | **42.13** | **43.80** | **39.38** | **41.77** | new submission candidate; +2.73 over v2 |
+| **v2** | **38.45** | **40.05** | **38.56** | **39.04** | submitted 2026-06-05 |
 | gpt2-baseline-en_nld_zho_equal | (incomplete) | (incomplete) | (incomplete) | ~30 | from leaderboard screenshot, top row |
 | gpt2-baseline-en_nld_equal | 45.17 | 45.97 | 0 | 30.38 | bilingual; 0 ZH |
 | gpt2-baseline-en_zho_equal | 40.22 | 0 | 41.64 | 27.29 | bilingual; 0 NL |

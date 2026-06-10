@@ -1,0 +1,18 @@
+=== zeroshot_eng ===
+|         Groups         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_eng            |      1|none  |      |acc   |↑  |0.5766|±  |0.0016|
+| - blimp_babylm_filtered|      1|none  |      |acc   |↑  |0.6243|±  |0.0017|
+
+=== zeroshot_nld ===
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_nld|      1|none  |      |acc   |↑  |0.5293|±  |0.0024|
+| - blimp_nl |      1|none  |      |acc   |↑  |0.7327|±  |0.0044|
+
+=== zeroshot_zho ===
+|   Groups   |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|------------|------:|------|------|------|---|-----:|---|-----:|
+|zeroshot_zho|      1|none  |      |acc   |↑  |0.5571|±  |0.0017|
+| - zhoblimp |      1|none  |      |acc   |↑  |0.6493|±  |0.0019|
+

@@ -1,0 +1,72 @@
+[orchestrator] 22 (lang,task) pairs queued, 0 skipped, 4 parallel workers
+[gpu0] en/arc START -> logs/finetune_en_arc.log
+[gpu1] en/belebele START -> logs/finetune_en_belebele.log
+[gpu2] en/bmlama START -> logs/finetune_en_bmlama.log
+[gpu3] en/mnli START -> logs/finetune_en_mnli.log
+[gpu1] en/belebele END rc=0 dt=29s
+[gpu1] en/sib200 START -> logs/finetune_en_sib200.log
+[gpu1] en/sib200 END rc=0 dt=45s
+[gpu1] en/truthfulqa START -> logs/finetune_en_truthfulqa.log
+[gpu0] en/arc END rc=0 dt=87s
+[gpu0] en/xnli START -> logs/finetune_en_xnli.log
+[gpu1] en/truthfulqa END rc=0 dt=20s
+[gpu1] nl/arc START -> logs/finetune_nl_arc.log
+[gpu1] nl/arc END rc=0 dt=61s
+[gpu1] nl/belebele START -> logs/finetune_nl_belebele.log
+[gpu1] nl/belebele END rc=0 dt=46s
+[gpu1] nl/bmlama START -> logs/finetune_nl_bmlama.log
+[gpu3] en/mnli END rc=0 dt=246s
+[gpu3] nl/include START -> logs/finetune_nl_include.log
+[gpu3] nl/include END rc=0 dt=21s
+[gpu3] nl/mnli START -> logs/finetune_nl_mnli.log
+[gpu2] en/bmlama END rc=0 dt=293s
+[gpu2] nl/sib200 START -> logs/finetune_nl_sib200.log
+[gpu2] nl/sib200 END rc=0 dt=50s
+[gpu2] nl/truthfulqa START -> logs/finetune_nl_truthfulqa.log
+[gpu0] en/xnli END rc=0 dt=278s
+[gpu0] zh/arc START -> logs/finetune_zh_arc.log
+[gpu2] nl/truthfulqa END rc=0 dt=24s
+[gpu2] zh/belebele START -> logs/finetune_zh_belebele.log
+[gpu2] zh/belebele END rc=0 dt=28s
+[gpu2] zh/bmlama START -> logs/finetune_zh_bmlama.log
+[gpu0] zh/arc END rc=0 dt=111s
+[gpu0] zh/include START -> logs/finetune_zh_include.log
+[gpu0] zh/include END rc=0 dt=24s
+[gpu0] zh/mnli START -> logs/finetune_zh_mnli.log
+[gpu3] nl/mnli END rc=0 dt=247s
+[gpu3] zh/sib200 START -> logs/finetune_zh_sib200.log
+[gpu1] nl/bmlama END rc=0 dt=323s
+[gpu1] zh/truthfulqa START -> logs/finetune_zh_truthfulqa.log
+[gpu2] zh/bmlama END rc=0 dt=139s
+[gpu2] zh/xnli START -> logs/finetune_zh_xnli.log
+[gpu1] zh/truthfulqa END rc=0 dt=21s
+[gpu3] zh/sib200 END rc=0 dt=45s
+[gpu0] zh/mnli END rc=0 dt=247s
+[gpu2] zh/xnli END rc=0 dt=276s
+
+=== finetune summary ===
+  lang           task   rc       dt  log
+    en            arc    0      87s  logs/finetune_en_arc.log
+    en       belebele    0      29s  logs/finetune_en_belebele.log
+    en         bmlama    0     293s  logs/finetune_en_bmlama.log
+    en           mnli    0     246s  logs/finetune_en_mnli.log
+    en         sib200    0      45s  logs/finetune_en_sib200.log
+    en     truthfulqa    0      20s  logs/finetune_en_truthfulqa.log
+    en           xnli    0     278s  logs/finetune_en_xnli.log
+    nl            arc    0      61s  logs/finetune_nl_arc.log
+    nl       belebele    0      46s  logs/finetune_nl_belebele.log
+    nl         bmlama    0     323s  logs/finetune_nl_bmlama.log
+    nl        include    0      21s  logs/finetune_nl_include.log
+    nl           mnli    0     247s  logs/finetune_nl_mnli.log
+    nl         sib200    0      50s  logs/finetune_nl_sib200.log
+    nl     truthfulqa    0      24s  logs/finetune_nl_truthfulqa.log
+    zh            arc    0     111s  logs/finetune_zh_arc.log
+    zh       belebele    0      28s  logs/finetune_zh_belebele.log
+    zh         bmlama    0     139s  logs/finetune_zh_bmlama.log
+    zh        include    0      24s  logs/finetune_zh_include.log
+    zh           mnli    0     247s  logs/finetune_zh_mnli.log
+    zh         sib200    0      45s  logs/finetune_zh_sib200.log
+    zh     truthfulqa    0      21s  logs/finetune_zh_truthfulqa.log
+    zh           xnli    0     276s  logs/finetune_zh_xnli.log
+
+22/22 tasks succeeded
