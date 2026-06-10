@@ -8,6 +8,57 @@ The headline scoreboard is at the bottom for quick reference.
 
 ---
 
+## v3 — quality-filter (frozen 2026-06-10, model on HF)
+
+**HF model:** `Shamima/babylm-2026-multilingual-v3-quality-filter` (public, 24 revisions: chck_1M…chck_400M and main, where main=chck_400M).
+
+### What we set out to do
+
+Test whether the v1/v2 plateau at avg ≈ 0.54 was data-quality-driven, not schedule-driven. v1 (cosine, 1ep) and v2 (WSD, 1ep) were within stderr of each other — schedule shape isn't the bottleneck. Audit said NL is 63% OpenSubtitles padding + 17% high-school exams (only ~19% genuine child-genre); ZH is 66% WenetSpeech subtitles (only ~24% child-genre). Drop those padding categories, train with 5× more compute.
+
+### Changes from v2
+
+- Same 110M Llama, same joint BPE 32k, same WSD schedule.
+- **Category filter** (the one structural change):
+  - EN: keep only `child-directed-speech, child-books, child-wiki, child-available-speech` — drops `padding-opensubtitles` (20%) and `padding-wikipedia` (1%). Effective EN: 78 M (was 99 M).
+  - NL: keep only `child-*, educational, child-news, subtitles` — drops `padding-opensubtitles` (63%). Effective NL: 41 M (was 110 M).
+  - ZH: keep only `child-*, educational` — drops `subtitles` (66% = WenetSpeech). Effective ZH: 47 M (was 138 M).
+- Total available filtered budget: **167 M reference tokens** (vs 350 M for v2).
+- Compute consumed: **5 epochs / 500 M effective tokens** (5× v2's 100 M, all the rule-permitted budget).
+
+### Final scores (zero-shot only)
+
+| Group | v1 | v2 | **v3** | Δ v3-v2 | GPT-2 trilingual baseline |
+|---|---:|---:|---:|---:|---:|
+| zeroshot_eng | 0.5512 | 0.5477 | **0.5766** | **+2.89 pt** | 0.5634 |
+| zeroshot_nld | 0.5214 | 0.5192 | **0.5293** | +1.01 pt | 0.5781 |
+| zeroshot_zho | 0.5603 | 0.5610 | 0.5571 | −0.39 pt | 0.5134 |
+| **avg** | 0.5443 | 0.5426 | **0.5543** | **+1.17 pt** | 0.5516 |
+
+**v3 is the first iteration to beat the GPT-2 trilingual baseline on average** (+0.27 pt). EN moved from −1.22 below baseline (v1) to **+1.32 above baseline** (v3). NL closed but didn't reach baseline. ZH unchanged but already +4.4 above baseline.
+
+### What v3 taught us
+
+- **The hypothesis was right: data quality + 5× compute beats schedule shape.** The schedule changes (cosine → WSD) gave nothing measurable. The category filter + more epochs gave +1.17 pt avg.
+- **Gains concentrate on grammaticality benchmarks.** BLiMP-EN +3.45, MultiBLiMP-EN +6.36, BLiMP-NL +2.14, MultiBLiMP-NL +4.03. These reward syntactic competence learned from clean developmental signal — exactly what filtering exposes.
+- **Commonsense / discourse benchmarks barely moved.** HellaSwag stayed near chance, Winogrande hovered around 0.5. These need data or scale we don't have.
+- **The ZH subtitle drop was a mixed bet.** We threw out 91 M WenetSpeech tokens to match register with EN/NL; xstorycloze_zh gained +2.3 but zhoblimp regressed −1.04. *Some* subtitle exposure was helping ZhoBLiMP specifically. v4 should test keeping ZH subtitles.
+
+### Issues found and worked around
+
+1. **`scripts/train.py` per-language epoch cap was wrong for filtered runs.** It read available tokens from the README's "Total Tokens" header (full corpus), not the post-filter total. Patched: now sums whitelisted categories from the README's "Tokens Per Category" section. Verified empirically — NL was the binding language (4.29 epochs) as expected from its smaller filtered share.
+2. **`LanguageStream._open` was re-filtering 304k NL records every epoch boundary.** Throughput dropped from 98k to 64k tok/s in the first smoke. Patched: load + filter once, cache the filtered Dataset, reshuffle from the cache on each epoch.
+3. **wandb training-history rows didn't materialise.** `wb.log(..., step=step)` updated the summary but `run.history()` returned 0 rows. We fell back to file-based train logs; the curve view in wandb is unreliable for v3. Plan: backfill from `train.log` to a fresh wandb run after the iteration.
+4. **lm-eval silently dropped the result JSONs.** Output dir parent was missing (an earlier `rm -rf` had cascaded); lm-eval logged "Could not save results aggregated" as a *warning* and exited rc=0. We recovered scores from lm-eval's stdout table. Going forward: `mkdir -p` before every eval and check the JSON lands.
+
+### Open issues queued
+
+- v4 ZH-subtitle ablation: re-add ZH subtitles only, keep EN/NL filters. Tests whether the v3 ZH regression is real.
+- v4 NL-upweight: instead of category-filtering, shift mixture to EN 0.30 / NL 0.45 / ZH 0.25. Tests whether NL is data-starved vs data-quality-poor.
+- Run finetune on v3 (next), then revision sweep (after).
+
+---
+
 ## v2 — uniform-100M-v2 (frozen 2026-06-05, model on HF, **submission candidate**)
 
 **HF model:** `Shamima/babylm-2026-multilingual-uniform-100M-v2` (public, 20 revisions: chck_1M…chck_100M and main).
@@ -221,7 +272,8 @@ These all fed back into the scaffold and are now pinned by `tests/test_data_cont
 |---|---|---|---:|---:|---:|---:|---|
 | GPT-2 baseline en_nld_zho_equal | unknown | unknown | 0.5634 | 0.5781 | 0.5134 | 0.5516 | published in eval-repo README |
 | **v1 (uniform, 1 epoch, cosine)** | 1 epoch / 7460 steps | warmup 100 → cosine to 10% | 0.5512 | 0.5214 | 0.5603 | 0.5443 | first publish on HF |
-| **v2 (uniform, 1 epoch @ chck_100M, WSD)** | 1 epoch / ~4300 steps | warmup 200 → const peak → linear last 25% | 0.5477 | 0.5192 | **0.5610** | 0.5426 | submission candidate; WSD null-result vs v1 |
+| **v2 (uniform, 1 epoch @ chck_100M, WSD)** | 1 epoch / ~4300 steps | warmup 200 → const peak → linear last 25% | 0.5477 | 0.5192 | **0.5610** | 0.5426 | submitted to leaderboard 2026-06-05; WSD null-result vs v1 |
+| **v3 (quality-filter, 5 epochs, WSD)** | 5 epochs / 23,295 steps / 500M tokens | warmup 200 → const peak → linear last 25% | **0.5766** | **0.5293** | 0.5571 | **0.5543** | first to beat GPT-2 trilingual baseline on average |
 
 ### Full leaderboard format (zero-shot + finetune, weighted as the leaderboard does)
 

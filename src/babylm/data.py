@@ -90,7 +90,14 @@ class MixtureBudget:
 
 
 class LanguageStream:
-    """One language's document stream, re-shuffled at each epoch boundary."""
+    """One language's document stream, re-shuffled at each epoch boundary.
+
+    For streaming=False (the default for the trilingual baseline), the dataset
+    is loaded ONCE and the category-filter is applied ONCE; only the per-epoch
+    shuffle re-runs. This avoids re-filtering ~304k NL records every time the
+    iterator exhausts, which dropped v3's smoke throughput from 98k to 64k tok/s.
+    For streaming=True we have no choice but to re-open and re-filter.
+    """
 
     def __init__(
         self,
@@ -110,6 +117,7 @@ class LanguageStream:
         self.shuffle_buffer = shuffle_buffer
         self.seed = seed
         self._epoch = 0
+        self._cached_ds = None  # in-memory dataset, post-filter; reused across epochs
         self._iter = self._open()
 
     def _open(self) -> Iterator[dict]:
@@ -117,15 +125,24 @@ class LanguageStream:
         # shuffle (streaming=False) is required for unbiased sampling on the
         # 100M-scale trilingual run. Streaming mode is only honest if shuffle
         # buffer >> corpus, which is impractical at this scale.
-        ds = load_dataset(self.repo, split="train", streaming=self.streaming, token=os.environ.get("HF_TOKEN"))
-        if self.category_whitelist is not None:
-            wl = set(self.category_whitelist)
-            ds = ds.filter(lambda r: r.get("category") in wl)
         if self.streaming:
+            ds = load_dataset(self.repo, split="train", streaming=True,
+                              token=os.environ.get("HF_TOKEN"))
+            if self.category_whitelist is not None:
+                wl = set(self.category_whitelist)
+                ds = ds.filter(lambda r: r.get("category") in wl)
             ds = ds.shuffle(buffer_size=self.shuffle_buffer, seed=self.seed + self._epoch)
-        else:
-            ds = ds.shuffle(seed=self.seed + self._epoch)
-        return iter(ds)
+            return iter(ds)
+
+        # Non-streaming: load + filter ONCE; re-shuffle on each epoch.
+        if self._cached_ds is None:
+            ds = load_dataset(self.repo, split="train",
+                              token=os.environ.get("HF_TOKEN"))
+            if self.category_whitelist is not None:
+                wl = set(self.category_whitelist)
+                ds = ds.filter(lambda r: r.get("category") in wl)
+            self._cached_ds = ds
+        return iter(self._cached_ds.shuffle(seed=self.seed + self._epoch))
 
     def next_doc(self) -> dict:
         try:

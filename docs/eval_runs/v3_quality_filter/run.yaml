@@ -1,0 +1,110 @@
+name: v3-quality-filter
+out_dir: checkpoints/v3_quality_filter
+data:
+  repos:
+    eng: BabyLM-community/babylm-eng
+    nld: BabyLM-community/babylm-nld
+    zho: BabyLM-community/babylm-zho
+  category_whitelist:
+    eng:
+    - child-directed-speech
+    - child-books
+    - child-wiki
+    - child-available-speech
+    nld:
+    - child-directed-speech
+    - child-books
+    - child-wiki
+    - child-news
+    - subtitles
+    - educational
+    zho:
+    - child-directed-speech
+    - child-books
+    - child-wiki
+    - child-available-speech
+    - educational
+  mixture:
+    eng: 0.3334
+    nld: 0.3333
+    zho: 0.3333
+  schedule: []
+  budget_reference_tokens: 100000000
+  max_epochs: 5
+  token_field: num-tokens
+  streaming: false
+  shuffle_buffer: 10000
+  seed: 12
+tokenizer:
+  tokenizer_dir: models/tokenizer-joint-bpe-32k
+  vocab_size: 32768
+  algorithm: bpe
+  train_chars_per_lang: 50000000
+  specials:
+  - <pad>
+  - <bos>
+  - <eos>
+  - <unk>
+model:
+  n_layers: 12
+  d_model: 768
+  n_heads: 12
+  n_kv_heads: 12
+  d_ff: 2048
+  rope_theta: 10000.0
+  rms_norm_eps: 1.0e-05
+  max_seq_len: 1024
+  tie_embeddings: true
+  init_std: 0.02
+optim:
+  optimizer: adamw
+  lr: 0.0006
+  betas:
+  - 0.9
+  - 0.95
+  weight_decay: 0.1
+  grad_clip: 1.0
+  warmup_steps: 200
+  lr_schedule: wsd
+  min_lr_ratio: 0.1
+  wsd_decay_frac: 0.25
+train:
+  micro_batch_size: 16
+  grad_accum_steps: 2
+  seq_len: 1024
+  bf16: true
+  compile: false
+  gradient_checkpointing: false
+  log_every: 50
+  save_revisions:
+  - 1000000
+  - 2000000
+  - 3000000
+  - 4000000
+  - 5000000
+  - 6000000
+  - 7000000
+  - 8000000
+  - 9000000
+  - 10000000
+  - 20000000
+  - 30000000
+  - 40000000
+  - 50000000
+  - 60000000
+  - 70000000
+  - 80000000
+  - 90000000
+  - 100000000
+  - 200000000
+  - 300000000
+  - 400000000
+  - 500000000
+  wandb_project: babylm-2026-multilingual
+  wandb_entity: null
+  wandb_run_name: v3-quality-filter
+  wandb_tags:
+  - v3
+  - quality-filter
+  - wsd
+  wandb_mode: online

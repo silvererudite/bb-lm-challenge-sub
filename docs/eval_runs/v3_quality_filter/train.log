@@ -1,0 +1,583 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[train] eng category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech'] -> 78,172,018 raw tokens
+[train] nld category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-news', 'subtitles', 'educational'] -> 40,850,150 raw tokens
+[train] zho category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech', 'educational'] -> 46,507,045 raw tokens
+[train] available reference tokens per lang: {'eng': 78172018, 'nld': 38845489, 'zho': 49688818}
+[train] total available across langs: 166,706,325
+[train] budget reference tokens: 100,000,000
+[train] max epochs per lang: 5
+[train] effective compute cap: 500,000,000 ref tokens (or whichever per-lang cap trips first)
+[train] eng category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech'] -> 78,172,018 raw tokens
+[train] nld category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-news', 'subtitles', 'educational'] -> 40,850,150 raw tokens
+[train] zho category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech', 'educational'] -> 46,507,045 raw tokens
+[train] available reference tokens per lang: {'eng': 78172018, 'nld': 38845489, 'zho': 49688818}
+[train] total available across langs: 166,706,325
+[train] budget reference tokens: 100,000,000
+[train] max epochs per lang: 5
+[train] effective compute cap: 500,000,000 ref tokens (or whichever per-lang cap trips first)
+[train] eng category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech'] -> 78,172,018 raw tokens
+[train] nld category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-news', 'subtitles', 'educational'] -> 40,850,150 raw tokens
+[train] zho category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech', 'educational'] -> 46,507,045 raw tokens
+[train] available reference tokens per lang: {'eng': 78172018, 'nld': 38845489, 'zho': 49688818}
+[train] total available across langs: 166,706,325
+[train] budget reference tokens: 100,000,000
+[train] max epochs per lang: 5
+[train] effective compute cap: 500,000,000 ref tokens (or whichever per-lang cap trips first)
+[train] eng category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech'] -> 78,172,018 raw tokens
+[train] nld category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-news', 'subtitles', 'educational'] -> 40,850,150 raw tokens
+[train] zho category-filter: ['child-directed-speech', 'child-books', 'child-wiki', 'child-available-speech', 'educational'] -> 46,507,045 raw tokens
+[train] available reference tokens per lang: {'eng': 78172018, 'nld': 38845489, 'zho': 49688818}
+[train] total available across langs: 166,706,325
+[train] budget reference tokens: 100,000,000
+[train] max epochs per lang: 5
+[train] effective compute cap: 500,000,000 ref tokens (or whichever per-lang cap trips first)
+[trainer] world_size=4 device=cuda:0
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from WANDB_API_KEY.
+wandb: Currently logged in as: shamima2hossain to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.27.2
+wandb: Run data is saved locally in /home/sagemaker-user/babylm-challenge-submission/wandb/run-20260609_181432-jvsd7us2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run v3-quality-filter
+wandb: ⭐️ View project at https://wandb.ai/shamima2hossain/babylm-2026-multilingual
+wandb: 🚀 View run at https://wandb.ai/shamima2hossain/babylm-2026-multilingual/runs/jvsd7us2
+[trainer] wandb run: https://wandb.ai/shamima2hossain/babylm-2026-multilingual/runs/jvsd7us2
+[trainer] model params: 110,119,680
+[checkpoint] saving chck_1M at 1,006,356 ref tokens
+[step     50/3814] loss=9.2193  lr=1.47e-04  ref_tok=1,164,421  frac=0.002  tok/s=94,393
+[checkpoint] saving chck_2M at 2,011,164 ref tokens
+[step    100/3814] loss=6.6990  lr=2.97e-04  ref_tok=2,190,447  frac=0.004  tok/s=98,667
+[checkpoint] saving chck_3M at 3,003,433 ref tokens
+[step    150/3814] loss=6.5834  lr=4.47e-04  ref_tok=3,417,234  frac=0.007  tok/s=96,556
+[checkpoint] saving chck_4M at 4,005,117 ref tokens
+[step    200/3814] loss=5.7972  lr=5.97e-04  ref_tok=4,378,378  frac=0.009  tok/s=98,779
+[checkpoint] saving chck_5M at 5,004,677 ref tokens
+[step    250/3814] loss=5.7285  lr=6.00e-04  ref_tok=5,380,183  frac=0.011  tok/s=98,342
+[checkpoint] saving chck_6M at 6,005,112 ref tokens
+[step    300/3814] loss=5.9020  lr=6.00e-04  ref_tok=6,466,400  frac=0.013  tok/s=98,321
+[checkpoint] saving chck_7M at 7,010,074 ref tokens
+[step    350/3814] loss=5.8274  lr=6.00e-04  ref_tok=7,502,491  frac=0.015  tok/s=98,414
+[checkpoint] saving chck_8M at 8,005,776 ref tokens
+[step    400/3814] loss=5.2240  lr=6.00e-04  ref_tok=8,561,099  frac=0.017  tok/s=98,284
+[checkpoint] saving chck_9M at 9,015,721 ref tokens
+[step    450/3814] loss=5.2977  lr=6.00e-04  ref_tok=9,628,614  frac=0.019  tok/s=98,327
+[checkpoint] saving chck_10M at 10,001,329 ref tokens
+[step    500/3814] loss=4.9350  lr=6.00e-04  ref_tok=10,726,335  frac=0.021  tok/s=97,750
+[step    550/3814] loss=5.2687  lr=6.00e-04  ref_tok=11,756,990  frac=0.024  tok/s=98,893
+[step    600/3814] loss=5.2375  lr=6.00e-04  ref_tok=12,849,453  frac=0.026  tok/s=98,094
+[step    650/3814] loss=5.1074  lr=6.00e-04  ref_tok=13,943,034  frac=0.028  tok/s=97,745
+[step    700/3814] loss=4.9882  lr=6.00e-04  ref_tok=14,966,431  frac=0.030  tok/s=98,344
+[step    750/3814] loss=5.0449  lr=6.00e-04  ref_tok=16,182,319  frac=0.032  tok/s=98,799
+[step    800/3814] loss=4.8039  lr=6.00e-04  ref_tok=17,113,315  frac=0.034  tok/s=99,322
+[step    850/3814] loss=4.8700  lr=6.00e-04  ref_tok=18,193,189  frac=0.036  tok/s=98,189
+[step    900/3814] loss=4.8371  lr=6.00e-04  ref_tok=19,277,573  frac=0.039  tok/s=98,412
+[checkpoint] saving chck_20M at 20,004,585 ref tokens
+[step    950/3814] loss=4.4812  lr=6.00e-04  ref_tok=20,391,086  frac=0.041  tok/s=98,141
+[step   1000/3814] loss=4.5180  lr=6.00e-04  ref_tok=21,411,866  frac=0.043  tok/s=98,842
+[step   1050/3814] loss=4.5488  lr=6.00e-04  ref_tok=22,513,182  frac=0.045  tok/s=98,759
+[step   1100/3814] loss=4.4270  lr=6.00e-04  ref_tok=23,521,801  frac=0.047  tok/s=98,392
+[step   1150/3814] loss=4.6151  lr=6.00e-04  ref_tok=24,612,837  frac=0.049  tok/s=98,956
+[step   1200/3814] loss=4.6940  lr=6.00e-04  ref_tok=25,697,368  frac=0.051  tok/s=99,119
+[step   1250/3814] loss=4.3655  lr=6.00e-04  ref_tok=26,754,328  frac=0.054  tok/s=98,809
+[step   1300/3814] loss=4.2292  lr=6.00e-04  ref_tok=27,807,381  frac=0.056  tok/s=98,903
+[step   1350/3814] loss=4.6026  lr=6.00e-04  ref_tok=28,904,440  frac=0.058  tok/s=98,802
+[checkpoint] saving chck_30M at 30,001,796 ref tokens
+[step   1400/3814] loss=4.6723  lr=6.00e-04  ref_tok=30,042,854  frac=0.060  tok/s=97,842
+[step   1450/3814] loss=4.3270  lr=6.00e-04  ref_tok=31,111,280  frac=0.062  tok/s=98,135
+[step   1500/3814] loss=4.2795  lr=6.00e-04  ref_tok=32,189,083  frac=0.064  tok/s=98,709
+[step   1550/3814] loss=4.4049  lr=6.00e-04  ref_tok=33,274,233  frac=0.067  tok/s=98,521
+[step   1600/3814] loss=4.4882  lr=6.00e-04  ref_tok=34,298,002  frac=0.069  tok/s=99,075
+[step   1650/3814] loss=4.2252  lr=6.00e-04  ref_tok=35,381,718  frac=0.071  tok/s=98,557
+[step   1700/3814] loss=4.1634  lr=6.00e-04  ref_tok=36,468,571  frac=0.073  tok/s=98,100
+[step   1750/3814] loss=4.3136  lr=6.00e-04  ref_tok=37,552,877  frac=0.075  tok/s=98,779
+[step   1800/3814] loss=4.1064  lr=6.00e-04  ref_tok=38,633,552  frac=0.077  tok/s=99,184
+[step   1850/3814] loss=4.3154  lr=6.00e-04  ref_tok=39,727,143  frac=0.079  tok/s=98,570
+[checkpoint] saving chck_40M at 40,014,206 ref tokens
+[step   1900/3814] loss=4.2670  lr=6.00e-04  ref_tok=40,794,506  frac=0.082  tok/s=98,123
+[step   1950/3814] loss=4.4609  lr=6.00e-04  ref_tok=41,926,684  frac=0.084  tok/s=98,908
+[step   2000/3814] loss=3.9821  lr=6.00e-04  ref_tok=42,991,393  frac=0.086  tok/s=98,798
+[step   2050/3814] loss=4.0177  lr=6.00e-04  ref_tok=44,023,330  frac=0.088  tok/s=98,973
+[step   2100/3814] loss=4.0487  lr=6.00e-04  ref_tok=45,122,877  frac=0.090  tok/s=98,510
+[step   2150/3814] loss=4.0636  lr=6.00e-04  ref_tok=46,194,195  frac=0.092  tok/s=98,332
+[step   2200/3814] loss=3.6224  lr=6.00e-04  ref_tok=47,231,994  frac=0.094  tok/s=98,863
+[step   2250/3814] loss=3.9246  lr=6.00e-04  ref_tok=48,289,959  frac=0.097  tok/s=98,727
+[step   2300/3814] loss=3.8538  lr=6.00e-04  ref_tok=49,377,623  frac=0.099  tok/s=99,064
+[checkpoint] saving chck_50M at 50,054,685 ref tokens
+[step   2350/3814] loss=3.8756  lr=6.00e-04  ref_tok=50,488,231  frac=0.101  tok/s=98,199
+[step   2400/3814] loss=3.8315  lr=6.00e-04  ref_tok=51,582,750  frac=0.103  tok/s=98,798
+[step   2450/3814] loss=4.0148  lr=6.00e-04  ref_tok=52,675,226  frac=0.105  tok/s=98,631
+[step   2500/3814] loss=3.5444  lr=6.00e-04  ref_tok=53,737,558  frac=0.107  tok/s=98,731
+[step   2550/3814] loss=3.6293  lr=6.00e-04  ref_tok=54,793,120  frac=0.110  tok/s=99,002
+[step   2600/3814] loss=3.6390  lr=6.00e-04  ref_tok=55,840,004  frac=0.112  tok/s=98,596
+[step   2650/3814] loss=3.8150  lr=6.00e-04  ref_tok=56,929,591  frac=0.114  tok/s=98,943
+[step   2700/3814] loss=3.7997  lr=6.00e-04  ref_tok=58,123,527  frac=0.116  tok/s=98,214
+[step   2750/3814] loss=3.7832  lr=6.00e-04  ref_tok=59,124,497  frac=0.118  tok/s=98,843
+[checkpoint] saving chck_60M at 60,016,100 ref tokens
+[step   2800/3814] loss=3.7746  lr=6.00e-04  ref_tok=60,202,243  frac=0.120  tok/s=98,326
+[step   2850/3814] loss=3.8309  lr=6.00e-04  ref_tok=61,314,608  frac=0.123  tok/s=98,024
+[step   2900/3814] loss=3.6005  lr=5.78e-04  ref_tok=62,443,865  frac=0.125  tok/s=97,518
+[step   2950/3814] loss=3.5756  lr=5.50e-04  ref_tok=63,439,030  frac=0.127  tok/s=99,120
+[step   3000/3814] loss=3.7571  lr=5.22e-04  ref_tok=64,466,581  frac=0.129  tok/s=97,697
+[step   3050/3814] loss=3.7010  lr=4.93e-04  ref_tok=65,543,538  frac=0.131  tok/s=99,105
+[step   3100/3814] loss=3.5198  lr=4.65e-04  ref_tok=66,598,257  frac=0.133  tok/s=98,938
+[step   3150/3814] loss=3.6377  lr=4.37e-04  ref_tok=67,676,251  frac=0.135  tok/s=98,390
+[step   3200/3814] loss=3.7004  lr=4.08e-04  ref_tok=68,782,371  frac=0.138  tok/s=98,605
+[step   3250/3814] loss=3.5380  lr=3.80e-04  ref_tok=69,846,331  frac=0.140  tok/s=98,877
+[checkpoint] saving chck_70M at 70,000,330 ref tokens
+[step   3300/3814] loss=3.5227  lr=3.52e-04  ref_tok=70,925,333  frac=0.142  tok/s=98,404
+[step   3350/3814] loss=3.4261  lr=3.23e-04  ref_tok=71,992,669  frac=0.144  tok/s=99,163
+[step   3400/3814] loss=3.3317  lr=2.95e-04  ref_tok=73,046,322  frac=0.146  tok/s=98,846
+[step   3450/3814] loss=3.2068  lr=2.67e-04  ref_tok=74,098,915  frac=0.148  tok/s=98,460
+[step   3500/3814] loss=3.5367  lr=2.38e-04  ref_tok=75,207,215  frac=0.150  tok/s=98,798
+[step   3550/3814] loss=3.5053  lr=2.10e-04  ref_tok=76,297,507  frac=0.153  tok/s=98,659
+[step   3600/3814] loss=3.4156  lr=1.82e-04  ref_tok=77,361,790  frac=0.155  tok/s=98,527
+[step   3650/3814] loss=3.2200  lr=1.53e-04  ref_tok=78,459,727  frac=0.157  tok/s=98,714
+[step   3700/3814] loss=3.5592  lr=1.25e-04  ref_tok=79,528,067  frac=0.159  tok/s=98,919
+[checkpoint] saving chck_80M at 80,003,376 ref tokens
+[step   3750/3814] loss=3.2864  lr=9.68e-05  ref_tok=80,583,658  frac=0.161  tok/s=98,058
+[step   3800/3814] loss=3.1644  lr=6.85e-05  ref_tok=81,626,798  frac=0.163  tok/s=98,865
+[step   3850/3814] loss=2.8765  lr=6.00e-05  ref_tok=83,172,779  frac=0.166  tok/s=83,925
+[step   3900/3814] loss=2.9367  lr=6.00e-05  ref_tok=83,626,428  frac=0.167  tok/s=97,593
+[step   3950/3814] loss=3.5617  lr=6.00e-05  ref_tok=84,798,833  frac=0.170  tok/s=98,669
+[step   4000/3814] loss=3.5193  lr=6.00e-05  ref_tok=85,968,912  frac=0.172  tok/s=98,024
+[step   4050/3814] loss=3.3785  lr=6.00e-05  ref_tok=87,052,643  frac=0.174  tok/s=99,115
+[step   4100/3814] loss=3.4958  lr=6.00e-05  ref_tok=88,148,419  frac=0.176  tok/s=98,917
+[step   4150/3814] loss=3.3346  lr=6.00e-05  ref_tok=89,255,852  frac=0.179  tok/s=98,241
+[checkpoint] saving chck_90M at 90,017,824 ref tokens
+[step   4200/3814] loss=3.3496  lr=6.00e-05  ref_tok=90,303,327  frac=0.181  tok/s=97,008
+[step   4250/3814] loss=3.0409  lr=6.00e-05  ref_tok=91,369,771  frac=0.183  tok/s=98,874
+[step   4300/3814] loss=3.2048  lr=6.00e-05  ref_tok=92,477,603  frac=0.185  tok/s=98,781
+[step   4350/3814] loss=3.5758  lr=6.00e-05  ref_tok=93,568,560  frac=0.187  tok/s=98,955
+[step   4400/3814] loss=3.3985  lr=6.00e-05  ref_tok=94,621,858  frac=0.189  tok/s=98,853
+[step   4450/3814] loss=3.1566  lr=6.00e-05  ref_tok=95,641,701  frac=0.191  tok/s=98,831
+[step   4500/3814] loss=3.2196  lr=6.00e-05  ref_tok=96,691,702  frac=0.193  tok/s=98,631
+[step   4550/3814] loss=3.0235  lr=6.00e-05  ref_tok=97,722,459  frac=0.195  tok/s=99,050
+[step   4600/3814] loss=3.1560  lr=6.00e-05  ref_tok=98,795,335  frac=0.198  tok/s=98,817
+[step   4650/3814] loss=3.2500  lr=6.00e-05  ref_tok=99,847,863  frac=0.200  tok/s=98,512
+[checkpoint] saving chck_100M at 100,099,399 ref tokens
+[step   4700/3814] loss=3.2473  lr=6.00e-05  ref_tok=100,900,031  frac=0.202  tok/s=97,966
+[step   4750/3814] loss=3.4476  lr=6.00e-05  ref_tok=101,983,821  frac=0.204  tok/s=98,324
+[step   4800/3814] loss=3.1940  lr=6.00e-05  ref_tok=103,051,029  frac=0.206  tok/s=98,803
+[step   4850/3814] loss=3.0659  lr=6.00e-05  ref_tok=104,094,051  frac=0.208  tok/s=98,803
+[step   4900/3814] loss=3.4193  lr=6.00e-05  ref_tok=105,199,963  frac=0.210  tok/s=98,270
+[step   4950/3814] loss=3.1793  lr=6.00e-05  ref_tok=106,253,078  frac=0.213  tok/s=98,748
+[step   5000/3814] loss=3.4119  lr=6.00e-05  ref_tok=107,313,306  frac=0.215  tok/s=98,507
+[step   5050/3814] loss=3.2886  lr=6.00e-05  ref_tok=108,491,711  frac=0.217  tok/s=98,258
+[step   5100/3814] loss=3.4077  lr=6.00e-05  ref_tok=109,528,465  frac=0.219  tok/s=99,074
+[step   5150/3814] loss=3.3707  lr=6.00e-05  ref_tok=110,629,950  frac=0.221  tok/s=98,211
+[step   5200/3814] loss=3.4469  lr=6.00e-05  ref_tok=111,698,385  frac=0.223  tok/s=98,947
+[step   5250/3814] loss=3.5595  lr=6.00e-05  ref_tok=112,802,425  frac=0.226  tok/s=98,056
+[step   5300/3814] loss=3.3498  lr=6.00e-05  ref_tok=113,919,012  frac=0.228  tok/s=98,881
+[step   5350/3814] loss=3.1344  lr=6.00e-05  ref_tok=115,023,968  frac=0.230  tok/s=99,025
+[step   5400/3814] loss=3.4307  lr=6.00e-05  ref_tok=116,120,842  frac=0.232  tok/s=98,793
+[step   5450/3814] loss=3.4563  lr=6.00e-05  ref_tok=117,247,423  frac=0.234  tok/s=98,144
+[step   5500/3814] loss=3.1484  lr=6.00e-05  ref_tok=118,289,638  frac=0.237  tok/s=98,889
+[step   5550/3814] loss=3.1332  lr=6.00e-05  ref_tok=119,338,753  frac=0.239  tok/s=99,139
+[step   5600/3814] loss=3.2333  lr=6.00e-05  ref_tok=120,429,172  frac=0.241  tok/s=98,697
+[step   5650/3814] loss=3.2464  lr=6.00e-05  ref_tok=121,517,614  frac=0.243  tok/s=98,879
+[step   5700/3814] loss=3.2107  lr=6.00e-05  ref_tok=122,603,812  frac=0.245  tok/s=99,169
+[step   5750/3814] loss=3.3029  lr=6.00e-05  ref_tok=123,715,903  frac=0.247  tok/s=98,606
+[step   5800/3814] loss=2.9475  lr=6.00e-05  ref_tok=124,771,499  frac=0.250  tok/s=98,800
+[step   5850/3814] loss=3.0666  lr=6.00e-05  ref_tok=125,815,190  frac=0.252  tok/s=98,728
+[step   5900/3814] loss=3.2667  lr=6.00e-05  ref_tok=126,878,741  frac=0.254  tok/s=97,737
+[step   5950/3814] loss=3.1209  lr=6.00e-05  ref_tok=127,933,284  frac=0.256  tok/s=98,752
+[step   6000/3814] loss=3.0292  lr=6.00e-05  ref_tok=128,989,210  frac=0.258  tok/s=98,837
+[step   6050/3814] loss=3.1677  lr=6.00e-05  ref_tok=130,073,250  frac=0.260  tok/s=98,689
+[step   6100/3814] loss=3.0735  lr=6.00e-05  ref_tok=131,139,809  frac=0.262  tok/s=98,598
+[step   6150/3814] loss=3.3066  lr=6.00e-05  ref_tok=132,228,228  frac=0.264  tok/s=97,978
+[step   6200/3814] loss=2.8922  lr=6.00e-05  ref_tok=133,257,498  frac=0.267  tok/s=98,723
+[step   6250/3814] loss=3.3071  lr=6.00e-05  ref_tok=134,358,725  frac=0.269  tok/s=98,476
+[step   6300/3814] loss=3.0316  lr=6.00e-05  ref_tok=135,384,737  frac=0.271  tok/s=98,915
+[step   6350/3814] loss=2.9775  lr=6.00e-05  ref_tok=136,422,442  frac=0.273  tok/s=98,855
+[step   6400/3814] loss=3.0333  lr=6.00e-05  ref_tok=137,501,025  frac=0.275  tok/s=98,515
+[step   6450/3814] loss=3.1767  lr=6.00e-05  ref_tok=138,512,351  frac=0.277  tok/s=98,824
+[step   6500/3814] loss=3.4011  lr=6.00e-05  ref_tok=139,597,221  frac=0.279  tok/s=98,186
+[step   6550/3814] loss=2.9406  lr=6.00e-05  ref_tok=140,652,837  frac=0.281  tok/s=98,901
+[step   6600/3814] loss=3.0660  lr=6.00e-05  ref_tok=141,715,809  frac=0.283  tok/s=98,748
+[step   6650/3814] loss=3.1402  lr=6.00e-05  ref_tok=142,772,603  frac=0.286  tok/s=98,917
+[step   6700/3814] loss=3.3121  lr=6.00e-05  ref_tok=143,855,940  frac=0.288  tok/s=98,762
+[step   6750/3814] loss=3.0041  lr=6.00e-05  ref_tok=144,904,395  frac=0.290  tok/s=98,889
+[step   6800/3814] loss=3.2915  lr=6.00e-05  ref_tok=145,982,632  frac=0.292  tok/s=99,107
+[step   6850/3814] loss=3.2949  lr=6.00e-05  ref_tok=147,131,247  frac=0.294  tok/s=98,757
+[step   6900/3814] loss=2.9910  lr=6.00e-05  ref_tok=148,121,923  frac=0.296  tok/s=98,949
+[step   6950/3814] loss=3.2307  lr=6.00e-05  ref_tok=149,219,232  frac=0.298  tok/s=98,379
+[step   7000/3814] loss=3.1870  lr=6.00e-05  ref_tok=150,315,142  frac=0.301  tok/s=98,788
+[step   7050/3814] loss=3.0446  lr=6.00e-05  ref_tok=151,363,912  frac=0.303  tok/s=98,570
+[step   7100/3814] loss=3.0043  lr=6.00e-05  ref_tok=152,407,571  frac=0.305  tok/s=99,030
+[step   7150/3814] loss=3.4833  lr=6.00e-05  ref_tok=153,511,955  frac=0.307  tok/s=98,399
+[step   7200/3814] loss=3.2002  lr=6.00e-05  ref_tok=154,696,432  frac=0.309  tok/s=98,507
+[step   7250/3814] loss=3.3281  lr=6.00e-05  ref_tok=155,672,039  frac=0.311  tok/s=98,619
+[step   7300/3814] loss=3.1334  lr=6.00e-05  ref_tok=156,751,937  frac=0.314  tok/s=99,161
+[step   7350/3814] loss=3.3207  lr=6.00e-05  ref_tok=157,954,274  frac=0.316  tok/s=98,375
+[step   7400/3814] loss=3.2229  lr=6.00e-05  ref_tok=158,948,088  frac=0.318  tok/s=99,014
+[step   7450/3814] loss=3.3482  lr=6.00e-05  ref_tok=160,072,309  frac=0.320  tok/s=98,335
+[step   7500/3814] loss=3.1020  lr=6.00e-05  ref_tok=161,154,911  frac=0.322  tok/s=98,534
+[step   7550/3814] loss=3.0733  lr=6.00e-05  ref_tok=162,121,440  frac=0.324  tok/s=98,841
+[step   7600/3814] loss=3.3534  lr=6.00e-05  ref_tok=163,261,808  frac=0.327  tok/s=98,643
+[step   7650/3814] loss=3.2371  lr=6.00e-05  ref_tok=164,264,725  frac=0.329  tok/s=99,386
+[step   7700/3814] loss=3.2668  lr=6.00e-05  ref_tok=165,412,458  frac=0.331  tok/s=98,929
+[step   7750/3814] loss=2.9794  lr=6.00e-05  ref_tok=166,426,267  frac=0.333  tok/s=98,588
+[step   7800/3814] loss=3.1072  lr=6.00e-05  ref_tok=167,523,628  frac=0.335  tok/s=98,564
+[step   7850/3814] loss=3.2680  lr=6.00e-05  ref_tok=168,599,344  frac=0.337  tok/s=98,844
+[step   7900/3814] loss=3.0116  lr=6.00e-05  ref_tok=169,624,309  frac=0.339  tok/s=99,110
+[step   7950/3814] loss=3.0933  lr=6.00e-05  ref_tok=170,690,758  frac=0.341  tok/s=98,606
+[step   8000/3814] loss=2.7929  lr=6.00e-05  ref_tok=171,745,248  frac=0.343  tok/s=98,456
+[step   8050/3814] loss=2.9781  lr=6.00e-05  ref_tok=172,785,797  frac=0.346  tok/s=98,371
+[step   8100/3814] loss=2.8155  lr=6.00e-05  ref_tok=173,820,756  frac=0.348  tok/s=99,068
+[step   8150/3814] loss=3.1418  lr=6.00e-05  ref_tok=174,898,292  frac=0.350  tok/s=98,985
+[step   8200/3814] loss=3.0563  lr=6.00e-05  ref_tok=175,960,561  frac=0.352  tok/s=99,028
+[step   8250/3814] loss=3.1378  lr=6.00e-05  ref_tok=177,019,674  frac=0.354  tok/s=98,679
+[step   8300/3814] loss=3.0940  lr=6.00e-05  ref_tok=178,085,933  frac=0.356  tok/s=98,987
+[step   8350/3814] loss=3.2424  lr=6.00e-05  ref_tok=179,207,034  frac=0.358  tok/s=98,708
+[step   8400/3814] loss=3.1387  lr=6.00e-05  ref_tok=180,281,420  frac=0.361  tok/s=98,421
+[step   8450/3814] loss=3.1162  lr=6.00e-05  ref_tok=181,309,387  frac=0.363  tok/s=99,002
+[step   8500/3814] loss=3.0278  lr=6.00e-05  ref_tok=182,392,979  frac=0.365  tok/s=98,529
+[step   8550/3814] loss=3.0580  lr=6.00e-05  ref_tok=183,435,016  frac=0.367  tok/s=98,617
+[step   8600/3814] loss=3.1656  lr=6.00e-05  ref_tok=184,501,694  frac=0.369  tok/s=98,984
+[step   8650/3814] loss=3.1390  lr=6.00e-05  ref_tok=185,572,881  frac=0.371  tok/s=98,960
+[step   8700/3814] loss=3.5508  lr=6.00e-05  ref_tok=186,657,100  frac=0.373  tok/s=97,820
+[step   8750/3814] loss=3.1369  lr=6.00e-05  ref_tok=187,767,233  frac=0.376  tok/s=98,254
+[step   8800/3814] loss=3.1084  lr=6.00e-05  ref_tok=188,847,210  frac=0.378  tok/s=98,785
+[step   8850/3814] loss=3.1216  lr=6.00e-05  ref_tok=189,946,352  frac=0.380  tok/s=98,321
+[step   8900/3814] loss=3.2112  lr=6.00e-05  ref_tok=191,008,367  frac=0.382  tok/s=99,136
+[step   8950/3814] loss=2.8136  lr=6.00e-05  ref_tok=192,011,757  frac=0.384  tok/s=98,823
+[step   9000/3814] loss=3.1817  lr=6.00e-05  ref_tok=193,080,553  frac=0.386  tok/s=98,706
+[step   9050/3814] loss=3.2380  lr=6.00e-05  ref_tok=194,141,042  frac=0.388  tok/s=96,847
+[step   9100/3814] loss=3.0807  lr=6.00e-05  ref_tok=195,282,540  frac=0.391  tok/s=98,053
+[step   9150/3814] loss=3.0356  lr=6.00e-05  ref_tok=196,343,677  frac=0.393  tok/s=98,541
+[step   9200/3814] loss=3.1341  lr=6.00e-05  ref_tok=197,449,990  frac=0.395  tok/s=98,384
+[step   9250/3814] loss=3.3172  lr=6.00e-05  ref_tok=198,607,129  frac=0.397  tok/s=98,896
+[step   9300/3814] loss=3.2459  lr=6.00e-05  ref_tok=199,591,037  frac=0.399  tok/s=98,667
+[checkpoint] saving chck_200M at 200,016,928 ref tokens
+[step   9350/3814] loss=3.1159  lr=6.00e-05  ref_tok=200,818,932  frac=0.402  tok/s=97,064
+[step   9400/3814] loss=3.2108  lr=6.00e-05  ref_tok=201,800,727  frac=0.404  tok/s=99,162
+[step   9450/3814] loss=3.3076  lr=6.00e-05  ref_tok=202,888,175  frac=0.406  tok/s=98,309
+[step   9500/3814] loss=3.1028  lr=6.00e-05  ref_tok=204,036,775  frac=0.408  tok/s=98,248
+[step   9550/3814] loss=3.1881  lr=6.00e-05  ref_tok=205,014,974  frac=0.410  tok/s=98,618
+[step   9600/3814] loss=2.9989  lr=6.00e-05  ref_tok=206,167,919  frac=0.412  tok/s=98,689
+[step   9650/3814] loss=3.0050  lr=6.00e-05  ref_tok=207,126,757  frac=0.414  tok/s=99,213
+[step   9700/3814] loss=2.9185  lr=6.00e-05  ref_tok=208,157,495  frac=0.416  tok/s=98,486
+[step   9750/3814] loss=3.0931  lr=6.00e-05  ref_tok=209,233,667  frac=0.418  tok/s=99,123
+[step   9800/3814] loss=3.0994  lr=6.00e-05  ref_tok=210,280,925  frac=0.421  tok/s=98,903
+[step   9850/3814] loss=3.2072  lr=6.00e-05  ref_tok=211,369,252  frac=0.423  tok/s=98,433
+[step   9900/3814] loss=3.2828  lr=6.00e-05  ref_tok=212,468,829  frac=0.425  tok/s=98,677
+[step   9950/3814] loss=3.1163  lr=6.00e-05  ref_tok=213,579,029  frac=0.427  tok/s=97,998
+[step  10000/3814] loss=2.8529  lr=6.00e-05  ref_tok=214,590,302  frac=0.429  tok/s=98,827
+[step  10050/3814] loss=2.9516  lr=6.00e-05  ref_tok=215,615,885  frac=0.431  tok/s=98,988
+[step  10100/3814] loss=2.9737  lr=6.00e-05  ref_tok=216,704,639  frac=0.433  tok/s=98,755
+[step  10150/3814] loss=3.3819  lr=6.00e-05  ref_tok=217,798,338  frac=0.436  tok/s=98,647
+[step  10200/3814] loss=3.2735  lr=6.00e-05  ref_tok=218,921,205  frac=0.438  tok/s=97,994
+[step  10250/3814] loss=2.9747  lr=6.00e-05  ref_tok=220,000,865  frac=0.440  tok/s=98,685
+[step  10300/3814] loss=3.0526  lr=6.00e-05  ref_tok=221,067,015  frac=0.442  tok/s=98,741
+[step  10350/3814] loss=3.0216  lr=6.00e-05  ref_tok=222,125,426  frac=0.444  tok/s=98,852
+[step  10400/3814] loss=3.2078  lr=6.00e-05  ref_tok=223,218,141  frac=0.446  tok/s=98,445
+[step  10450/3814] loss=3.0403  lr=6.00e-05  ref_tok=224,309,766  frac=0.449  tok/s=98,335
+[step  10500/3814] loss=2.8636  lr=6.00e-05  ref_tok=225,331,230  frac=0.451  tok/s=98,616
+[step  10550/3814] loss=3.2248  lr=6.00e-05  ref_tok=226,383,155  frac=0.453  tok/s=98,928
+[step  10600/3814] loss=3.0543  lr=6.00e-05  ref_tok=227,454,694  frac=0.455  tok/s=98,832
+[step  10650/3814] loss=3.0779  lr=6.00e-05  ref_tok=228,530,065  frac=0.457  tok/s=98,605
+[step  10700/3814] loss=3.3527  lr=6.00e-05  ref_tok=229,624,135  frac=0.459  tok/s=97,703
+[step  10750/3814] loss=3.1400  lr=6.00e-05  ref_tok=230,731,208  frac=0.461  tok/s=98,673
+[step  10800/3814] loss=2.8862  lr=6.00e-05  ref_tok=231,784,372  frac=0.464  tok/s=98,568
+[step  10850/3814] loss=3.1143  lr=6.00e-05  ref_tok=232,877,817  frac=0.466  tok/s=98,539
+[step  10900/3814] loss=2.9887  lr=6.00e-05  ref_tok=233,974,585  frac=0.468  tok/s=98,178
+[step  10950/3814] loss=3.0275  lr=6.00e-05  ref_tok=235,027,676  frac=0.470  tok/s=98,977
+[step  11000/3814] loss=3.0794  lr=6.00e-05  ref_tok=236,089,603  frac=0.472  tok/s=98,891
+[step  11050/3814] loss=3.0402  lr=6.00e-05  ref_tok=237,164,947  frac=0.474  tok/s=98,790
+[step  11100/3814] loss=2.8681  lr=6.00e-05  ref_tok=238,210,148  frac=0.476  tok/s=99,056
+[step  11150/3814] loss=3.0704  lr=6.00e-05  ref_tok=239,295,221  frac=0.479  tok/s=98,522
+[step  11200/3814] loss=3.0947  lr=6.00e-05  ref_tok=240,359,253  frac=0.481  tok/s=99,010
+[step  11250/3814] loss=2.9376  lr=6.00e-05  ref_tok=241,431,072  frac=0.483  tok/s=98,507
+[step  11300/3814] loss=2.8892  lr=6.00e-05  ref_tok=242,488,982  frac=0.485  tok/s=98,549
+[step  11350/3814] loss=3.0547  lr=6.00e-05  ref_tok=243,573,904  frac=0.487  tok/s=98,943
+[step  11400/3814] loss=2.7705  lr=6.00e-05  ref_tok=244,586,334  frac=0.489  tok/s=98,903
+[step  11450/3814] loss=3.0857  lr=6.00e-05  ref_tok=245,641,179  frac=0.491  tok/s=99,038
+[step  11500/3814] loss=2.9482  lr=6.00e-05  ref_tok=246,736,293  frac=0.493  tok/s=98,978
+[step  11550/3814] loss=2.9585  lr=6.00e-05  ref_tok=247,754,970  frac=0.496  tok/s=98,840
+[step  11600/3814] loss=3.1290  lr=6.00e-05  ref_tok=248,841,019  frac=0.498  tok/s=97,879
+[step  11650/3814] loss=2.9767  lr=6.00e-05  ref_tok=249,898,110  frac=0.500  tok/s=98,530
+[step  11700/3814] loss=3.0519  lr=6.00e-05  ref_tok=250,994,458  frac=0.502  tok/s=98,563
+[step  11750/3814] loss=2.9429  lr=6.00e-05  ref_tok=252,049,888  frac=0.504  tok/s=98,762
+[step  11800/3814] loss=2.8625  lr=6.00e-05  ref_tok=253,107,679  frac=0.506  tok/s=98,146
+[step  11850/3814] loss=2.8643  lr=6.00e-05  ref_tok=254,151,302  frac=0.508  tok/s=98,609
+[step  11900/3814] loss=2.9939  lr=6.00e-05  ref_tok=255,250,078  frac=0.511  tok/s=98,799
+[step  11950/3814] loss=3.1586  lr=6.00e-05  ref_tok=256,334,934  frac=0.513  tok/s=98,833
+[step  12000/3814] loss=3.0282  lr=6.00e-05  ref_tok=257,386,798  frac=0.515  tok/s=99,054
+[step  12050/3814] loss=3.2378  lr=6.00e-05  ref_tok=258,527,247  frac=0.517  tok/s=98,141
+[step  12100/3814] loss=2.6089  lr=6.00e-05  ref_tok=259,531,947  frac=0.519  tok/s=98,509
+[step  12150/3814] loss=2.7526  lr=6.00e-05  ref_tok=260,551,792  frac=0.521  tok/s=99,003
+[step  12200/3814] loss=2.8464  lr=6.00e-05  ref_tok=261,614,842  frac=0.523  tok/s=98,659
+[step  12250/3814] loss=3.1217  lr=6.00e-05  ref_tok=262,699,591  frac=0.525  tok/s=99,192
+[step  12300/3814] loss=2.8162  lr=6.00e-05  ref_tok=263,731,068  frac=0.527  tok/s=98,871
+[step  12350/3814] loss=2.9681  lr=6.00e-05  ref_tok=264,785,898  frac=0.530  tok/s=98,644
+[step  12400/3814] loss=3.2791  lr=6.00e-05  ref_tok=265,924,675  frac=0.532  tok/s=98,149
+[step  12450/3814] loss=3.1082  lr=6.00e-05  ref_tok=266,983,397  frac=0.534  tok/s=99,023
+[step  12500/3814] loss=2.9494  lr=6.00e-05  ref_tok=268,026,963  frac=0.536  tok/s=98,701
+[step  12550/3814] loss=3.0582  lr=6.00e-05  ref_tok=269,124,140  frac=0.538  tok/s=98,927
+[step  12600/3814] loss=3.1005  lr=6.00e-05  ref_tok=270,247,480  frac=0.540  tok/s=97,777
+[step  12650/3814] loss=3.0563  lr=6.00e-05  ref_tok=271,271,718  frac=0.543  tok/s=99,053
+[step  12700/3814] loss=3.0360  lr=6.00e-05  ref_tok=272,375,165  frac=0.545  tok/s=98,044
+[step  12750/3814] loss=3.1787  lr=6.00e-05  ref_tok=273,457,730  frac=0.547  tok/s=98,515
+[step  12800/3814] loss=3.1786  lr=6.00e-05  ref_tok=274,498,618  frac=0.549  tok/s=98,823
+[step  12850/3814] loss=3.1830  lr=6.00e-05  ref_tok=275,647,922  frac=0.551  tok/s=97,852
+[step  12900/3814] loss=3.0449  lr=6.00e-05  ref_tok=276,676,599  frac=0.553  tok/s=98,687
+[step  12950/3814] loss=3.1562  lr=6.00e-05  ref_tok=277,770,679  frac=0.556  tok/s=98,403
+[step  13000/3814] loss=2.9093  lr=6.00e-05  ref_tok=278,825,323  frac=0.558  tok/s=98,337
+[step  13050/3814] loss=2.9604  lr=6.00e-05  ref_tok=279,892,489  frac=0.560  tok/s=98,880
+[step  13100/3814] loss=2.9234  lr=6.00e-05  ref_tok=280,948,675  frac=0.562  tok/s=98,504
+[step  13150/3814] loss=3.0711  lr=6.00e-05  ref_tok=282,030,220  frac=0.564  tok/s=98,413
+[step  13200/3814] loss=2.9075  lr=6.00e-05  ref_tok=283,099,240  frac=0.566  tok/s=98,536
+[step  13250/3814] loss=2.9803  lr=6.00e-05  ref_tok=284,152,083  frac=0.568  tok/s=98,836
+[step  13300/3814] loss=2.8978  lr=6.00e-05  ref_tok=285,213,777  frac=0.570  tok/s=98,841
+[step  13350/3814] loss=2.9730  lr=6.00e-05  ref_tok=286,385,399  frac=0.573  tok/s=98,323
+[step  13400/3814] loss=2.9500  lr=6.00e-05  ref_tok=287,337,330  frac=0.575  tok/s=99,186
+[step  13450/3814] loss=3.0958  lr=6.00e-05  ref_tok=288,428,227  frac=0.577  tok/s=98,193
+[step  13500/3814] loss=3.0725  lr=6.00e-05  ref_tok=289,487,900  frac=0.579  tok/s=98,849
+[step  13550/3814] loss=3.0783  lr=6.00e-05  ref_tok=290,554,886  frac=0.581  tok/s=98,774
+[step  13600/3814] loss=3.0880  lr=6.00e-05  ref_tok=291,630,286  frac=0.583  tok/s=98,621
+[step  13650/3814] loss=3.0858  lr=6.00e-05  ref_tok=292,676,727  frac=0.585  tok/s=98,426
+[step  13700/3814] loss=2.9070  lr=6.00e-05  ref_tok=293,734,883  frac=0.587  tok/s=98,462
+[step  13750/3814] loss=2.7652  lr=6.00e-05  ref_tok=294,743,568  frac=0.589  tok/s=98,748
+[step  13800/3814] loss=3.0312  lr=6.00e-05  ref_tok=295,899,974  frac=0.592  tok/s=97,985
+[step  13850/3814] loss=3.0997  lr=6.00e-05  ref_tok=296,945,870  frac=0.594  tok/s=98,480
+[step  13900/3814] loss=3.0206  lr=6.00e-05  ref_tok=298,010,301  frac=0.596  tok/s=98,847
+[step  13950/3814] loss=2.9225  lr=6.00e-05  ref_tok=299,059,153  frac=0.598  tok/s=98,876
+[checkpoint] saving chck_300M at 300,000,823 ref tokens
+[step  14000/3814] loss=2.9716  lr=6.00e-05  ref_tok=300,115,417  frac=0.600  tok/s=98,309
+[step  14050/3814] loss=2.9704  lr=6.00e-05  ref_tok=301,170,282  frac=0.602  tok/s=98,793
+[step  14100/3814] loss=3.1532  lr=6.00e-05  ref_tok=302,268,071  frac=0.605  tok/s=98,728
+[step  14150/3814] loss=3.0635  lr=6.00e-05  ref_tok=303,346,761  frac=0.607  tok/s=98,772
+[step  14200/3814] loss=2.8935  lr=6.00e-05  ref_tok=304,420,640  frac=0.609  tok/s=98,547
+[step  14250/3814] loss=3.1227  lr=6.00e-05  ref_tok=305,515,609  frac=0.611  tok/s=98,935
+[step  14300/3814] loss=3.0804  lr=6.00e-05  ref_tok=306,608,253  frac=0.613  tok/s=98,810
+[step  14350/3814] loss=3.0849  lr=6.00e-05  ref_tok=307,702,623  frac=0.615  tok/s=98,059
+[step  14400/3814] loss=2.8920  lr=6.00e-05  ref_tok=308,736,072  frac=0.617  tok/s=98,976
+[step  14450/3814] loss=3.0132  lr=6.00e-05  ref_tok=309,806,266  frac=0.620  tok/s=98,721
+[step  14500/3814] loss=2.8923  lr=6.00e-05  ref_tok=310,882,479  frac=0.622  tok/s=98,762
+[step  14550/3814] loss=2.9502  lr=6.00e-05  ref_tok=312,036,648  frac=0.624  tok/s=98,178
+[step  14600/3814] loss=2.9818  lr=6.00e-05  ref_tok=313,046,958  frac=0.626  tok/s=98,366
+[step  14650/3814] loss=3.0941  lr=6.00e-05  ref_tok=314,163,382  frac=0.628  tok/s=98,352
+[step  14700/3814] loss=2.8579  lr=6.00e-05  ref_tok=315,205,276  frac=0.630  tok/s=99,074
+[step  14750/3814] loss=3.3122  lr=6.00e-05  ref_tok=316,324,370  frac=0.633  tok/s=97,815
+[step  14800/3814] loss=2.8828  lr=6.00e-05  ref_tok=317,473,673  frac=0.635  tok/s=98,210
+[step  14850/3814] loss=2.9615  lr=6.00e-05  ref_tok=318,472,233  frac=0.637  tok/s=99,062
+[step  14900/3814] loss=2.9611  lr=6.00e-05  ref_tok=319,547,042  frac=0.639  tok/s=98,962
+[step  14950/3814] loss=2.7766  lr=6.00e-05  ref_tok=320,577,418  frac=0.641  tok/s=99,056
+[step  15000/3814] loss=3.0128  lr=6.00e-05  ref_tok=321,732,914  frac=0.643  tok/s=98,857
+[step  15050/3814] loss=3.2335  lr=6.00e-05  ref_tok=322,801,458  frac=0.646  tok/s=98,862
+[step  15100/3814] loss=3.0112  lr=6.00e-05  ref_tok=323,899,908  frac=0.648  tok/s=98,244
+[step  15150/3814] loss=2.9285  lr=6.00e-05  ref_tok=324,970,527  frac=0.650  tok/s=98,773
+[step  15200/3814] loss=3.1204  lr=6.00e-05  ref_tok=326,087,839  frac=0.652  tok/s=98,598
+[step  15250/3814] loss=2.7586  lr=6.00e-05  ref_tok=327,096,596  frac=0.654  tok/s=97,546
+[step  15300/3814] loss=2.8409  lr=6.00e-05  ref_tok=328,142,897  frac=0.656  tok/s=98,903
+[step  15350/3814] loss=3.0772  lr=6.00e-05  ref_tok=329,221,485  frac=0.658  tok/s=99,047
+[step  15400/3814] loss=2.7643  lr=6.00e-05  ref_tok=330,257,625  frac=0.661  tok/s=98,734
+[step  15450/3814] loss=3.0974  lr=6.00e-05  ref_tok=331,363,232  frac=0.663  tok/s=99,243
+[step  15500/3814] loss=3.1502  lr=6.00e-05  ref_tok=332,467,258  frac=0.665  tok/s=98,725
+[step  15550/3814] loss=3.0179  lr=6.00e-05  ref_tok=333,539,883  frac=0.667  tok/s=98,989
+[step  15600/3814] loss=2.8807  lr=6.00e-05  ref_tok=334,604,075  frac=0.669  tok/s=98,530
+[step  15650/3814] loss=2.8761  lr=6.00e-05  ref_tok=335,632,063  frac=0.671  tok/s=98,449
+[step  15700/3814] loss=3.1615  lr=6.00e-05  ref_tok=336,710,912  frac=0.673  tok/s=98,574
+[step  15750/3814] loss=3.1676  lr=6.00e-05  ref_tok=337,955,107  frac=0.676  tok/s=97,917
+[step  15800/3814] loss=3.3718  lr=6.00e-05  ref_tok=338,994,504  frac=0.678  tok/s=98,463
+[step  15850/3814] loss=2.8896  lr=6.00e-05  ref_tok=339,990,099  frac=0.680  tok/s=99,031
+[step  15900/3814] loss=3.0205  lr=6.00e-05  ref_tok=341,119,672  frac=0.682  tok/s=98,531
+[step  15950/3814] loss=3.0430  lr=6.00e-05  ref_tok=342,164,702  frac=0.684  tok/s=98,883
+[step  16000/3814] loss=2.9832  lr=6.00e-05  ref_tok=343,245,825  frac=0.686  tok/s=98,126
+[step  16050/3814] loss=2.8753  lr=6.00e-05  ref_tok=344,308,547  frac=0.689  tok/s=98,614
+[step  16100/3814] loss=3.0311  lr=6.00e-05  ref_tok=345,388,138  frac=0.691  tok/s=98,489
+[step  16150/3814] loss=2.8937  lr=6.00e-05  ref_tok=346,454,624  frac=0.693  tok/s=98,643
+[step  16200/3814] loss=2.8880  lr=6.00e-05  ref_tok=347,522,177  frac=0.695  tok/s=98,175
+[step  16250/3814] loss=2.7438  lr=6.00e-05  ref_tok=348,567,492  frac=0.697  tok/s=98,624
+[step  16300/3814] loss=2.9649  lr=6.00e-05  ref_tok=349,652,121  frac=0.699  tok/s=98,494
+[step  16350/3814] loss=3.2643  lr=6.00e-05  ref_tok=350,765,193  frac=0.702  tok/s=97,693
+[step  16400/3814] loss=3.1103  lr=6.00e-05  ref_tok=351,881,573  frac=0.704  tok/s=98,871
+[step  16450/3814] loss=2.8551  lr=6.00e-05  ref_tok=352,955,932  frac=0.706  tok/s=98,627
+[step  16500/3814] loss=3.1050  lr=6.00e-05  ref_tok=354,062,461  frac=0.708  tok/s=99,057
+[step  16550/3814] loss=2.8651  lr=6.00e-05  ref_tok=355,103,209  frac=0.710  tok/s=98,819
+[step  16600/3814] loss=2.8728  lr=6.00e-05  ref_tok=356,192,104  frac=0.712  tok/s=98,585
+[step  16650/3814] loss=3.1311  lr=6.00e-05  ref_tok=357,312,736  frac=0.715  tok/s=98,296
+[step  16700/3814] loss=2.7890  lr=6.00e-05  ref_tok=358,437,739  frac=0.717  tok/s=98,600
+[step  16750/3814] loss=2.9487  lr=6.00e-05  ref_tok=359,468,752  frac=0.719  tok/s=99,027
+[step  16800/3814] loss=2.5674  lr=6.00e-05  ref_tok=360,814,176  frac=0.722  tok/s=83,259
+[step  16850/3814] loss=2.8131  lr=6.00e-05  ref_tok=361,507,806  frac=0.723  tok/s=98,481
+[step  16900/3814] loss=3.0203  lr=6.00e-05  ref_tok=362,664,148  frac=0.725  tok/s=98,267
+[step  16950/3814] loss=3.1211  lr=6.00e-05  ref_tok=363,810,218  frac=0.728  tok/s=98,893
+[step  17000/3814] loss=2.8803  lr=6.00e-05  ref_tok=364,838,903  frac=0.730  tok/s=98,577
+[step  17050/3814] loss=2.9340  lr=6.00e-05  ref_tok=365,929,056  frac=0.732  tok/s=98,733
+[step  17100/3814] loss=2.7371  lr=6.00e-05  ref_tok=366,978,793  frac=0.734  tok/s=98,560
+[step  17150/3814] loss=3.1085  lr=6.00e-05  ref_tok=368,082,182  frac=0.736  tok/s=98,895
+[step  17200/3814] loss=3.1149  lr=6.00e-05  ref_tok=369,226,054  frac=0.738  tok/s=98,730
+[step  17250/3814] loss=3.0036  lr=6.00e-05  ref_tok=370,275,960  frac=0.741  tok/s=98,925
+[step  17300/3814] loss=2.9762  lr=6.00e-05  ref_tok=371,337,368  frac=0.743  tok/s=98,753
+[step  17350/3814] loss=3.1260  lr=6.00e-05  ref_tok=372,465,523  frac=0.745  tok/s=98,645
+[step  17400/3814] loss=2.8712  lr=6.00e-05  ref_tok=373,520,482  frac=0.747  tok/s=98,740
+[step  17450/3814] loss=2.9663  lr=6.00e-05  ref_tok=374,596,106  frac=0.749  tok/s=98,940
+[step  17500/3814] loss=2.9473  lr=6.00e-05  ref_tok=375,683,072  frac=0.751  tok/s=98,571
+[step  17550/3814] loss=2.9786  lr=6.00e-05  ref_tok=376,759,219  frac=0.754  tok/s=98,893
+[step  17600/3814] loss=3.0298  lr=6.00e-05  ref_tok=377,836,019  frac=0.756  tok/s=98,530
+[step  17650/3814] loss=2.6848  lr=6.00e-05  ref_tok=378,900,141  frac=0.758  tok/s=98,348
+[step  17700/3814] loss=3.1426  lr=6.00e-05  ref_tok=379,997,843  frac=0.760  tok/s=98,478
+[step  17750/3814] loss=2.9762  lr=6.00e-05  ref_tok=381,075,602  frac=0.762  tok/s=99,259
+[step  17800/3814] loss=2.7808  lr=6.00e-05  ref_tok=382,101,066  frac=0.764  tok/s=98,888
+[step  17850/3814] loss=3.0256  lr=6.00e-05  ref_tok=383,202,146  frac=0.766  tok/s=98,450
+[step  17900/3814] loss=2.8998  lr=6.00e-05  ref_tok=384,275,628  frac=0.769  tok/s=98,563
+[step  17950/3814] loss=2.7776  lr=6.00e-05  ref_tok=385,312,918  frac=0.771  tok/s=98,770
+[step  18000/3814] loss=2.8837  lr=6.00e-05  ref_tok=386,362,582  frac=0.773  tok/s=98,559
+[step  18050/3814] loss=2.7441  lr=6.00e-05  ref_tok=387,406,151  frac=0.775  tok/s=98,614
+[step  18100/3814] loss=3.0221  lr=6.00e-05  ref_tok=388,455,943  frac=0.777  tok/s=98,030
+[step  18150/3814] loss=3.1147  lr=6.00e-05  ref_tok=389,518,852  frac=0.779  tok/s=98,847
+[step  18200/3814] loss=2.9329  lr=6.00e-05  ref_tok=390,578,310  frac=0.781  tok/s=98,767
+[step  18250/3814] loss=3.0180  lr=6.00e-05  ref_tok=391,645,901  frac=0.783  tok/s=97,861
+[step  18300/3814] loss=2.8115  lr=6.00e-05  ref_tok=392,733,397  frac=0.785  tok/s=98,785
+[step  18350/3814] loss=3.1978  lr=6.00e-05  ref_tok=393,886,459  frac=0.788  tok/s=98,387
+[step  18400/3814] loss=2.9748  lr=6.00e-05  ref_tok=394,938,234  frac=0.790  tok/s=98,623
+[step  18450/3814] loss=3.0568  lr=6.00e-05  ref_tok=396,073,506  frac=0.792  tok/s=98,854
+[step  18500/3814] loss=2.9196  lr=6.00e-05  ref_tok=397,100,525  frac=0.794  tok/s=98,558
+[step  18550/3814] loss=2.8484  lr=6.00e-05  ref_tok=398,168,612  frac=0.796  tok/s=98,785
+[step  18600/3814] loss=2.9810  lr=6.00e-05  ref_tok=399,272,351  frac=0.799  tok/s=98,708
+[checkpoint] saving chck_400M at 400,012,420 ref tokens
+[step  18650/3814] loss=2.8385  lr=6.00e-05  ref_tok=400,345,167  frac=0.801  tok/s=98,115
+[step  18700/3814] loss=3.0238  lr=6.00e-05  ref_tok=401,442,046  frac=0.803  tok/s=98,182
+[step  18750/3814] loss=3.0384  lr=6.00e-05  ref_tok=402,519,444  frac=0.805  tok/s=98,401
+[step  18800/3814] loss=2.8740  lr=6.00e-05  ref_tok=403,607,838  frac=0.807  tok/s=98,398
+[step  18850/3814] loss=2.9687  lr=6.00e-05  ref_tok=404,651,786  frac=0.809  tok/s=98,670
+[step  18900/3814] loss=2.8911  lr=6.00e-05  ref_tok=405,708,835  frac=0.811  tok/s=98,754
+[step  18950/3814] loss=2.8022  lr=6.00e-05  ref_tok=406,762,114  frac=0.814  tok/s=98,920
+[step  19000/3814] loss=2.8624  lr=6.00e-05  ref_tok=407,865,094  frac=0.816  tok/s=97,840
+[step  19050/3814] loss=2.7042  lr=6.00e-05  ref_tok=408,846,685  frac=0.818  tok/s=99,030
+[step  19100/3814] loss=3.1328  lr=6.00e-05  ref_tok=409,931,901  frac=0.820  tok/s=98,145
+[step  19150/3814] loss=3.0733  lr=6.00e-05  ref_tok=411,047,488  frac=0.822  tok/s=98,441
+[step  19200/3814] loss=2.8683  lr=6.00e-05  ref_tok=412,099,321  frac=0.824  tok/s=98,202
+[step  19250/3814] loss=2.8505  lr=6.00e-05  ref_tok=413,169,224  frac=0.826  tok/s=98,789
+[step  19300/3814] loss=2.8033  lr=6.00e-05  ref_tok=414,221,175  frac=0.828  tok/s=98,494
+[step  19350/3814] loss=2.8199  lr=6.00e-05  ref_tok=415,279,256  frac=0.831  tok/s=98,203
+[step  19400/3814] loss=2.7882  lr=6.00e-05  ref_tok=416,350,938  frac=0.833  tok/s=98,697
+[step  19450/3814] loss=2.8804  lr=6.00e-05  ref_tok=417,416,304  frac=0.835  tok/s=98,757
+[step  19500/3814] loss=2.7213  lr=6.00e-05  ref_tok=418,477,794  frac=0.837  tok/s=98,886
+[step  19550/3814] loss=2.8449  lr=6.00e-05  ref_tok=419,524,500  frac=0.839  tok/s=98,945
+[step  19600/3814] loss=2.9386  lr=6.00e-05  ref_tok=420,575,105  frac=0.841  tok/s=98,899
+[step  19650/3814] loss=2.7659  lr=6.00e-05  ref_tok=421,626,301  frac=0.843  tok/s=98,598
+[step  19700/3814] loss=2.8814  lr=6.00e-05  ref_tok=422,710,480  frac=0.845  tok/s=98,417
+[step  19750/3814] loss=2.8387  lr=6.00e-05  ref_tok=423,763,009  frac=0.848  tok/s=98,720
+[step  19800/3814] loss=2.8949  lr=6.00e-05  ref_tok=424,795,222  frac=0.850  tok/s=98,029
+[step  19850/3814] loss=2.8807  lr=6.00e-05  ref_tok=425,903,186  frac=0.852  tok/s=98,935
+[step  19900/3814] loss=3.0396  lr=6.00e-05  ref_tok=427,183,445  frac=0.854  tok/s=97,725
+[step  19950/3814] loss=3.2284  lr=6.00e-05  ref_tok=428,058,056  frac=0.856  tok/s=98,789
+[step  20000/3814] loss=3.1474  lr=6.00e-05  ref_tok=429,197,467  frac=0.858  tok/s=98,226
+[step  20050/3814] loss=2.8382  lr=6.00e-05  ref_tok=430,317,408  frac=0.861  tok/s=98,181
+[step  20100/3814] loss=3.0584  lr=6.00e-05  ref_tok=431,375,790  frac=0.863  tok/s=98,639
+[step  20150/3814] loss=3.0280  lr=6.00e-05  ref_tok=432,465,721  frac=0.865  tok/s=97,833
+[step  20200/3814] loss=2.9341  lr=6.00e-05  ref_tok=433,554,559  frac=0.867  tok/s=98,780
+[step  20250/3814] loss=3.0440  lr=6.00e-05  ref_tok=434,648,663  frac=0.869  tok/s=98,594
+[step  20300/3814] loss=2.8929  lr=6.00e-05  ref_tok=435,684,143  frac=0.871  tok/s=98,990
+[step  20350/3814] loss=2.8502  lr=6.00e-05  ref_tok=436,770,835  frac=0.874  tok/s=98,493
+[step  20400/3814] loss=2.9070  lr=6.00e-05  ref_tok=437,849,653  frac=0.876  tok/s=98,799
+[step  20450/3814] loss=3.0163  lr=6.00e-05  ref_tok=438,943,083  frac=0.878  tok/s=98,811
+[step  20500/3814] loss=3.0696  lr=6.00e-05  ref_tok=439,981,814  frac=0.880  tok/s=98,018
+[step  20550/3814] loss=3.0908  lr=6.00e-05  ref_tok=441,081,102  frac=0.882  tok/s=98,973
+[step  20600/3814] loss=3.0006  lr=6.00e-05  ref_tok=442,185,417  frac=0.884  tok/s=98,506
+[step  20650/3814] loss=2.8188  lr=6.00e-05  ref_tok=443,204,638  frac=0.886  tok/s=99,090
+[step  20700/3814] loss=2.7884  lr=6.00e-05  ref_tok=444,258,093  frac=0.889  tok/s=98,962
+[step  20750/3814] loss=3.0852  lr=6.00e-05  ref_tok=445,379,794  frac=0.891  tok/s=98,278
+[step  20800/3814] loss=2.8793  lr=6.00e-05  ref_tok=446,448,883  frac=0.893  tok/s=99,169
+[step  20850/3814] loss=2.9595  lr=6.00e-05  ref_tok=447,537,837  frac=0.895  tok/s=98,500
+[step  20900/3814] loss=2.7896  lr=6.00e-05  ref_tok=448,578,324  frac=0.897  tok/s=98,891
+[step  20950/3814] loss=2.7914  lr=6.00e-05  ref_tok=449,614,960  frac=0.899  tok/s=98,482
+[step  21000/3814] loss=3.0291  lr=6.00e-05  ref_tok=450,704,543  frac=0.901  tok/s=97,896
+[step  21050/3814] loss=2.9076  lr=6.00e-05  ref_tok=451,732,556  frac=0.903  tok/s=98,537
+[step  21100/3814] loss=3.0125  lr=6.00e-05  ref_tok=452,822,253  frac=0.906  tok/s=98,885
+[step  21150/3814] loss=2.8189  lr=6.00e-05  ref_tok=453,862,857  frac=0.908  tok/s=98,521
+[step  21200/3814] loss=2.8790  lr=6.00e-05  ref_tok=454,869,107  frac=0.910  tok/s=97,482
+[step  21250/3814] loss=2.9620  lr=6.00e-05  ref_tok=455,953,729  frac=0.912  tok/s=98,606
+[step  21300/3814] loss=2.8025  lr=6.00e-05  ref_tok=457,017,670  frac=0.914  tok/s=98,307
+[step  21350/3814] loss=2.9043  lr=6.00e-05  ref_tok=458,097,266  frac=0.916  tok/s=98,640
+[step  21400/3814] loss=2.9960  lr=6.00e-05  ref_tok=459,223,781  frac=0.918  tok/s=98,745
+[step  21450/3814] loss=2.9808  lr=6.00e-05  ref_tok=460,318,579  frac=0.921  tok/s=98,707
+[step  21500/3814] loss=2.9571  lr=6.00e-05  ref_tok=461,410,949  frac=0.923  tok/s=98,833
+[step  21550/3814] loss=2.8693  lr=6.00e-05  ref_tok=462,504,007  frac=0.925  tok/s=98,751
+[step  21600/3814] loss=2.9462  lr=6.00e-05  ref_tok=463,603,049  frac=0.927  tok/s=98,675
+[step  21650/3814] loss=2.8459  lr=6.00e-05  ref_tok=464,667,934  frac=0.929  tok/s=98,439
+[step  21700/3814] loss=3.0729  lr=6.00e-05  ref_tok=465,743,790  frac=0.931  tok/s=99,111
+[step  21750/3814] loss=2.8677  lr=6.00e-05  ref_tok=466,780,570  frac=0.934  tok/s=98,266
+[step  21800/3814] loss=2.6604  lr=6.00e-05  ref_tok=467,812,066  frac=0.936  tok/s=98,994
+[step  21850/3814] loss=2.9258  lr=6.00e-05  ref_tok=468,855,904  frac=0.938  tok/s=98,549
+[step  21900/3814] loss=2.8396  lr=6.00e-05  ref_tok=469,953,845  frac=0.940  tok/s=98,456
+[step  21950/3814] loss=2.8421  lr=6.00e-05  ref_tok=471,005,603  frac=0.942  tok/s=98,444
+[step  22000/3814] loss=2.8876  lr=6.00e-05  ref_tok=472,122,730  frac=0.944  tok/s=98,486
+[step  22050/3814] loss=2.9969  lr=6.00e-05  ref_tok=473,226,524  frac=0.946  tok/s=98,847
+[step  22100/3814] loss=2.7756  lr=6.00e-05  ref_tok=474,259,457  frac=0.949  tok/s=98,324
+[step  22150/3814] loss=2.8697  lr=6.00e-05  ref_tok=475,368,103  frac=0.951  tok/s=98,668
+[step  22200/3814] loss=2.8123  lr=6.00e-05  ref_tok=476,404,482  frac=0.953  tok/s=98,938
+[step  22250/3814] loss=2.7770  lr=6.00e-05  ref_tok=477,502,455  frac=0.955  tok/s=98,964
+[step  22300/3814] loss=3.0705  lr=6.00e-05  ref_tok=478,570,633  frac=0.957  tok/s=98,528
+[step  22350/3814] loss=3.1169  lr=6.00e-05  ref_tok=479,698,236  frac=0.959  tok/s=98,560
+[step  22400/3814] loss=2.7344  lr=6.00e-05  ref_tok=480,757,600  frac=0.962  tok/s=98,807
+[step  22450/3814] loss=2.7296  lr=6.00e-05  ref_tok=481,807,662  frac=0.964  tok/s=98,800
+[step  22500/3814] loss=2.8217  lr=6.00e-05  ref_tok=482,887,442  frac=0.966  tok/s=98,942
+[step  22550/3814] loss=2.7427  lr=6.00e-05  ref_tok=483,953,950  frac=0.968  tok/s=98,913
+[step  22600/3814] loss=2.8962  lr=6.00e-05  ref_tok=485,031,172  frac=0.970  tok/s=98,864
+[step  22650/3814] loss=3.0770  lr=6.00e-05  ref_tok=486,137,910  frac=0.972  tok/s=99,113
+[step  22700/3814] loss=2.6908  lr=6.00e-05  ref_tok=487,177,667  frac=0.974  tok/s=98,848
+[step  22750/3814] loss=2.7695  lr=6.00e-05  ref_tok=488,220,522  frac=0.976  tok/s=99,112
+[step  22800/3814] loss=2.9566  lr=6.00e-05  ref_tok=489,323,137  frac=0.979  tok/s=98,577
+[step  22850/3814] loss=2.7581  lr=6.00e-05  ref_tok=490,418,292  frac=0.981  tok/s=99,033
+[step  22900/3814] loss=2.9476  lr=6.00e-05  ref_tok=491,529,165  frac=0.983  tok/s=98,256
+[step  22950/3814] loss=2.7215  lr=6.00e-05  ref_tok=492,572,375  frac=0.985  tok/s=98,840
+[step  23000/3814] loss=2.8675  lr=6.00e-05  ref_tok=493,744,920  frac=0.987  tok/s=98,186
+[step  23050/3814] loss=3.0747  lr=6.00e-05  ref_tok=494,731,524  frac=0.989  tok/s=98,807
+[step  23100/3814] loss=3.0105  lr=6.00e-05  ref_tok=495,879,698  frac=0.992  tok/s=98,258
+[step  23150/3814] loss=2.8526  lr=6.00e-05  ref_tok=496,912,244  frac=0.994  tok/s=98,470
+[step  23200/3814] loss=2.9609  lr=6.00e-05  ref_tok=498,064,781  frac=0.996  tok/s=98,390
+[step  23250/3814] loss=2.8948  lr=6.00e-05  ref_tok=499,070,658  frac=0.998  tok/s=99,065
+wandb: updating run metadata
+wandb: uploading history steps 486-486, summary
+wandb: 
+wandb: Run history:
+wandb:             budget/epochs_eng ▁▁▁▁▂▂▂▂▃▃▃▃▄▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇▇█
+wandb:             budget/epochs_nld ▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▄▄▅▅▅▆▆▆▆▆▇▇▇▇▇█████
+wandb:             budget/epochs_zho ▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇█████
+wandb:              budget/frac_done ▁▁▁▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▅▅▅▆▆▆▆▆▇▇▇▇▇▇████
+wandb:         budget/ref_tokens_eng ▁▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▃▄▄▄▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇▇█
+wandb:         budget/ref_tokens_nld ▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▃▃▄▅▅▅▅▆▆▆▇▇▇▇▇▇▇▇▇████
+wandb:       budget/ref_tokens_total ▁▁▁▁▁▂▃▃▃▃▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇▇███
+wandb:         budget/ref_tokens_zho ▁▁▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▅▅▅▆▆▆▆▆▆▆▆▆▆▇▇▇█
+wandb: checkpoint/ref_tokens_at_save ▁▁▁▁▁▁▁▁▁▁▁▂▂▂▂▂▂▃▃▄▆█
+wandb:         checkpoint/revision_M ▁▁▁▁▁▁▁▁▁▁▁▂▂▂▂▂▂▃▃▄▆█
+wandb:                            +4 ...
+wandb: 
+wandb: Run summary:
+wandb:             budget/epochs_eng 2.12854
+wandb:             budget/epochs_nld 4.28209
+wandb:             budget/epochs_zho 3.34761
+wandb:              budget/frac_done 0.99814
+wandb:         budget/ref_tokens_eng 166392013
+wandb:         budget/ref_tokens_nld 166339890
+wandb:       budget/ref_tokens_total 499070658
+wandb:         budget/ref_tokens_zho 166338755
+wandb: checkpoint/ref_tokens_at_save 400012420
+wandb:         checkpoint/revision_M 400
+wandb:                           +14 ...
+wandb: 
+wandb: 🚀 View run v3-quality-filter at: https://wandb.ai/shamima2hossain/babylm-2026-multilingual/runs/jvsd7us2
+wandb: ⭐️ View project at: https://wandb.ai/shamima2hossain/babylm-2026-multilingual
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260609_181432-jvsd7us2/logs
+{
+  "steps": 23295,
+  "ref_tokens": 500005039,
+  "consumed_per_lang": {
+    "eng": 166704226,
+    "nld": 166651832,
+    "zho": 166648981
+  },
+  "epochs_per_lang": {
+    "eng": 2.1325306710132517,
+    "nld": 4.2901205851727084,
+    "zho": 3.3538527923928476
+  },
+  "wallclock_seconds": 30991.829294919968
+}
+[rank0]:[W610 02:51:07.243830552 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
